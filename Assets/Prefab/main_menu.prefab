@@ -1,0 +1,801 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845240}
+  - component: {fileID: 1791220415625339102}
+  m_Layer: 0
+  m_Name: "main_menu"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: a0e4750efe2b4932a8f4d49e94f8eba8, type: 2}
+  sprites:
+  - name: "bottom_menu_background"
+    outer:
+      x: 69
+      y: 1429
+      width: 616
+      height: 26
+    inner:
+      x: 69
+      y: 1429
+      width: 616
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "pgsb_experience_foreground"
+    outer:
+      x: 774
+      y: 1778
+      width: 184
+      height: 12
+    inner:
+      x: 774
+      y: 1778
+      width: 184
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bottom_menu_background2"
+    outer:
+      x: 671
+      y: 1848
+      width: 261
+      height: 25
+    inner:
+      x: 671
+      y: 1848
+      width: 261
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bottom_menu_level_icon"
+    outer:
+      x: 933
+      y: 1851
+      width: 26
+      height: 22
+    inner:
+      x: 933
+      y: 1851
+      width: 26
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "top_menu_background"
+    outer:
+      x: 0
+      y: 1574
+      width: 850
+      height: 61
+    inner:
+      x: 0
+      y: 1574
+      width: 850
+      height: 61
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bonus_gems_icon"
+    outer:
+      x: 613
+      y: 1658
+      width: 52
+      height: 59
+    inner:
+      x: 613
+      y: 1658
+      width: 52
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background1_frame_base1"
+    outer:
+      x: 0
+      y: 1515
+      width: 734
+      height: 58
+    inner:
+      x: 0
+      y: 1515
+      width: 734
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background1_frame_base2"
+    outer:
+      x: 0
+      y: 1456
+      width: 734
+      height: 58
+    inner:
+      x: 0
+      y: 1456
+      width: 734
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background1_frame_base3"
+    outer:
+      x: 0
+      y: 406
+      width: 68
+      height: 524
+    inner:
+      x: 0
+      y: 406
+      width: 68
+      height: 524
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background1_frame_base4"
+    outer:
+      x: 0
+      y: 931
+      width: 68
+      height: 524
+    inner:
+      x: 0
+      y: 931
+      width: 68
+      height: 524
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background1_title"
+    outer:
+      x: 671
+      y: 1874
+      width: 348
+      height: 45
+    inner:
+      x: 671
+      y: 1874
+      width: 348
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title_settings"
+    outer:
+      x: 774
+      y: 1791
+      width: 119
+      height: 30
+    inner:
+      x: 774
+      y: 1791
+      width: 119
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title_game_menu"
+    outer:
+      x: 774
+      y: 1822
+      width: 155
+      height: 25
+    inner:
+      x: 774
+      y: 1822
+      width: 155
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title_my_maps"
+    outer:
+      x: 894
+      y: 1796
+      width: 121
+      height: 25
+    inner:
+      x: 894
+      y: 1796
+      width: 121
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title_shop"
+    outer:
+      x: 671
+      y: 1690
+      width: 96
+      height: 25
+    inner:
+      x: 671
+      y: 1690
+      width: 96
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slider_page1_background"
+    outer:
+      x: 0
+      y: 75
+      width: 40
+      height: 330
+    inner:
+      x: 0
+      y: 75
+      width: 40
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_page1_background"
+    outer:
+      x: 54
+      y: 162
+      width: 10
+      height: 243
+    inner:
+      x: 54
+      y: 162
+      width: 10
+      height: 243
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_page1_thumb"
+    outer:
+      x: 774
+      y: 1723
+      width: 32
+      height: 54
+    inner:
+      x: 774
+      y: 1723
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slider_page2_background"
+    outer:
+      x: 613
+      y: 1718
+      width: 57
+      height: 330
+    inner:
+      x: 613
+      y: 1718
+      width: 57
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_page2_background"
+    outer:
+      x: 41
+      y: 162
+      width: 12
+      height: 243
+    inner:
+      x: 41
+      y: 162
+      width: 12
+      height: 243
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_page2_thumb"
+    outer:
+      x: 774
+      y: 1668
+      width: 32
+      height: 54
+    inner:
+      x: 774
+      y: 1668
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor1"
+    outer:
+      x: 807
+      y: 1688
+      width: 16
+      height: 89
+    inner:
+      x: 807
+      y: 1688
+      width: 16
+      height: 89
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor2"
+    outer:
+      x: 721
+      y: 1649
+      width: 26
+      height: 40
+    inner:
+      x: 721
+      y: 1649
+      width: 26
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor3"
+    outer:
+      x: 824
+      y: 1744
+      width: 29
+      height: 33
+    inner:
+      x: 824
+      y: 1744
+      width: 29
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor4"
+    outer:
+      x: 854
+      y: 1687
+      width: 30
+      height: 28
+    inner:
+      x: 854
+      y: 1687
+      width: 30
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor5"
+    outer:
+      x: 671
+      y: 1660
+      width: 49
+      height: 29
+    inner:
+      x: 671
+      y: 1660
+      width: 49
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor6"
+    outer:
+      x: 613
+      y: 1641
+      width: 40
+      height: 16
+    inner:
+      x: 613
+      y: 1641
+      width: 40
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2_decor7"
+    outer:
+      x: 854
+      y: 1660
+      width: 29
+      height: 26
+    inner:
+      x: 854
+      y: 1660
+      width: 29
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_back_pressed"
+    outer:
+      x: 671
+      y: 1716
+      width: 102
+      height: 43
+    inner:
+      x: 671
+      y: 1716
+      width: 102
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_back_idle"
+    outer:
+      x: 671
+      y: 1760
+      width: 102
+      height: 43
+    inner:
+      x: 671
+      y: 1760
+      width: 102
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_back_hover"
+    outer:
+      x: 671
+      y: 1804
+      width: 102
+      height: 43
+    inner:
+      x: 671
+      y: 1804
+      width: 102
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_back_background"
+    outer:
+      x: 800
+      y: 1977
+      width: 127
+      height: 71
+    inner:
+      x: 800
+      y: 1977
+      width: 127
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_profile_disabled"
+    outer:
+      x: 800
+      y: 1932
+      width: 115
+      height: 44
+    inner:
+      x: 800
+      y: 1932
+      width: 115
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_world_pressed"
+    outer:
+      x: 928
+      y: 1990
+      width: 72
+      height: 26
+    inner:
+      x: 928
+      y: 1990
+      width: 72
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_world_hover"
+    outer:
+      x: 928
+      y: 1963
+      width: 72
+      height: 26
+    inner:
+      x: 928
+      y: 1963
+      width: 72
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_world_idle"
+    outer:
+      x: 928
+      y: 1936
+      width: 72
+      height: 26
+    inner:
+      x: 928
+      y: 1936
+      width: 72
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "money_background"
+    outer:
+      x: 69
+      y: 1388
+      width: 394
+      height: 40
+    inner:
+      x: 69
+      y: 1388
+      width: 394
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_edit_idle"
+    outer:
+      x: 824
+      y: 1715
+      width: 28
+      height: 28
+    inner:
+      x: 824
+      y: 1715
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_edit_hover"
+    outer:
+      x: 824
+      y: 1686
+      width: 28
+      height: 28
+    inner:
+      x: 824
+      y: 1686
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_edit_pressed"
+    outer:
+      x: 824
+      y: 1657
+      width: 28
+      height: 28
+    inner:
+      x: 824
+      y: 1657
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "b_edit_name_p"
+    outer:
+      x: 774
+      y: 1637
+      width: 30
+      height: 30
+    inner:
+      x: 774
+      y: 1637
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "b_edit_name_n"
+    outer:
+      x: 854
+      y: 1747
+      width: 30
+      height: 30
+    inner:
+      x: 854
+      y: 1747
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "b_edit_name_o"
+    outer:
+      x: 854
+      y: 1716
+      width: 30
+      height: 30
+    inner:
+      x: 854
+      y: 1716
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "setting_bg"
+    outer:
+      x: 0
+      y: 1636
+      width: 612
+      height: 412
+    inner:
+      x: 0
+      y: 1636
+      width: 612
+      height: 412
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "allinbgtile"
+    outer:
+      x: 671
+      y: 1920
+      width: 128
+      height: 128
+    inner:
+      x: 671
+      y: 1920
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Coins"
+    outer:
+      x: 997
+      y: 2022
+      width: 26
+      height: 26
+    inner:
+      x: 997
+      y: 2022
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Sale25"
+    outer:
+      x: 928
+      y: 2017
+      width: 68
+      height: 31
+    inner:
+      x: 928
+      y: 2017
+      width: 68
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

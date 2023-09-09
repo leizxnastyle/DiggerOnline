@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845221}
+  - component: {fileID: 1791220415625339083}
+  m_Layer: 0
+  m_Name: "MobileHud"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f854861ca4a4483792d46d16105e285f, type: 2}
+  sprites:
+  - name: "mobile_chat"
+    outer:
+      x: 85
+      y: 166
+      width: 83
+      height: 83
+    inner:
+      x: 85
+      y: 166
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_controller"
+    outer:
+      x: 0
+      y: 250
+      width: 262
+      height: 262
+    inner:
+      x: 0
+      y: 250
+      width: 262
+      height: 262
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_inventory"
+    outer:
+      x: 169
+      y: 166
+      width: 83
+      height: 83
+    inner:
+      x: 169
+      y: 166
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_speed"
+    outer:
+      x: 85
+      y: 82
+      width: 83
+      height: 83
+    inner:
+      x: 85
+      y: 82
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_menu"
+    outer:
+      x: 169
+      y: 82
+      width: 83
+      height: 83
+    inner:
+      x: 169
+      y: 82
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_fly"
+    outer:
+      x: 263
+      y: 166
+      width: 83
+      height: 83
+    inner:
+      x: 263
+      y: 166
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_speed_off"
+    outer:
+      x: 263
+      y: 82
+      width: 83
+      height: 83
+    inner:
+      x: 263
+      y: 82
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_fly_off"
+    outer:
+      x: 347
+      y: 166
+      width: 83
+      height: 83
+    inner:
+      x: 347
+      y: 166
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_left"
+    outer:
+      x: 431
+      y: 166
+      width: 83
+      height: 83
+    inner:
+      x: 431
+      y: 166
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_right"
+    outer:
+      x: 347
+      y: 82
+      width: 83
+      height: 83
+    inner:
+      x: 347
+      y: 82
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_aim_on"
+    outer:
+      x: 263
+      y: 250
+      width: 262
+      height: 262
+    inner:
+      x: 263
+      y: 250
+      width: 262
+      height: 262
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mobile_aim_off"
+    outer:
+      x: 526
+      y: 250
+      width: 262
+      height: 262
+    inner:
+      x: 526
+      y: 250
+      width: 262
+      height: 262
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_viuce_press"
+    outer:
+      x: 431
+      y: 82
+      width: 83
+      height: 83
+    inner:
+      x: 431
+      y: 82
+      width: 83
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "repport_bug_02"
+    outer:
+      x: 0
+      y: 165
+      width: 84
+      height: 84
+    inner:
+      x: 0
+      y: 165
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "item_arrow_left"
+    outer:
+      x: 85
+      y: 29
+      width: 63
+      height: 52
+    inner:
+      x: 85
+      y: 29
+      width: 63
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "item_arrow_down"
+    outer:
+      x: 0
+      y: 3
+      width: 76
+      height: 76
+    inner:
+      x: 0
+      y: 3
+      width: 76
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "repport_bug_01"
+    outer:
+      x: 0
+      y: 80
+      width: 84
+      height: 84
+    inner:
+      x: 0
+      y: 80
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "item_arrow_right"
+    outer:
+      x: 169
+      y: 29
+      width: 63
+      height: 52
+    inner:
+      x: 169
+      y: 29
+      width: 63
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

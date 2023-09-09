@@ -1,0 +1,13 @@
+using System;
+
+public enum TouchCoordSys
+{
+	SCREEN_PX,
+	SCREEN_NORMALIZED,
+	SCREEN_CM,
+	SCREEN_INCH,
+	LOCAL_PX,
+	LOCAL_NORMALIZED,
+	LOCAL_CM,
+	LOCAL_INCH
+}

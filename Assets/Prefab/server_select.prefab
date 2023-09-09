@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845254}
+  - component: {fileID: 1791220415625339116}
+  m_Layer: 0
+  m_Name: "server_select"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 46be7d34636d4360b871002158172164, type: 2}
+  sprites:
+  - name: "ibtn_some_server_pressed"
+    outer:
+      x: 58
+      y: 443
+      width: 297
+      height: 34
+    inner:
+      x: 58
+      y: 443
+      width: 297
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_some_server_idle"
+    outer:
+      x: 58
+      y: 408
+      width: 297
+      height: 34
+    inner:
+      x: 58
+      y: 408
+      width: 297
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_some_server_hover"
+    outer:
+      x: 58
+      y: 478
+      width: 297
+      height: 34
+    inner:
+      x: 58
+      y: 478
+      width: 297
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_background"
+    outer:
+      x: 349
+      y: 7
+      width: 31
+      height: 23
+    inner:
+      x: 349
+      y: 7
+      width: 31
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_utilization_1"
+    outer:
+      x: 367
+      y: 431
+      width: 10
+      height: 11
+    inner:
+      x: 367
+      y: 431
+      width: 10
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_utilization_2"
+    outer:
+      x: 358
+      y: 405
+      width: 10
+      height: 14
+    inner:
+      x: 358
+      y: 405
+      width: 10
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_utilization_3"
+    outer:
+      x: 356
+      y: 439
+      width: 10
+      height: 18
+    inner:
+      x: 356
+      y: 439
+      width: 10
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_utilization_4"
+    outer:
+      x: 392
+      y: 7
+      width: 10
+      height: 23
+    inner:
+      x: 392
+      y: 7
+      width: 10
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_recommended_server_pressed"
+    outer:
+      x: 0
+      y: 101
+      width: 397
+      height: 34
+    inner:
+      x: 0
+      y: 101
+      width: 397
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_recommended_server_idle"
+    outer:
+      x: 0
+      y: 66
+      width: 397
+      height: 34
+    inner:
+      x: 0
+      y: 66
+      width: 397
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_recommended_server_hover"
+    outer:
+      x: 0
+      y: 31
+      width: 397
+      height: 34
+    inner:
+      x: 0
+      y: 31
+      width: 397
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_rs_utilization_1"
+    outer:
+      x: 358
+      y: 393
+      width: 10
+      height: 11
+    inner:
+      x: 358
+      y: 393
+      width: 10
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_rs_utilization_2"
+    outer:
+      x: 367
+      y: 443
+      width: 10
+      height: 14
+    inner:
+      x: 367
+      y: 443
+      width: 10
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_rs_utilization_3"
+    outer:
+      x: 356
+      y: 420
+      width: 10
+      height: 18
+    inner:
+      x: 356
+      y: 420
+      width: 10
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "utilization_rs_utilization_4"
+    outer:
+      x: 381
+      y: 7
+      width: 10
+      height: 23
+    inner:
+      x: 381
+      y: 7
+      width: 10
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title1"
+    outer:
+      x: 0
+      y: 136
+      width: 348
+      height: 45
+    inner:
+      x: 0
+      y: 136
+      width: 348
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title2"
+    outer:
+      x: 0
+      y: 11
+      width: 348
+      height: 19
+    inner:
+      x: 0
+      y: 11
+      width: 348
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slider_servers_list_background"
+    outer:
+      x: 0
+      y: 182
+      width: 57
+      height: 330
+    inner:
+      x: 0
+      y: 182
+      width: 57
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_servers_list_background"
+    outer:
+      x: 349
+      y: 147
+      width: 8
+      height: 260
+    inner:
+      x: 349
+      y: 147
+      width: 8
+      height: 260
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_servers_list_thumb"
+    outer:
+      x: 356
+      y: 458
+      width: 32
+      height: 54
+    inner:
+      x: 356
+      y: 458
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

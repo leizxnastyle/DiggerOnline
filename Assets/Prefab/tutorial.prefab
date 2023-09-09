@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845257}
+  - component: {fileID: 1791220415625339119}
+  m_Layer: 0
+  m_Name: "tutorial"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 7ba28072d218467295a6008c3ec30f5d, type: 2}
+  sprites:
+  - name: "ibtn_next_pressed"
+    outer:
+      x: 652
+      y: 578
+      width: 174
+      height: 62
+    inner:
+      x: 652
+      y: 578
+      width: 174
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_idle"
+    outer:
+      x: 827
+      y: 578
+      width: 173
+      height: 62
+    inner:
+      x: 827
+      y: 578
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_hover"
+    outer:
+      x: 444
+      y: 487
+      width: 173
+      height: 62
+    inner:
+      x: 444
+      y: 487
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "tutorial1_1"
+    outer:
+      x: 0
+      y: 366
+      width: 443
+      height: 335
+    inner:
+      x: 0
+      y: 366
+      width: 443
+      height: 335
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "tutorial1_2"
+    outer:
+      x: 0
+      y: 50
+      width: 437
+      height: 315
+    inner:
+      x: 0
+      y: 50
+      width: 437
+      height: 315
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "tutorial1_3"
+    outer:
+      x: 466
+      y: 713
+      width: 463
+      height: 311
+    inner:
+      x: 466
+      y: 713
+      width: 463
+      height: 311
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "tutorial1_4"
+    outer:
+      x: 0
+      y: 702
+      width: 465
+      height: 322
+    inner:
+      x: 0
+      y: 702
+      width: 465
+      height: 322
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_background"
+    outer:
+      x: 444
+      y: 550
+      width: 207
+      height: 90
+    inner:
+      x: 444
+      y: 550
+      width: 207
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Base"
+    outer:
+      x: 444
+      y: 641
+      width: 515
+      height: 60
+    inner:
+      x: 444
+      y: 641
+      width: 515
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Icon1"
+    outer:
+      x: 930
+      y: 982
+      width: 40
+      height: 42
+    inner:
+      x: 930
+      y: 982
+      width: 40
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

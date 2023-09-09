@@ -1,0 +1,593 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845223}
+  - component: {fileID: 1791220415625339085}
+  m_Layer: 0
+  m_Name: "Emotions"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0265094d09134647a112b0ee5e07ae40, type: 2}
+  sprites:
+  - name: "voiceChat"
+    outer:
+      x: 1498
+      y: 462
+      width: 128
+      height: 128
+    inner:
+      x: 1498
+      y: 462
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "crazy"
+    outer:
+      x: 468
+      y: 272
+      width: 220
+      height: 252
+    inner:
+      x: 468
+      y: 272
+      width: 220
+      height: 252
+    rotated: 0
+    paddingLeft: 0.08181818
+    paddingRight: 0.08181818
+    paddingTop: 0.007936508
+    paddingBottom: 0.007936508
+  - name: "angry"
+    outer:
+      x: 0
+      y: 775
+      width: 240
+      height: 249
+    inner:
+      x: 0
+      y: 775
+      width: 240
+      height: 249
+    rotated: 0
+    paddingLeft: 0.02916667
+    paddingRight: 0.0375
+    paddingTop: 0.02409638
+    paddingBottom: 0.004016064
+  - name: "might"
+    outer:
+      x: 904
+      y: 87
+      width: 215
+      height: 228
+    inner:
+      x: 904
+      y: 87
+      width: 215
+      height: 228
+    rotated: 0
+    paddingLeft: 0.09302326
+    paddingRight: 0.09767442
+    paddingTop: 0.06140351
+    paddingBottom: 0.06140351
+  - name: "deny"
+    outer:
+      x: 1837
+      y: 811
+      width: 201
+      height: 213
+    inner:
+      x: 1837
+      y: 811
+      width: 201
+      height: 213
+    rotated: 0
+    paddingLeft: 0.1442786
+    paddingRight: 0.1293532
+    paddingTop: 0.09859155
+    paddingBottom: 0.1032864
+  - name: "forever_aloune"
+    outer:
+      x: 904
+      y: 567
+      width: 231
+      height: 228
+    inner:
+      x: 904
+      y: 567
+      width: 231
+      height: 228
+    rotated: 0
+    paddingLeft: 0.06493507
+    paddingRight: 0.04329005
+    paddingTop: 0.07017544
+    paddingBottom: 0.05263158
+  - name: "amaze"
+    outer:
+      x: 0
+      y: 274
+      width: 226
+      height: 249
+    inner:
+      x: 0
+      y: 274
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.06637168
+    paddingRight: 0.06637168
+    paddingTop: 0.01204819
+    paddingBottom: 0.01606426
+  - name: "happy"
+    outer:
+      x: 0
+      y: 24
+      width: 226
+      height: 249
+    inner:
+      x: 0
+      y: 24
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.0619469
+    paddingRight: 0.07079646
+    paddingTop: 0.01606426
+    paddingBottom: 0.01204819
+  - name: "down"
+    outer:
+      x: 1326
+      y: 591
+      width: 198
+      height: 218
+    inner:
+      x: 1326
+      y: 591
+      width: 198
+      height: 218
+    rotated: 0
+    paddingLeft: 0.1464646
+    paddingRight: 0.1464646
+    paddingTop: 0.1284404
+    paddingBottom: 0.04587156
+  - name: "skull2"
+    outer:
+      x: 0
+      y: 524
+      width: 239
+      height: 250
+    inner:
+      x: 0
+      y: 524
+      width: 239
+      height: 250
+    rotated: 0
+    paddingLeft: 0.0460251
+    paddingRight: 0.0251046
+    paddingTop: 0.012
+    paddingBottom: 0.012
+  - name: "sick"
+    outer:
+      x: 241
+      y: 525
+      width: 226
+      height: 249
+    inner:
+      x: 241
+      y: 525
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.07079646
+    paddingRight: 0.0619469
+    paddingTop: 0.01606426
+    paddingBottom: 0.01204819
+  - name: "cry"
+    outer:
+      x: 241
+      y: 275
+      width: 226
+      height: 249
+    inner:
+      x: 241
+      y: 275
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.07079646
+    paddingRight: 0.0619469
+    paddingTop: 0.01204819
+    paddingBottom: 0.01606426
+  - name: "yes"
+    outer:
+      x: 1359
+      y: 835
+      width: 241
+      height: 189
+    inner:
+      x: 1359
+      y: 835
+      width: 241
+      height: 189
+    rotated: 0
+    paddingLeft: 0.02904564
+    paddingRight: 0.03319502
+    paddingTop: 0.2433862
+    paddingBottom: 0.1111111
+  - name: "in-love"
+    outer:
+      x: 468
+      y: 775
+      width: 226
+      height: 249
+    inner:
+      x: 468
+      y: 775
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.07079646
+    paddingRight: 0.0619469
+    paddingTop: 0.01606426
+    paddingBottom: 0.01204819
+  - name: "sad"
+    outer:
+      x: 468
+      y: 525
+      width: 226
+      height: 249
+    inner:
+      x: 468
+      y: 525
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.06637168
+    paddingRight: 0.06637168
+    paddingTop: 0.01204819
+    paddingBottom: 0.01606426
+  - name: "skull"
+    outer:
+      x: 904
+      y: 316
+      width: 209
+      height: 250
+    inner:
+      x: 904
+      y: 316
+      width: 209
+      height: 250
+    rotated: 0
+    paddingLeft: 0.1196172
+    paddingRight: 0.1052632
+    paddingTop: 0.012
+    paddingBottom: 0.012
+  - name: "laugh"
+    outer:
+      x: 241
+      y: 25
+      width: 226
+      height: 249
+    inner:
+      x: 241
+      y: 25
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.05752213
+    paddingRight: 0.07522124
+    paddingTop: 0.01606426
+    paddingBottom: 0.01204819
+  - name: "up"
+    outer:
+      x: 1525
+      y: 591
+      width: 197
+      height: 218
+    inner:
+      x: 1525
+      y: 591
+      width: 197
+      height: 218
+    rotated: 0
+    paddingLeft: 0.1522843
+    paddingRight: 0.1472081
+    paddingTop: 0.09174312
+    paddingBottom: 0.08256881
+  - name: "tongue"
+    outer:
+      x: 241
+      y: 775
+      width: 226
+      height: 249
+    inner:
+      x: 241
+      y: 775
+      width: 226
+      height: 249
+    rotated: 0
+    paddingLeft: 0.07522124
+    paddingRight: 0.05752213
+    paddingTop: 0.01606426
+    paddingBottom: 0.01204819
+  - name: "!!!"
+    outer:
+      x: 695
+      y: 768
+      width: 208
+      height: 256
+    inner:
+      x: 695
+      y: 768
+      width: 208
+      height: 256
+    rotated: 0
+    paddingLeft: 0.1153846
+    paddingRight: 0.1153846
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "question"
+    outer:
+      x: 1326
+      y: 106
+      width: 160
+      height: 246
+    inner:
+      x: 1326
+      y: 106
+      width: 160
+      height: 246
+    rotated: 0
+    paddingLeft: 0.3125
+    paddingRight: 0.2875
+    paddingTop: 0.02845529
+    paddingBottom: 0.01219512
+  - name: "drop"
+    outer:
+      x: 1723
+      y: 593
+      width: 144
+      height: 216
+    inner:
+      x: 1723
+      y: 593
+      width: 144
+      height: 216
+    rotated: 0
+    paddingLeft: 0.4027778
+    paddingRight: 0.375
+    paddingTop: 0.09259259
+    paddingBottom: 0.09259259
+  - name: "5"
+    outer:
+      x: 1138
+      y: 105
+      width: 181
+      height: 236
+    inner:
+      x: 1138
+      y: 105
+      width: 181
+      height: 236
+    rotated: 0
+    paddingLeft: 0.2044199
+    paddingRight: 0.2099448
+    paddingTop: 0.04237288
+    paddingBottom: 0.04237288
+  - name: "8"
+    outer:
+      x: 468
+      y: 33
+      width: 225
+      height: 238
+    inner:
+      x: 468
+      y: 33
+      width: 225
+      height: 238
+    rotated: 0
+    paddingLeft: 0.07111111
+    paddingRight: 0.06666667
+    paddingTop: 0.04201681
+    paddingBottom: 0.03361345
+  - name: "7"
+    outer:
+      x: 1138
+      y: 810
+      width: 220
+      height: 214
+    inner:
+      x: 1138
+      y: 810
+      width: 220
+      height: 214
+    rotated: 0
+    paddingLeft: 0.08181818
+    paddingRight: 0.08181818
+    paddingTop: 0.08878504
+    paddingBottom: 0.1074766
+  - name: "9"
+    outer:
+      x: 1138
+      y: 576
+      width: 187
+      height: 233
+    inner:
+      x: 1138
+      y: 576
+      width: 187
+      height: 233
+    rotated: 0
+    paddingLeft: 0.1871658
+    paddingRight: 0.1818182
+    paddingTop: 0.05150215
+    paddingBottom: 0.0472103
+  - name: "6"
+    outer:
+      x: 1601
+      y: 832
+      width: 235
+      height: 192
+    inner:
+      x: 1601
+      y: 832
+      width: 235
+      height: 192
+    rotated: 0
+    paddingLeft: 0.04255319
+    paddingRight: 0.04680851
+    paddingTop: 0.1666667
+    paddingBottom: 0.1666667
+  - name: "2"
+    outer:
+      x: 1138
+      y: 342
+      width: 187
+      height: 233
+    inner:
+      x: 1138
+      y: 342
+      width: 187
+      height: 233
+    rotated: 0
+    paddingLeft: 0.1818182
+    paddingRight: 0.1871658
+    paddingTop: 0.0472103
+    paddingBottom: 0.05150215
+  - name: "1"
+    outer:
+      x: 695
+      y: 290
+      width: 189
+      height: 234
+    inner:
+      x: 695
+      y: 290
+      width: 189
+      height: 234
+    rotated: 0
+    paddingLeft: 0.1746032
+    paddingRight: 0.1798942
+    paddingTop: 0.04700855
+    paddingBottom: 0.04700855
+  - name: "3"
+    outer:
+      x: 904
+      y: 796
+      width: 233
+      height: 228
+    inner:
+      x: 904
+      y: 796
+      width: 233
+      height: 228
+    rotated: 0
+    paddingLeft: 0.0472103
+    paddingRight: 0.05150215
+    paddingTop: 0.06140351
+    paddingBottom: 0.06140351
+  - name: "11"
+    outer:
+      x: 695
+      y: 525
+      width: 194
+      height: 242
+    inner:
+      x: 695
+      y: 525
+      width: 194
+      height: 242
+    rotated: 0
+    paddingLeft: 0.1443299
+    paddingRight: 0.1752577
+    paddingTop: 0.03719008
+    paddingBottom: 0.02066116
+  - name: "10"
+    outer:
+      x: 695
+      y: 55
+      width: 187
+      height: 234
+    inner:
+      x: 695
+      y: 55
+      width: 187
+      height: 234
+    rotated: 0
+    paddingLeft: 0.1871658
+    paddingRight: 0.1818182
+    paddingTop: 0.05128205
+    paddingBottom: 0.04273504
+  - name: "4"
+    outer:
+      x: 1326
+      y: 353
+      width: 171
+      height: 237
+    inner:
+      x: 1326
+      y: 353
+      width: 171
+      height: 237
+    rotated: 0
+    paddingLeft: 0.245614
+    paddingRight: 0.251462
+    paddingTop: 0.03797468
+    paddingBottom: 0.04219409
+  - name: "black_box_128x128"
+    outer:
+      x: 1868
+      y: 681
+      width: 128
+      height: 128
+    inner:
+      x: 1868
+      y: 681
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

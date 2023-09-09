@@ -1,0 +1,769 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845249}
+  - component: {fileID: 1791220415625339111}
+  m_Layer: 0
+  m_Name: "main_menu_top_maps"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5ca74d33be0747fcbc2722c58b3aafdb, type: 2}
+  sprites:
+  - name: "ibtn_select_pressed"
+    outer:
+      x: 529
+      y: 430
+      width: 257
+      height: 34
+    inner:
+      x: 529
+      y: 430
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_idle"
+    outer:
+      x: 529
+      y: 465
+      width: 257
+      height: 34
+    inner:
+      x: 529
+      y: 465
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_hover"
+    outer:
+      x: 605
+      y: 537
+      width: 257
+      height: 34
+    inner:
+      x: 605
+      y: 537
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_new_maps_pressed"
+    outer:
+      x: 956
+      y: 799
+      width: 53
+      height: 45
+    inner:
+      x: 956
+      y: 799
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_new_maps_idle"
+    outer:
+      x: 954
+      y: 709
+      width: 51
+      height: 43
+    inner:
+      x: 954
+      y: 709
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_new_maps_hover"
+    outer:
+      x: 956
+      y: 755
+      width: 51
+      height: 43
+    inner:
+      x: 956
+      y: 755
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_pressed"
+    outer:
+      x: 902
+      y: 845
+      width: 53
+      height: 45
+    inner:
+      x: 902
+      y: 845
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_idle"
+    outer:
+      x: 902
+      y: 665
+      width: 51
+      height: 43
+    inner:
+      x: 902
+      y: 665
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_hover"
+    outer:
+      x: 902
+      y: 709
+      width: 51
+      height: 43
+    inner:
+      x: 902
+      y: 709
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_day_pressed"
+    outer:
+      x: 902
+      y: 753
+      width: 53
+      height: 45
+    inner:
+      x: 902
+      y: 753
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_day_idle"
+    outer:
+      x: 868
+      y: 566
+      width: 51
+      height: 43
+    inner:
+      x: 868
+      y: 566
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_day_hover"
+    outer:
+      x: 920
+      y: 566
+      width: 51
+      height: 43
+    inner:
+      x: 920
+      y: 566
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_week_pressed"
+    outer:
+      x: 956
+      y: 845
+      width: 53
+      height: 45
+    inner:
+      x: 956
+      y: 845
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_week_idle"
+    outer:
+      x: 868
+      y: 610
+      width: 51
+      height: 43
+    inner:
+      x: 868
+      y: 610
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_week_hover"
+    outer:
+      x: 954
+      y: 665
+      width: 51
+      height: 43
+    inner:
+      x: 954
+      y: 665
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_month_pressed"
+    outer:
+      x: 902
+      y: 799
+      width: 53
+      height: 45
+    inner:
+      x: 902
+      y: 799
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_month_idle"
+    outer:
+      x: 972
+      y: 610
+      width: 51
+      height: 43
+    inner:
+      x: 972
+      y: 610
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_best_maps_for_month_hover"
+    outer:
+      x: 920
+      y: 610
+      width: 51
+      height: 43
+    inner:
+      x: 920
+      y: 610
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slider_page1_top_maps_background"
+    outer:
+      x: 867
+      y: 713
+      width: 34
+      height: 311
+    inner:
+      x: 867
+      y: 713
+      width: 34
+      height: 311
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_page1_top_maps_background"
+    outer:
+      x: 306
+      y: 387
+      width: 6
+      height: 224
+    inner:
+      x: 306
+      y: 387
+      width: 6
+      height: 224
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_page1_top_maps_thumb"
+    outer:
+      x: 263
+      y: 32
+      width: 32
+      height: 54
+    inner:
+      x: 263
+      y: 32
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_background"
+    outer:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    inner:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_pressed"
+    outer:
+      x: 605
+      y: 607
+      width: 262
+      height: 46
+    inner:
+      x: 605
+      y: 607
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_idle"
+    outer:
+      x: 0
+      y: 40
+      width: 262
+      height: 46
+    inner:
+      x: 0
+      y: 40
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_hover"
+    outer:
+      x: 601
+      y: 679
+      width: 262
+      height: 46
+    inner:
+      x: 601
+      y: 679
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "url_background"
+    outer:
+      x: 529
+      y: 500
+      width: 330
+      height: 34
+    inner:
+      x: 529
+      y: 500
+      width: 330
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "description_selected"
+    outer:
+      x: 313
+      y: 535
+      width: 291
+      height: 118
+    inner:
+      x: 313
+      y: 535
+      width: 291
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "name_selected"
+    outer:
+      x: 0
+      y: 5
+      width: 257
+      height: 34
+    inner:
+      x: 0
+      y: 5
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "name_background"
+    outer:
+      x: 605
+      y: 572
+      width: 257
+      height: 34
+    inner:
+      x: 605
+      y: 572
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "clip_map_info_clipping-area"
+    outer:
+      x: 313
+      y: 654
+      width: 287
+      height: 370
+    inner:
+      x: 313
+      y: 654
+      width: 287
+      height: 370
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "clip_map_info_screen"
+    outer:
+      x: 313
+      y: 91
+      width: 195
+      height: 147
+    inner:
+      x: 313
+      y: 91
+      width: 195
+      height: 147
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "description_background"
+    outer:
+      x: 0
+      y: 87
+      width: 291
+      height: 118
+    inner:
+      x: 0
+      y: 87
+      width: 291
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_background"
+    outer:
+      x: 0
+      y: 206
+      width: 305
+      height: 405
+    inner:
+      x: 0
+      y: 206
+      width: 305
+      height: 405
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "url_selected"
+    outer:
+      x: 529
+      y: 395
+      width: 257
+      height: 34
+    inner:
+      x: 529
+      y: 395
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "top_maps_grid_clipping-area"
+    outer:
+      x: 601
+      y: 726
+      width: 265
+      height: 298
+    inner:
+      x: 601
+      y: 726
+      width: 265
+      height: 298
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_title"
+    outer:
+      x: 601
+      y: 661
+      width: 73
+      height: 17
+    inner:
+      x: 601
+      y: 661
+      width: 73
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_vote_yes_hover"
+    outer:
+      x: 902
+      y: 891
+      width: 79
+      height: 31
+    inner:
+      x: 902
+      y: 891
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "score_background_small"
+    outer:
+      x: 902
+      y: 987
+      width: 111
+      height: 37
+    inner:
+      x: 902
+      y: 987
+      width: 111
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_vote_yes_idle"
+    outer:
+      x: 902
+      y: 955
+      width: 79
+      height: 31
+    inner:
+      x: 902
+      y: 955
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "score_icon"
+    outer:
+      x: 263
+      y: 5
+      width: 26
+      height: 26
+    inner:
+      x: 263
+      y: 5
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "score_background_large"
+    outer:
+      x: 313
+      y: 51
+      width: 187
+      height: 39
+    inner:
+      x: 313
+      y: 51
+      width: 187
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_vote_yes_pressed"
+    outer:
+      x: 902
+      y: 923
+      width: 79
+      height: 31
+    inner:
+      x: 902
+      y: 923
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "clip_map_info_author"
+    outer:
+      x: 675
+      y: 666
+      width: 81
+      height: 12
+    inner:
+      x: 675
+      y: 666
+      width: 81
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "clip_map_info_screen_loading"
+    outer:
+      x: 313
+      y: 387
+      width: 215
+      height: 147
+    inner:
+      x: 313
+      y: 387
+      width: 215
+      height: 147
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "screen_loading_image"
+    outer:
+      x: 313
+      y: 239
+      width: 215
+      height: 147
+    inner:
+      x: 313
+      y: 239
+      width: 215
+      height: 147
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

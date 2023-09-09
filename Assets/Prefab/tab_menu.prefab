@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845255}
+  - component: {fileID: 1791220415625339117}
+  m_Layer: 0
+  m_Name: "tab_menu"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 501e3a63a7e341d485cc05e8522fd5bb, type: 2}
+  sprites:
+  - name: "slot_prototype_background"
+    outer:
+      x: 58
+      y: 473
+      width: 319
+      height: 39
+    inner:
+      x: 58
+      y: 473
+      width: 319
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_level"
+    outer:
+      x: 69
+      y: 160
+      width: 26
+      height: 24
+    inner:
+      x: 69
+      y: 160
+      width: 26
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_unban_pressed"
+    outer:
+      x: 69
+      y: 293
+      width: 79
+      height: 31
+    inner:
+      x: 69
+      y: 293
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_unban_idle"
+    outer:
+      x: 69
+      y: 325
+      width: 79
+      height: 31
+    inner:
+      x: 69
+      y: 325
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_unban_hover"
+    outer:
+      x: 69
+      y: 357
+      width: 79
+      height: 31
+    inner:
+      x: 69
+      y: 357
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ban_pressed"
+    outer:
+      x: 389
+      y: 389
+      width: 79
+      height: 31
+    inner:
+      x: 389
+      y: 389
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ban_idle"
+    outer:
+      x: 149
+      y: 389
+      width: 79
+      height: 31
+    inner:
+      x: 149
+      y: 389
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ban_hover"
+    outer:
+      x: 69
+      y: 389
+      width: 79
+      height: 31
+    inner:
+      x: 69
+      y: 389
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "checkbox_background"
+    outer:
+      x: 400
+      y: 435
+      width: 77
+      height: 37
+    inner:
+      x: 400
+      y: 435
+      width: 77
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "checkbox_banned"
+    outer:
+      x: 107
+      y: 185
+      width: 37
+      height: 37
+    inner:
+      x: 107
+      y: 185
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "checkbox_moderator"
+    outer:
+      x: 33
+      y: 92
+      width: 23
+      height: 19
+    inner:
+      x: 33
+      y: 92
+      width: 23
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "checkbox_administrator"
+    outer:
+      x: 69
+      y: 185
+      width: 37
+      height: 37
+    inner:
+      x: 69
+      y: 185
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_new_players_building_background"
+    outer:
+      x: 0
+      y: 135
+      width: 46
+      height: 46
+    inner:
+      x: 0
+      y: 135
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_new_players_building_checkmark"
+    outer:
+      x: 478
+      y: 444
+      width: 33
+      height: 28
+    inner:
+      x: 478
+      y: 444
+      width: 33
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "new_players_building_background"
+    outer:
+      x: 58
+      y: 421
+      width: 277
+      height: 11
+    inner:
+      x: 58
+      y: 421
+      width: 277
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "administration_title"
+    outer:
+      x: 246
+      y: 453
+      width: 153
+      height: 19
+    inner:
+      x: 246
+      y: 453
+      width: 153
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slide_players_background"
+    outer:
+      x: 0
+      y: 182
+      width: 57
+      height: 330
+    inner:
+      x: 0
+      y: 182
+      width: 57
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_players_background"
+    outer:
+      x: 58
+      y: 153
+      width: 10
+      height: 267
+    inner:
+      x: 58
+      y: 153
+      width: 10
+      height: 267
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_players_thumb"
+    outer:
+      x: 0
+      y: 80
+      width: 32
+      height: 54
+    inner:
+      x: 0
+      y: 80
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_vote_yes_hover"
+    outer:
+      x: 229
+      y: 389
+      width: 79
+      height: 31
+    inner:
+      x: 229
+      y: 389
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "score_background_large"
+    outer:
+      x: 58
+      y: 433
+      width: 187
+      height: 39
+    inner:
+      x: 58
+      y: 433
+      width: 187
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_vote_yes_pressed"
+    outer:
+      x: 69
+      y: 261
+      width: 79
+      height: 31
+    inner:
+      x: 69
+      y: 261
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "score_background_small"
+    outer:
+      x: 378
+      y: 475
+      width: 111
+      height: 37
+    inner:
+      x: 378
+      y: 475
+      width: 111
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_vote_yes_idle"
+    outer:
+      x: 309
+      y: 389
+      width: 79
+      height: 31
+    inner:
+      x: 309
+      y: 389
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "score_icon"
+    outer:
+      x: 469
+      y: 394
+      width: 26
+      height: 26
+    inner:
+      x: 469
+      y: 394
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_builder_checkmark"
+    outer:
+      x: 0
+      y: 42
+      width: 37
+      height: 37
+    inner:
+      x: 0
+      y: 42
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_modertor_background"
+    outer:
+      x: 0
+      y: 4
+      width: 37
+      height: 37
+    inner:
+      x: 0
+      y: 4
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_modertor_checkmark"
+    outer:
+      x: 69
+      y: 223
+      width: 37
+      height: 37
+    inner:
+      x: 69
+      y: 223
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_builder_background"
+    outer:
+      x: 107
+      y: 223
+      width: 37
+      height: 37
+    inner:
+      x: 107
+      y: 223
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "teleportation_icon"
+    outer:
+      x: 33
+      y: 112
+      width: 22
+      height: 22
+    inner:
+      x: 33
+      y: 112
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

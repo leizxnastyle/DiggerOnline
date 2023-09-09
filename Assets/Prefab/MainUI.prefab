@@ -1,0 +1,1265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513567}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845280}
+  - component: {fileID: 1791220415625339130}
+  m_Layer: 0
+  m_Name: "MainUI"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e42da8bbd2ac492d91bfe65656cb776d, type: 2}
+  sprites:
+  - name: "input_grey_filds"
+    outer:
+      x: 1634
+      y: 954
+      width: 133
+      height: 70
+    inner:
+      x: 1664
+      y: 984
+      width: 73
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_cell_type_01"
+    outer:
+      x: 782
+      y: 129
+      width: 84
+      height: 84
+    inner:
+      x: 812
+      y: 159
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_arrow_01"
+    outer:
+      x: 620
+      y: 344
+      width: 21
+      height: 66
+    inner:
+      x: 620
+      y: 344
+      width: 21
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_button_01_n"
+    outer:
+      x: 427
+      y: 411
+      width: 192
+      height: 104
+    inner:
+      x: 447
+      y: 411
+      width: 172
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_ramka_buttom"
+    outer:
+      x: 658
+      y: 214
+      width: 282
+      height: 33
+    inner:
+      x: 658
+      y: 223
+      width: 282
+      height: 3
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_icon_180"
+    outer:
+      x: 980
+      y: 538
+      width: 82
+      height: 76
+    inner:
+      x: 980
+      y: 538
+      width: 82
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0.01219512
+    paddingTop: 0.03947368
+    paddingBottom: 0.05263158
+  - name: "map_type_fields"
+    outer:
+      x: 658
+      y: 954
+      width: 510
+      height: 70
+    inner:
+      x: 668
+      y: 954
+      width: 490
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_edit_n"
+    outer:
+      x: 697
+      y: 129
+      width: 84
+      height: 84
+    inner:
+      x: 697
+      y: 129
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_y_01_n"
+    outer:
+      x: 175
+      y: 27
+      width: 63
+      height: 89
+    inner:
+      x: 200
+      y: 52
+      width: 13
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_gam_icons"
+    outer:
+      x: 865
+      y: 543
+      width: 40
+      height: 40
+    inner:
+      x: 895
+      y: 573
+      width: -20
+      height: -20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inv_cell_vsmall"
+    outer:
+      x: 980
+      y: 396
+      width: 70
+      height: 70
+    inner:
+      x: 1005
+      y: 421
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_button_02_n"
+    outer:
+      x: 427
+      y: 210
+      width: 192
+      height: 95
+    inner:
+      x: 461
+      y: 234
+      width: 105
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_bg_left"
+    outer:
+      x: 1249
+      y: 899
+      width: 222
+      height: 10
+    inner:
+      x: 1249
+      y: 899
+      width: 222
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "rating_icon_01"
+    outer:
+      x: 980
+      y: 264
+      width: 60
+      height: 60
+    inner:
+      x: 995
+      y: 279
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_ramka_top"
+    outer:
+      x: 1249
+      y: 930
+      width: 282
+      height: 23
+    inner:
+      x: 1249
+      y: 940
+      width: 282
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inv_cell_small"
+    outer:
+      x: 782
+      y: 44
+      width: 84
+      height: 84
+    inner:
+      x: 807
+      y: 69
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "grd_grey"
+    outer:
+      x: 0
+      y: 9
+      width: 8
+      height: 8
+    inner:
+      x: 1
+      y: 10
+      width: 6
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_bg_center"
+    outer:
+      x: 256
+      y: 17
+      width: 110
+      height: 86
+    inner:
+      x: 286
+      y: 47
+      width: 50
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inv_cell_larg"
+    outer:
+      x: 512
+      y: 659
+      width: 134
+      height: 134
+    inner:
+      x: 542
+      y: 689
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_g_02_n"
+    outer:
+      x: 1885
+      y: 954
+      width: 107
+      height: 70
+    inner:
+      x: 1915
+      y: 984
+      width: 47
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_button_02_p"
+    outer:
+      x: 427
+      y: 114
+      width: 192
+      height: 95
+    inner:
+      x: 427
+      y: 114
+      width: 152
+      height: 95
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_button_01_p"
+    outer:
+      x: 427
+      y: 306
+      width: 192
+      height: 104
+    inner:
+      x: 447
+      y: 306
+      width: 172
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_bg_tile"
+    outer:
+      x: 427
+      y: 794
+      width: 230
+      height: 230
+    inner:
+      x: 427
+      y: 794
+      width: 230
+      height: 230
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "loading_progress_point_onn"
+    outer:
+      x: 741
+      y: 260
+      width: 89
+      height: 29
+    inner:
+      x: 761
+      y: 260
+      width: 49
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "cb_on"
+    outer:
+      x: 560
+      y: 29
+      width: 84
+      height: 84
+    inner:
+      x: 560
+      y: 29
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_n"
+    outer:
+      x: 840
+      y: 317
+      width: 84
+      height: 84
+    inner:
+      x: 840
+      y: 317
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_y_01_p"
+    outer:
+      x: 867
+      y: 39
+      width: 63
+      height: 89
+    inner:
+      x: 897
+      y: 69
+      width: 3
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "statistic_icon_01"
+    outer:
+      x: 980
+      y: 467
+      width: 70
+      height: 70
+    inner:
+      x: 995
+      y: 482
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_ramka_left"
+    outer:
+      x: 718
+      y: 526
+      width: 56
+      height: 307
+    inner:
+      x: 718
+      y: 566
+      width: 56
+      height: 227
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_ramka_right"
+    outer:
+      x: 658
+      y: 526
+      width: 59
+      height: 307
+    inner:
+      x: 658
+      y: 566
+      width: 59
+      height: 211
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "loading_progress_point_off"
+    outer:
+      x: 775
+      y: 554
+      width: 89
+      height: 29
+    inner:
+      x: 795
+      y: 554
+      width: 49
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_cell_select_01"
+    outer:
+      x: 697
+      y: 44
+      width: 84
+      height: 84
+    inner:
+      x: 712
+      y: 59
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "cb_off"
+    outer:
+      x: 980
+      y: 699
+      width: 84
+      height: 84
+    inner:
+      x: 995
+      y: 714
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "shadow_tile"
+    outer:
+      x: 256
+      y: 620
+      width: 170
+      height: 404
+    inner:
+      x: 256
+      y: 620
+      width: 170
+      height: 404
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "popup_main_bg"
+    outer:
+      x: 741
+      y: 290
+      width: 98
+      height: 111
+    inner:
+      x: 781
+      y: 330
+      width: 18
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_y_03_n"
+    outer:
+      x: 1768
+      y: 954
+      width: 116
+      height: 70
+    inner:
+      x: 1798
+      y: 984
+      width: 56
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_bg_center_decor_1"
+    outer:
+      x: 949
+      y: 715
+      width: 30
+      height: 238
+    inner:
+      x: 949
+      y: 740
+      width: 30
+      height: 188
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_arrow_02"
+    outer:
+      x: 949
+      y: 540
+      width: 29
+      height: 174
+    inner:
+      x: 949
+      y: 540
+      width: 29
+      height: 174
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bank_lot_bg"
+    outer:
+      x: 256
+      y: 438
+      width: 158
+      height: 181
+    inner:
+      x: 256
+      y: 438
+      width: 158
+      height: 181
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "popup_main_bg_decor"
+    outer:
+      x: 904
+      y: 721
+      width: 30
+      height: 112
+    inner:
+      x: 904
+      y: 746
+      width: 30
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_type_fields_bg"
+    outer:
+      x: 840
+      y: 250
+      width: 86
+      height: 66
+    inner:
+      x: 855
+      y: 265
+      width: 56
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_bg_center_decor_2"
+    outer:
+      x: 658
+      y: 10
+      width: 38
+      height: 203
+    inner:
+      x: 658
+      y: 40
+      width: 38
+      height: 143
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "main_icon_t"
+    outer:
+      x: 980
+      y: 615
+      width: 83
+      height: 83
+    inner:
+      x: 1010
+      y: 645
+      width: 23
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bgLabel1"
+    outer:
+      x: 1151
+      y: 883
+      width: 97
+      height: 70
+    inner:
+      x: 1196
+      y: 908
+      width: 7
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "scroll_moove"
+    outer:
+      x: 1169
+      y: 994
+      width: 464
+      height: 30
+    inner:
+      x: 1199
+      y: 994
+      width: 404
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "scroll_moove_bg"
+    outer:
+      x: 867
+      y: 143
+      width: 80
+      height: 70
+    inner:
+      x: 905
+      y: 143
+      width: 4
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "scroll_level"
+    outer:
+      x: 1169
+      y: 963
+      width: 384
+      height: 30
+    inner:
+      x: 1169
+      y: 963
+      width: 384
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_emotion"
+    outer:
+      x: 775
+      y: 703
+      width: 128
+      height: 130
+    inner:
+      x: 775
+      y: 703
+      width: 128
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_screen"
+    outer:
+      x: 775
+      y: 584
+      width: 118
+      height: 118
+    inner:
+      x: 775
+      y: 584
+      width: 118
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_cell"
+    outer:
+      x: 0
+      y: 18
+      width: 174
+      height: 175
+    inner:
+      x: 0
+      y: 18
+      width: 174
+      height: 175
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_link"
+    outer:
+      x: 427
+      y: 1
+      width: 132
+      height: 112
+    inner:
+      x: 427
+      y: 1
+      width: 132
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_respawn"
+    outer:
+      x: 658
+      y: 248
+      width: 82
+      height: 153
+    inner:
+      x: 658
+      y: 248
+      width: 82
+      height: 153
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_exit"
+    outer:
+      x: 658
+      y: 402
+      width: 112
+      height: 123
+    inner:
+      x: 658
+      y: 402
+      width: 112
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_save"
+    outer:
+      x: 512
+      y: 522
+      width: 126
+      height: 136
+    inner:
+      x: 512
+      y: 522
+      width: 126
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "container_05"
+    outer:
+      x: 0
+      y: 194
+      width: 248
+      height: 322
+    inner:
+      x: 0
+      y: 194
+      width: 248
+      height: 322
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "tutorialBg"
+    outer:
+      x: 427
+      y: 516
+      width: 84
+      height: 277
+    inner:
+      x: 464
+      y: 516
+      width: 10
+      height: 277
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "status_builder_icon"
+    outer:
+      x: 367
+      y: 51
+      width: 52
+      height: 52
+    inner:
+      x: 367
+      y: 51
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "status_administartor_icon"
+    outer:
+      x: 894
+      y: 613
+      width: 42
+      height: 44
+    inner:
+      x: 894
+      y: 613
+      width: 42
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "status_baned_icon"
+    outer:
+      x: 1993
+      y: 974
+      width: 50
+      height: 50
+    inner:
+      x: 1993
+      y: 974
+      width: 50
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "status_moderator_icon"
+    outer:
+      x: 894
+      y: 658
+      width: 44
+      height: 44
+    inner:
+      x: 894
+      y: 658
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_esc_playerlist"
+    outer:
+      x: 771
+      y: 418
+      width: 120
+      height: 107
+    inner:
+      x: 771
+      y: 418
+      width: 120
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ru_icon"
+    outer:
+      x: 620
+      y: 473
+      width: 35
+      height: 42
+    inner:
+      x: 620
+      y: 473
+      width: 35
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_rename_butt_01"
+    outer:
+      x: 980
+      y: 325
+      width: 70
+      height: 70
+    inner:
+      x: 980
+      y: 325
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_crosshair"
+    outer:
+      x: 175
+      y: 6
+      width: 20
+      height: 20
+    inner:
+      x: 175
+      y: 6
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "vk_link_button"
+    outer:
+      x: 658
+      y: 834
+      width: 290
+      height: 119
+    inner:
+      x: 658
+      y: 834
+      width: 290
+      height: 119
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "speech_bubble_bubble"
+    outer:
+      x: 0
+      y: 517
+      width: 255
+      height: 507
+    inner:
+      x: 41
+      y: 517
+      width: 37
+      height: 507
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "speech_bubble_bubble_cap"
+    outer:
+      x: 1249
+      y: 910
+      width: 255
+      height: 19
+    inner:
+      x: 1284
+      y: 910
+      width: 189
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "screenshot_button"
+    outer:
+      x: 980
+      y: 869
+      width: 84
+      height: 84
+    inner:
+      x: 980
+      y: 869
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "load_screenshot_rig"
+    outer:
+      x: 175
+      y: 117
+      width: 76
+      height: 76
+    inner:
+      x: 175
+      y: 117
+      width: 76
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "load_screenshot_rig_bg"
+    outer:
+      x: 980
+      y: 784
+      width: 84
+      height: 84
+    inner:
+      x: 980
+      y: 784
+      width: 84
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "load_screenshot_arrow"
+    outer:
+      x: 367
+      y: 8
+      width: 52
+      height: 42
+    inner:
+      x: 367
+      y: 8
+      width: 52
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "top_start_icon"
+    outer:
+      x: 620
+      y: 436
+      width: 34
+      height: 36
+    inner:
+      x: 620
+      y: 436
+      width: 34
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "loading_rig"
+    outer:
+      x: 256
+      y: 104
+      width: 166
+      height: 166
+    inner:
+      x: 256
+      y: 104
+      width: 166
+      height: 166
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "loading_rig_bg"
+    outer:
+      x: 256
+      y: 271
+      width: 166
+      height: 166
+    inner:
+      x: 256
+      y: 271
+      width: 166
+      height: 166
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "best30"
+    outer:
+      x: 1065
+      y: 790
+      width: 85
+      height: 81
+    inner:
+      x: 1065
+      y: 790
+      width: 85
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "best7"
+    outer:
+      x: 1065
+      y: 872
+      width: 85
+      height: 81
+    inner:
+      x: 1065
+      y: 872
+      width: 85
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

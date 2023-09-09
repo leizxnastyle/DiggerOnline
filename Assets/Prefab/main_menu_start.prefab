@@ -1,0 +1,1025 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845248}
+  - component: {fileID: 1791220415625339110}
+  m_Layer: 0
+  m_Name: "main_menu_start"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 0ea589a03c024b3fb98bcf345e8a7876, type: 2}
+  sprites:
+  - name: "ibtn_servers_list_pressed"
+    outer:
+      x: 1298
+      y: 971
+      width: 282
+      height: 53
+    inner:
+      x: 1298
+      y: 971
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_servers_list_idle"
+    outer:
+      x: 1013
+      y: 969
+      width: 284
+      height: 55
+    inner:
+      x: 1013
+      y: 969
+      width: 284
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_start_background_"
+    outer:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    inner:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_pressed"
+    outer:
+      x: 1579
+      y: 868
+      width: 262
+      height: 46
+    inner:
+      x: 1579
+      y: 868
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_idle"
+    outer:
+      x: 1013
+      y: 814
+      width: 262
+      height: 46
+    inner:
+      x: 1013
+      y: 814
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_hover"
+    outer:
+      x: 1276
+      y: 814
+      width: 262
+      height: 46
+    inner:
+      x: 1276
+      y: 814
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "my_maps_button_background"
+    outer:
+      x: 1581
+      y: 971
+      width: 282
+      height: 53
+    inner:
+      x: 1581
+      y: 971
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "team_battle_button_background"
+    outer:
+      x: 1013
+      y: 915
+      width: 282
+      height: 53
+    inner:
+      x: 1013
+      y: 915
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "servers_list_button_background"
+    outer:
+      x: 1296
+      y: 915
+      width: 282
+      height: 53
+    inner:
+      x: 1296
+      y: 915
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "news_grid_screen"
+    outer:
+      x: 0
+      y: 13
+      width: 266
+      height: 193
+    inner:
+      x: 0
+      y: 13
+      width: 266
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "fast_game_button_background"
+    outer:
+      x: 1579
+      y: 915
+      width: 282
+      height: 53
+    inner:
+      x: 1579
+      y: 915
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "deathmatch_button_background"
+    outer:
+      x: 1013
+      y: 861
+      width: 282
+      height: 53
+    inner:
+      x: 1013
+      y: 861
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "building_button_background"
+    outer:
+      x: 1296
+      y: 861
+      width: 282
+      height: 53
+    inner:
+      x: 1296
+      y: 861
+      width: 282
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark4_idle"
+    outer:
+      x: 356
+      y: 34
+      width: 42
+      height: 20
+    inner:
+      x: 356
+      y: 34
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark3_pressed"
+    outer:
+      x: 267
+      y: 186
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 186
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark2_idle"
+    outer:
+      x: 267
+      y: 165
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 165
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark1_hover"
+    outer:
+      x: 267
+      y: 144
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 144
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark1_idle"
+    outer:
+      x: 267
+      y: 123
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 123
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark2_pressed"
+    outer:
+      x: 267
+      y: 102
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 102
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark4_pressed"
+    outer:
+      x: 267
+      y: 81
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 81
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark2_hover"
+    outer:
+      x: 442
+      y: 34
+      width: 42
+      height: 20
+    inner:
+      x: 442
+      y: 34
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark3_idle"
+    outer:
+      x: 399
+      y: 13
+      width: 42
+      height: 20
+    inner:
+      x: 399
+      y: 13
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark3_hover"
+    outer:
+      x: 399
+      y: 34
+      width: 42
+      height: 20
+    inner:
+      x: 399
+      y: 34
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark4_hover"
+    outer:
+      x: 356
+      y: 13
+      width: 42
+      height: 20
+    inner:
+      x: 356
+      y: 13
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bookmark1_pressed"
+    outer:
+      x: 267
+      y: 60
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 60
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bookmark4_selected"
+    outer:
+      x: 267
+      y: 39
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 39
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bookmark2_selected"
+    outer:
+      x: 267
+      y: 18
+      width: 42
+      height: 20
+    inner:
+      x: 267
+      y: 18
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bookmark3_selected"
+    outer:
+      x: 313
+      y: 34
+      width: 42
+      height: 20
+    inner:
+      x: 313
+      y: 34
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bookmark1_selected"
+    outer:
+      x: 313
+      y: 13
+      width: 42
+      height: 20
+    inner:
+      x: 313
+      y: 13
+      width: 42
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_deathmatch"
+    outer:
+      x: 571
+      y: 5
+      width: 233
+      height: 169
+    inner:
+      x: 571
+      y: 5
+      width: 233
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_team_battle"
+    outer:
+      x: 571
+      y: 175
+      width: 233
+      height: 169
+    inner:
+      x: 571
+      y: 175
+      width: 233
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_game_pressed"
+    outer:
+      x: 980
+      y: 806
+      width: 23
+      height: 36
+    inner:
+      x: 980
+      y: 806
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_game_idle"
+    outer:
+      x: 979
+      y: 554
+      width: 21
+      height: 36
+    inner:
+      x: 979
+      y: 554
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_hover"
+    outer:
+      x: 805
+      y: 528
+      width: 173
+      height: 62
+    inner:
+      x: 805
+      y: 528
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_game_hover"
+    outer:
+      x: 980
+      y: 743
+      width: 23
+      height: 36
+    inner:
+      x: 980
+      y: 743
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_fast_game_background2"
+    outer:
+      x: 313
+      y: 249
+      width: 257
+      height: 193
+    inner:
+      x: 313
+      y: 249
+      width: 257
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_game_hover"
+    outer:
+      x: 849
+      y: 428
+      width: 21
+      height: 36
+    inner:
+      x: 849
+      y: 428
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_zombie_virus"
+    outer:
+      x: 571
+      y: 345
+      width: 233
+      height: 169
+    inner:
+      x: 571
+      y: 345
+      width: 233
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_building"
+    outer:
+      x: 571
+      y: 515
+      width: 233
+      height: 169
+    inner:
+      x: 571
+      y: 515
+      width: 233
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_idle"
+    outer:
+      x: 805
+      y: 465
+      width: 173
+      height: 62
+    inner:
+      x: 805
+      y: 465
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_fast_game_background1"
+    outer:
+      x: 0
+      y: 207
+      width: 304
+      height: 404
+    inner:
+      x: 0
+      y: 207
+      width: 304
+      height: 404
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_ctf"
+    outer:
+      x: 571
+      y: 685
+      width: 233
+      height: 169
+    inner:
+      x: 571
+      y: 685
+      width: 233
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_game_pressed"
+    outer:
+      x: 827
+      y: 428
+      width: 21
+      height: 36
+    inner:
+      x: 827
+      y: 428
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_play_background"
+    outer:
+      x: 805
+      y: 843
+      width: 207
+      height: 90
+    inner:
+      x: 805
+      y: 843
+      width: 207
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_game_idle"
+    outer:
+      x: 979
+      y: 680
+      width: 23
+      height: 36
+    inner:
+      x: 979
+      y: 680
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_pressed"
+    outer:
+      x: 805
+      y: 717
+      width: 174
+      height: 62
+    inner:
+      x: 805
+      y: 717
+      width: 174
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_map_idle"
+    outer:
+      x: 979
+      y: 617
+      width: 21
+      height: 36
+    inner:
+      x: 979
+      y: 617
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_map_idle"
+    outer:
+      x: 485
+      y: 18
+      width: 23
+      height: 36
+    inner:
+      x: 485
+      y: 18
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_select_map_map_image"
+    outer:
+      x: 571
+      y: 855
+      width: 233
+      height: 169
+    inner:
+      x: 571
+      y: 855
+      width: 233
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_map_hover"
+    outer:
+      x: 979
+      y: 491
+      width: 21
+      height: 36
+    inner:
+      x: 979
+      y: 491
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_map_pressed"
+    outer:
+      x: 509
+      y: 18
+      width: 23
+      height: 36
+    inner:
+      x: 509
+      y: 18
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_map_hover"
+    outer:
+      x: 533
+      y: 18
+      width: 23
+      height: 36
+    inner:
+      x: 533
+      y: 18
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_map_pressed"
+    outer:
+      x: 805
+      y: 428
+      width: 21
+      height: 36
+    inner:
+      x: 805
+      y: 428
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_random"
+    outer:
+      x: 313
+      y: 55
+      width: 238
+      height: 193
+    inner:
+      x: 313
+      y: 55
+      width: 238
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play2_pressed"
+    outer:
+      x: 805
+      y: 780
+      width: 174
+      height: 62
+    inner:
+      x: 805
+      y: 780
+      width: 174
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play2_hover"
+    outer:
+      x: 805
+      y: 591
+      width: 173
+      height: 62
+    inner:
+      x: 805
+      y: 591
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_play2_background"
+    outer:
+      x: 805
+      y: 934
+      width: 207
+      height: 90
+    inner:
+      x: 805
+      y: 934
+      width: 207
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play2_idle"
+    outer:
+      x: 805
+      y: 654
+      width: 173
+      height: 62
+    inner:
+      x: 805
+      y: 654
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_hunger_games"
+    outer:
+      x: 313
+      y: 443
+      width: 257
+      height: 193
+    inner:
+      x: 313
+      y: 443
+      width: 257
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_arcade"
+    outer:
+      x: 313
+      y: 637
+      width: 257
+      height: 193
+    inner:
+      x: 313
+      y: 637
+      width: 257
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_hide_seek"
+    outer:
+      x: 313
+      y: 831
+      width: 257
+      height: 193
+    inner:
+      x: 313
+      y: 831
+      width: 257
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

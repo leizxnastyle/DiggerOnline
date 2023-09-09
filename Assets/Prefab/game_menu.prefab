@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845233}
+  - component: {fileID: 1791220415625339095}
+  m_Layer: 0
+  m_Name: "game_menu"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 21f4134383d545b8980afcaa3870b743, type: 2}
+  sprites:
+  - name: "ibtn_choose_weapon_pressed"
+    outer:
+      x: 0
+      y: 116
+      width: 262
+      height: 46
+    inner:
+      x: 0
+      y: 116
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_choose_weapon_idle"
+    outer:
+      x: 0
+      y: 163
+      width: 262
+      height: 46
+    inner:
+      x: 0
+      y: 163
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_choose_weapon_hover"
+    outer:
+      x: 0
+      y: 210
+      width: 262
+      height: 46
+    inner:
+      x: 0
+      y: 210
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_background"
+    outer:
+      x: 0
+      y: 62
+      width: 53
+      height: 53
+    inner:
+      x: 0
+      y: 62
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 0
+      y: 16
+      width: 45
+      height: 45
+    inner:
+      x: 0
+      y: 16
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 54
+      y: 70
+      width: 45
+      height: 45
+    inner:
+      x: 54
+      y: 70
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 46
+      y: 16
+      width: 45
+      height: 45
+    inner:
+      x: 46
+      y: 16
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_inventory_hotkey"
+    outer:
+      x: 168
+      y: 40
+      width: 37
+      height: 37
+    inner:
+      x: 168
+      y: 40
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "emotions_emotions_hotkey"
+    outer:
+      x: 92
+      y: 32
+      width: 37
+      height: 37
+    inner:
+      x: 92
+      y: 32
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "save_save_hotkey"
+    outer:
+      x: 176
+      y: 78
+      width: 37
+      height: 37
+    inner:
+      x: 176
+      y: 78
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "respawn_respawn_hotkey"
+    outer:
+      x: 100
+      y: 78
+      width: 37
+      height: 37
+    inner:
+      x: 100
+      y: 78
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "choose_weapon_dummy_hotkey"
+    outer:
+      x: 130
+      y: 40
+      width: 37
+      height: 37
+    inner:
+      x: 130
+      y: 40
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "estimate_dummy_hotkey"
+    outer:
+      x: 138
+      y: 78
+      width: 37
+      height: 37
+    inner:
+      x: 138
+      y: 78
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "help_dummy_hotkey"
+    outer:
+      x: 130
+      y: 2
+      width: 37
+      height: 37
+    inner:
+      x: 130
+      y: 2
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "resume_dummy_hotkey"
+    outer:
+      x: 168
+      y: 2
+      width: 37
+      height: 37
+    inner:
+      x: 168
+      y: 2
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "exit_dummy_hotkey"
+    outer:
+      x: 206
+      y: 40
+      width: 37
+      height: 37
+    inner:
+      x: 206
+      y: 40
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

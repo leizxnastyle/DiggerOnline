@@ -1,0 +1,289 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845232}
+  - component: {fileID: 1791220415625339094}
+  m_Layer: 0
+  m_Name: "emotions"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6c9c6b5d8c3d45d5bcfadaa2599e4aac, type: 2}
+  sprites:
+  - name: "ibtn_select_pressed"
+    outer:
+      x: 0
+      y: 304
+      width: 135
+      height: 135
+    inner:
+      x: 0
+      y: 304
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_idle"
+    outer:
+      x: 136
+      y: 304
+      width: 135
+      height: 135
+    inner:
+      x: 136
+      y: 304
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_hover"
+    outer:
+      x: 289
+      y: 377
+      width: 135
+      height: 135
+    inner:
+      x: 289
+      y: 377
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_icon"
+    outer:
+      x: 272
+      y: 243
+      width: 121
+      height: 133
+    inner:
+      x: 272
+      y: 243
+      width: 121
+      height: 133
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_more_emotions_background"
+    outer:
+      x: 0
+      y: 440
+      width: 288
+      height: 72
+    inner:
+      x: 0
+      y: 440
+      width: 288
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_more_emotions_pressed"
+    outer:
+      x: 0
+      y: 260
+      width: 262
+      height: 43
+    inner:
+      x: 0
+      y: 260
+      width: 262
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_more_emotions_idle"
+    outer:
+      x: 0
+      y: 216
+      width: 262
+      height: 43
+    inner:
+      x: 0
+      y: 216
+      width: 262
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_more_emotions_hover"
+    outer:
+      x: 0
+      y: 2
+      width: 262
+      height: 43
+    inner:
+      x: 0
+      y: 2
+      width: 262
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slider_emotions_background"
+    outer:
+      x: 394
+      y: 46
+      width: 40
+      height: 330
+    inner:
+      x: 394
+      y: 46
+      width: 40
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_emotions_background"
+    outer:
+      x: 263
+      y: 33
+      width: 8
+      height: 270
+    inner:
+      x: 263
+      y: 33
+      width: 8
+      height: 270
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_emotions_thumb"
+    outer:
+      x: 479
+      y: 458
+      width: 32
+      height: 54
+    inner:
+      x: 479
+      y: 458
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_background"
+    outer:
+      x: 425
+      y: 459
+      width: 53
+      height: 53
+    inner:
+      x: 425
+      y: 459
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 272
+      y: 197
+      width: 45
+      height: 45
+    inner:
+      x: 272
+      y: 197
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 425
+      y: 413
+      width: 45
+      height: 45
+    inner:
+      x: 425
+      y: 413
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 318
+      y: 197
+      width: 45
+      height: 45
+    inner:
+      x: 318
+      y: 197
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

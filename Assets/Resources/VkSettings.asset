@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96681c08a63568de71f753fd2b237a70, type: 3}
+  m_Name: "VkSettings"
+  m_EditorClassIdentifier: 
+  VkAppId: 6873077
+  scope:
+  - "offline"
+  forceOAuth: 0
+  revoke: 0
+  apiVersion: "5.50"
+  notify: 0
+  friends: 0
+  photos: 0
+  audio: 0
+  video: 0
+  docs: 0
+  notes: 0
+  pages: 0
+  status: 0
+  offers: 0
+  questions: 0
+  wall: 0
+  groups: 0
+  messages: 0
+  notifications: 0
+  stats: 0
+  ads: 0
+  offline: 1
+  nohttps: 0

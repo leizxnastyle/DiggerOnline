@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845246}
+  - component: {fileID: 1791220415625339108}
+  m_Layer: 0
+  m_Name: "main_menu_settings"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8a9d2f44761941fdba1d5e765a4c6a7f, type: 2}
+  sprites:
+  - name: "page1_settings_background"
+    outer:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    inner:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "show_bubbles_background"
+    outer:
+      x: 313
+      y: 918
+      width: 194
+      height: 11
+    inner:
+      x: 313
+      y: 918
+      width: 194
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_show_bubbles_background"
+    outer:
+      x: 462
+      y: 978
+      width: 46
+      height: 46
+    inner:
+      x: 462
+      y: 978
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_show_bubbles_checkmark"
+    outer:
+      x: 478
+      y: 889
+      width: 33
+      height: 28
+    inner:
+      x: 478
+      y: 889
+      width: 33
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "destruction_background"
+    outer:
+      x: 313
+      y: 978
+      width: 148
+      height: 46
+    inner:
+      x: 313
+      y: 978
+      width: 148
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_pressed"
+    outer:
+      x: 388
+      y: 841
+      width: 14
+      height: 28
+    inner:
+      x: 388
+      y: 841
+      width: 14
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_idle"
+    outer:
+      x: 373
+      y: 841
+      width: 14
+      height: 28
+    inner:
+      x: 373
+      y: 841
+      width: 14
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_hover"
+    outer:
+      x: 358
+      y: 841
+      width: 14
+      height: 28
+    inner:
+      x: 358
+      y: 841
+      width: 14
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_pressed"
+    outer:
+      x: 343
+      y: 841
+      width: 14
+      height: 28
+    inner:
+      x: 343
+      y: 841
+      width: 14
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_idle"
+    outer:
+      x: 328
+      y: 841
+      width: 14
+      height: 28
+    inner:
+      x: 328
+      y: 841
+      width: 14
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_hover"
+    outer:
+      x: 313
+      y: 841
+      width: 14
+      height: 28
+    inner:
+      x: 313
+      y: 841
+      width: 14
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "destruction_epic"
+    outer:
+      x: 423
+      y: 872
+      width: 56
+      height: 12
+    inner:
+      x: 423
+      y: 872
+      width: 56
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "destruction_medium"
+    outer:
+      x: 368
+      y: 870
+      width: 54
+      height: 14
+    inner:
+      x: 368
+      y: 870
+      width: 54
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "destruction_simple"
+    outer:
+      x: 313
+      y: 870
+      width: 54
+      height: 14
+    inner:
+      x: 313
+      y: 870
+      width: 54
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ambient_volume_background"
+    outer:
+      x: 0
+      y: 518
+      width: 214
+      height: 46
+    inner:
+      x: 0
+      y: 518
+      width: 214
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_hor_ambient_volume_background"
+    outer:
+      x: 313
+      y: 945
+      width: 179
+      height: 15
+    inner:
+      x: 313
+      y: 945
+      width: 179
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_hor_ambient_volume_thumb"
+    outer:
+      x: 423
+      y: 885
+      width: 54
+      height: 32
+    inner:
+      x: 423
+      y: 885
+      width: 54
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sound_volume_background"
+    outer:
+      x: 215
+      y: 565
+      width: 214
+      height: 46
+    inner:
+      x: 215
+      y: 565
+      width: 214
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_hor_sound_volume_background"
+    outer:
+      x: 313
+      y: 930
+      width: 182
+      height: 14
+    inner:
+      x: 313
+      y: 930
+      width: 182
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_hor_sound_volume_thumb"
+    outer:
+      x: 368
+      y: 885
+      width: 54
+      height: 32
+    inner:
+      x: 368
+      y: 885
+      width: 54
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mouse_sensivity_background"
+    outer:
+      x: 0
+      y: 565
+      width: 214
+      height: 46
+    inner:
+      x: 0
+      y: 565
+      width: 214
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_hor_mouse_sensivity_background"
+    outer:
+      x: 313
+      y: 961
+      width: 180
+      height: 16
+    inner:
+      x: 313
+      y: 961
+      width: 180
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_hor_mouse_sensivity_thumb"
+    outer:
+      x: 313
+      y: 885
+      width: 54
+      height: 32
+    inner:
+      x: 313
+      y: 885
+      width: 54
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845253}
+  - component: {fileID: 1791220415625339115}
+  m_Layer: 0
+  m_Name: "select_weapon"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 4a3669c6629e40508305d38e9cdb7c74, type: 2}
+  sprites:
+  - name: "ibtn_select_pressed"
+    outer:
+      x: 0
+      y: 105
+      width: 135
+      height: 135
+    inner:
+      x: 0
+      y: 105
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_idle"
+    outer:
+      x: 0
+      y: 241
+      width: 135
+      height: 135
+    inner:
+      x: 0
+      y: 241
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_hover"
+    outer:
+      x: 0
+      y: 377
+      width: 135
+      height: 135
+    inner:
+      x: 0
+      y: 377
+      width: 135
+      height: 135
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_icon"
+    outer:
+      x: 350
+      y: 1
+      width: 62
+      height: 63
+    inner:
+      x: 350
+      y: 1
+      width: 62
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_buy_background"
+    outer:
+      x: 0
+      y: 65
+      width: 384
+      height: 39
+    inner:
+      x: 0
+      y: 65
+      width: 384
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_pressed"
+    outer:
+      x: 413
+      y: 52
+      width: 79
+      height: 31
+    inner:
+      x: 413
+      y: 52
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_idle"
+    outer:
+      x: 426
+      y: 184
+      width: 79
+      height: 31
+    inner:
+      x: 426
+      y: 184
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_hover"
+    outer:
+      x: 426
+      y: 216
+      width: 79
+      height: 31
+    inner:
+      x: 426
+      y: 216
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_fight_background"
+    outer:
+      x: 136
+      y: 118
+      width: 200
+      height: 63
+    inner:
+      x: 226
+      y: 118
+      width: 20
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_fight_pressed"
+    outer:
+      x: 337
+      y: 138
+      width: 174
+      height: 43
+    inner:
+      x: 417
+      y: 138
+      width: 14
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_fight_idle"
+    outer:
+      x: 175
+      y: 21
+      width: 174
+      height: 43
+    inner:
+      x: 255
+      y: 21
+      width: 14
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_fight_hover"
+    outer:
+      x: 0
+      y: 21
+      width: 174
+      height: 43
+    inner:
+      x: 80
+      y: 21
+      width: 14
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slide_weapons_background"
+    outer:
+      x: 385
+      y: 182
+      width: 40
+      height: 330
+    inner:
+      x: 385
+      y: 182
+      width: 40
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_weapons_background"
+    outer:
+      x: 426
+      y: 248
+      width: 10
+      height: 264
+    inner:
+      x: 426
+      y: 248
+      width: 10
+      height: 264
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_weapons_thumb"
+    outer:
+      x: 437
+      y: 458
+      width: 32
+      height: 54
+    inner:
+      x: 437
+      y: 458
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_background"
+    outer:
+      x: 385
+      y: 84
+      width: 53
+      height: 53
+    inner:
+      x: 385
+      y: 84
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 459
+      y: 6
+      width: 45
+      height: 45
+    inner:
+      x: 459
+      y: 6
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 439
+      y: 92
+      width: 45
+      height: 45
+    inner:
+      x: 439
+      y: 92
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 413
+      y: 6
+      width: 45
+      height: 45
+    inner:
+      x: 413
+      y: 6
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

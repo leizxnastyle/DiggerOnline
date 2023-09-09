@@ -1,0 +1,993 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845242}
+  - component: {fileID: 1791220415625339104}
+  m_Layer: 0
+  m_Name: "main_menu_my_maps"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9781e95fbe7b439c88956c8518e3e76d, type: 2}
+  sprites:
+  - name: "page1_background"
+    outer:
+      x: 0
+      y: 207
+      width: 304
+      height: 404
+    inner:
+      x: 0
+      y: 207
+      width: 304
+      height: 404
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_button_background"
+    outer:
+      x: 0
+      y: 30
+      width: 305
+      height: 57
+    inner:
+      x: 0
+      y: 30
+      width: 305
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_slot_pressed"
+    outer:
+      x: 313
+      y: 59
+      width: 233
+      height: 43
+    inner:
+      x: 313
+      y: 59
+      width: 233
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_slot_idle"
+    outer:
+      x: 313
+      y: 103
+      width: 233
+      height: 43
+    inner:
+      x: 313
+      y: 103
+      width: 233
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_slot_hover"
+    outer:
+      x: 313
+      y: 15
+      width: 233
+      height: 43
+    inner:
+      x: 313
+      y: 15
+      width: 233
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_pressed"
+    outer:
+      x: 576
+      y: 301
+      width: 220
+      height: 34
+    inner:
+      x: 576
+      y: 301
+      width: 220
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_idle"
+    outer:
+      x: 797
+      y: 301
+      width: 220
+      height: 34
+    inner:
+      x: 797
+      y: 301
+      width: 220
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_hover"
+    outer:
+      x: 576
+      y: 266
+      width: 220
+      height: 34
+    inner:
+      x: 576
+      y: 266
+      width: 220
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_title"
+    outer:
+      x: 785
+      y: 913
+      width: 51
+      height: 17
+    inner:
+      x: 785
+      y: 913
+      width: 51
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_background"
+    outer:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    inner:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_create_pressed"
+    outer:
+      x: 313
+      y: 382
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 382
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_create_idle"
+    outer:
+      x: 313
+      y: 429
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 429
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_create_hover"
+    outer:
+      x: 576
+      y: 476
+      width: 262
+      height: 46
+    inner:
+      x: 576
+      y: 476
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_public_pressed"
+    outer:
+      x: 313
+      y: 476
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 476
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_public_idle"
+    outer:
+      x: 576
+      y: 523
+      width: 262
+      height: 46
+    inner:
+      x: 576
+      y: 523
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_public_hover"
+    outer:
+      x: 313
+      y: 523
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 523
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_load_pressed"
+    outer:
+      x: 576
+      y: 570
+      width: 262
+      height: 46
+    inner:
+      x: 576
+      y: 570
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_load_idle"
+    outer:
+      x: 313
+      y: 570
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 570
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_load_hover"
+    outer:
+      x: 576
+      y: 617
+      width: 262
+      height: 46
+    inner:
+      x: 576
+      y: 617
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_destroyable_background"
+    outer:
+      x: 868
+      y: 978
+      width: 46
+      height: 46
+    inner:
+      x: 868
+      y: 978
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_destroyable_checkmark"
+    outer:
+      x: 259
+      y: 1
+      width: 33
+      height: 28
+    inner:
+      x: 259
+      y: 1
+      width: 33
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "destroyable_title"
+    outer:
+      x: 0
+      y: 9
+      width: 184
+      height: 20
+    inner:
+      x: 0
+      y: 9
+      width: 184
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_pressed"
+    outer:
+      x: 963
+      y: 975
+      width: 21
+      height: 36
+    inner:
+      x: 963
+      y: 975
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_idle"
+    outer:
+      x: 985
+      y: 975
+      width: 21
+      height: 36
+    inner:
+      x: 985
+      y: 975
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_hover"
+    outer:
+      x: 939
+      y: 925
+      width: 21
+      height: 36
+    inner:
+      x: 939
+      y: 925
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_pressed"
+    outer:
+      x: 915
+      y: 975
+      width: 23
+      height: 36
+    inner:
+      x: 915
+      y: 975
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_idle"
+    outer:
+      x: 915
+      y: 938
+      width: 23
+      height: 36
+    inner:
+      x: 915
+      y: 938
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_hover"
+    outer:
+      x: 939
+      y: 975
+      width: 23
+      height: 36
+    inner:
+      x: 939
+      y: 975
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_type_title"
+    outer:
+      x: 961
+      y: 949
+      width: 61
+      height: 12
+    inner:
+      x: 961
+      y: 949
+      width: 61
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "description_background"
+    outer:
+      x: 0
+      y: 88
+      width: 291
+      height: 118
+    inner:
+      x: 0
+      y: 88
+      width: 291
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "description_selected"
+    outer:
+      x: 313
+      y: 906
+      width: 291
+      height: 118
+    inner:
+      x: 313
+      y: 906
+      width: 291
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "password_background"
+    outer:
+      x: 576
+      y: 441
+      width: 257
+      height: 34
+    inner:
+      x: 576
+      y: 441
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "password_selected"
+    outer:
+      x: 576
+      y: 406
+      width: 257
+      height: 34
+    inner:
+      x: 576
+      y: 406
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "name_background"
+    outer:
+      x: 576
+      y: 371
+      width: 257
+      height: 34
+    inner:
+      x: 576
+      y: 371
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "name_selected"
+    outer:
+      x: 576
+      y: 336
+      width: 257
+      height: 34
+    inner:
+      x: 576
+      y: 336
+      width: 257
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "grid_map_info_screen"
+    outer:
+      x: 313
+      y: 758
+      width: 215
+      height: 147
+    inner:
+      x: 313
+      y: 758
+      width: 215
+      height: 147
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_type_title"
+    outer:
+      x: 939
+      y: 962
+      width: 67
+      height: 12
+    inner:
+      x: 939
+      y: 962
+      width: 67
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_size_title"
+    outer:
+      x: 695
+      y: 918
+      width: 89
+      height: 12
+    inner:
+      x: 695
+      y: 918
+      width: 89
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "info_title"
+    outer:
+      x: 185
+      y: 12
+      width: 73
+      height: 17
+    inner:
+      x: 185
+      y: 12
+      width: 73
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "save_in_public"
+    outer:
+      x: 576
+      y: 253
+      width: 280
+      height: 12
+    inner:
+      x: 576
+      y: 253
+      width: 280
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "save_rewrite"
+    outer:
+      x: 605
+      y: 918
+      width: 89
+      height: 12
+    inner:
+      x: 605
+      y: 918
+      width: 89
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "save_empty"
+    outer:
+      x: 915
+      y: 1012
+      width: 72
+      height: 12
+    inner:
+      x: 915
+      y: 1012
+      width: 72
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_save_pressed"
+    outer:
+      x: 605
+      y: 978
+      width: 262
+      height: 46
+    inner:
+      x: 605
+      y: 978
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_save_idle"
+    outer:
+      x: 605
+      y: 931
+      width: 262
+      height: 46
+    inner:
+      x: 605
+      y: 931
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_save_hover"
+    outer:
+      x: 313
+      y: 711
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 711
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_remove_from_public_pressed"
+    outer:
+      x: 576
+      y: 711
+      width: 262
+      height: 46
+    inner:
+      x: 576
+      y: 711
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_remove_from_public_idle"
+    outer:
+      x: 313
+      y: 664
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 664
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_remove_from_public_hover"
+    outer:
+      x: 576
+      y: 664
+      width: 262
+      height: 46
+    inner:
+      x: 576
+      y: 664
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_in_public_pressed"
+    outer:
+      x: 313
+      y: 617
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 617
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_in_public_idle"
+    outer:
+      x: 313
+      y: 288
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 288
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_look_in_public_hover"
+    outer:
+      x: 313
+      y: 241
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 241
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_generate_pressed"
+    outer:
+      x: 313
+      y: 194
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 194
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_generate_idle"
+    outer:
+      x: 313
+      y: 147
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 147
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_generate_hover"
+    outer:
+      x: 313
+      y: 335
+      width: 262
+      height: 46
+    inner:
+      x: 313
+      y: 335
+      width: 262
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "grid_map_info_screen_loading"
+    outer:
+      x: 745
+      y: 758
+      width: 215
+      height: 147
+    inner:
+      x: 745
+      y: 758
+      width: 215
+      height: 147
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "screen_loading_image"
+    outer:
+      x: 529
+      y: 758
+      width: 215
+      height: 147
+    inner:
+      x: 529
+      y: 758
+      width: 215
+      height: 147
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_edit_pressed"
+    outer:
+      x: 961
+      y: 922
+      width: 26
+      height: 26
+    inner:
+      x: 961
+      y: 922
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_edit_idle"
+    outer:
+      x: 868
+      y: 943
+      width: 34
+      height: 34
+    inner:
+      x: 868
+      y: 943
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_edit_hover"
+    outer:
+      x: 868
+      y: 908
+      width: 34
+      height: 34
+    inner:
+      x: 868
+      y: 908
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

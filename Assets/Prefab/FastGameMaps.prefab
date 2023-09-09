@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845224}
+  - component: {fileID: 1791220415625339086}
+  m_Layer: 0
+  m_Name: "FastGameMaps"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d5f4403c8a694adc8b3b75c2a8e12cea, type: 2}
+  sprites:
+  - name: "standart_map_default"
+    outer:
+      x: 759
+      y: 171
+      width: 225
+      height: 169
+    inner:
+      x: 759
+      y: 171
+      width: 225
+      height: 169
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "random_map"
+    outer:
+      x: 0
+      y: 232
+      width: 238
+      height: 193
+    inner:
+      x: 0
+      y: 232
+      width: 238
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sandoil"
+    outer:
+      x: 533
+      y: 1
+      width: 225
+      height: 168
+    inner:
+      x: 533
+      y: 1
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mantion"
+    outer:
+      x: 759
+      y: 2
+      width: 225
+      height: 168
+    inner:
+      x: 759
+      y: 2
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "babochka"
+    outer:
+      x: 985
+      y: 856
+      width: 225
+      height: 168
+    inner:
+      x: 985
+      y: 856
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "lesopilka"
+    outer:
+      x: 1211
+      y: 856
+      width: 225
+      height: 168
+    inner:
+      x: 1211
+      y: 856
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Lab_small"
+    outer:
+      x: 1437
+      y: 856
+      width: 225
+      height: 168
+    inner:
+      x: 1437
+      y: 856
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "zorro3"
+    outer:
+      x: 1437
+      y: 688
+      width: 225
+      height: 167
+    inner:
+      x: 1437
+      y: 688
+      width: 225
+      height: 167
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "aerodrom"
+    outer:
+      x: 1211
+      y: 526
+      width: 225
+      height: 160
+    inner:
+      x: 1211
+      y: 526
+      width: 225
+      height: 160
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "poligon"
+    outer:
+      x: 1663
+      y: 688
+      width: 225
+      height: 167
+    inner:
+      x: 1663
+      y: 688
+      width: 225
+      height: 167
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "round"
+    outer:
+      x: 1211
+      y: 687
+      width: 225
+      height: 168
+    inner:
+      x: 1211
+      y: 687
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "wall2015"
+    outer:
+      x: 985
+      y: 11
+      width: 225
+      height: 168
+    inner:
+      x: 985
+      y: 11
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ar_zigzag"
+    outer:
+      x: 985
+      y: 180
+      width: 225
+      height: 168
+    inner:
+      x: 985
+      y: 180
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "GotTmamHCg"
+    outer:
+      x: 985
+      y: 349
+      width: 225
+      height: 168
+    inner:
+      x: 985
+      y: 349
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map505"
+    outer:
+      x: 985
+      y: 518
+      width: 225
+      height: 168
+    inner:
+      x: 985
+      y: 518
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "rainbow"
+    outer:
+      x: 985
+      y: 687
+      width: 225
+      height: 168
+    inner:
+      x: 985
+      y: 687
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "map_sun"
+    outer:
+      x: 1663
+      y: 856
+      width: 225
+      height: 168
+    inner:
+      x: 1663
+      y: 856
+      width: 225
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ConstructionSite"
+    outer:
+      x: 305
+      y: 272
+      width: 225
+      height: 170
+    inner:
+      x: 305
+      y: 272
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Rivendell"
+    outer:
+      x: 0
+      y: 38
+      width: 227
+      height: 193
+    inner:
+      x: 0
+      y: 38
+      width: 227
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Forest"
+    outer:
+      x: 305
+      y: 831
+      width: 227
+      height: 193
+    inner:
+      x: 305
+      y: 831
+      width: 227
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Kitchen"
+    outer:
+      x: 305
+      y: 637
+      width: 227
+      height: 193
+    inner:
+      x: 305
+      y: 637
+      width: 227
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Zone69"
+    outer:
+      x: 305
+      y: 443
+      width: 227
+      height: 193
+    inner:
+      x: 305
+      y: 443
+      width: 227
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_fast_game_background2"
+    outer:
+      x: 0
+      y: 426
+      width: 257
+      height: 193
+    inner:
+      x: 0
+      y: 426
+      width: 257
+      height: 193
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page1_fast_game_background1"
+    outer:
+      x: 0
+      y: 620
+      width: 304
+      height: 404
+    inner:
+      x: 0
+      y: 620
+      width: 304
+      height: 404
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_play_background"
+    outer:
+      x: 305
+      y: 10
+      width: 207
+      height: 90
+    inner:
+      x: 305
+      y: 10
+      width: 207
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_idle"
+    outer:
+      x: 1211
+      y: 400
+      width: 173
+      height: 62
+    inner:
+      x: 1211
+      y: 400
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_hover"
+    outer:
+      x: 1211
+      y: 463
+      width: 173
+      height: 62
+    inner:
+      x: 1211
+      y: 463
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_map_idle"
+    outer:
+      x: 282
+      y: 546
+      width: 21
+      height: 36
+    inner:
+      x: 282
+      y: 546
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_map_pressed"
+    outer:
+      x: 282
+      y: 583
+      width: 21
+      height: 36
+    inner:
+      x: 282
+      y: 583
+      width: 21
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_game_idle"
+    outer:
+      x: 258
+      y: 546
+      width: 23
+      height: 36
+    inner:
+      x: 258
+      y: 546
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_game_pressed"
+    outer:
+      x: 258
+      y: 583
+      width: 23
+      height: 36
+    inner:
+      x: 258
+      y: 583
+      width: 23
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Balance"
+    outer:
+      x: 305
+      y: 101
+      width: 225
+      height: 170
+    inner:
+      x: 305
+      y: 101
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Office"
+    outer:
+      x: 533
+      y: 854
+      width: 225
+      height: 170
+    inner:
+      x: 533
+      y: 854
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "TradeYard"
+    outer:
+      x: 533
+      y: 683
+      width: 225
+      height: 170
+    inner:
+      x: 533
+      y: 683
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Factory"
+    outer:
+      x: 533
+      y: 512
+      width: 225
+      height: 170
+    inner:
+      x: 533
+      y: 512
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Station"
+    outer:
+      x: 533
+      y: 341
+      width: 225
+      height: 170
+    inner:
+      x: 533
+      y: 341
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Greenwood"
+    outer:
+      x: 533
+      y: 170
+      width: 225
+      height: 170
+    inner:
+      x: 533
+      y: 170
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "EyesOfStruggle"
+    outer:
+      x: 759
+      y: 854
+      width: 225
+      height: 170
+    inner:
+      x: 759
+      y: 854
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Spiral"
+    outer:
+      x: 759
+      y: 683
+      width: 225
+      height: 170
+    inner:
+      x: 759
+      y: 683
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Western"
+    outer:
+      x: 759
+      y: 512
+      width: 225
+      height: 170
+    inner:
+      x: 759
+      y: 512
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Spaceport"
+    outer:
+      x: 759
+      y: 341
+      width: 225
+      height: 170
+    inner:
+      x: 759
+      y: 341
+      width: 225
+      height: 170
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

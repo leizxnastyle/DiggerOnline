@@ -1,0 +1,81 @@
+using System;
+using InventorySystem;
+
+public static class ItemsAdder
+{
+	public static void Init()
+	{
+		IS_mdl_Sword item = new IS_mdl_Sword(1, "wUnior_Knight_Sword", 10, "DWork/Prefabs/Weapons/wUnior_Knight_Sword", "unior_knight_sword", eIS_ItemType.IT_SWORD, 15, 2, 2, eIS_Sword_SUBT.SS_ONEHEND, false);
+		IS_Manager.AddItem(item);
+		item = new IS_mdl_Sword(2, "wKnight_Sword", 10, "DWork/Prefabs/Weapons/wKnight_Sword", "knight_sword", eIS_ItemType.IT_SWORD, 25, 2, 2, eIS_Sword_SUBT.SS_ONEHEND, false);
+		IS_Manager.AddItem(item);
+		item = new IS_mdl_Sword(3, "wEpic_Knight_Sword", 10, "DWork/Prefabs/Weapons/wEpic_Knight_Sword", "epic_knight_sword", eIS_ItemType.IT_SWORD, 30, 2, 2, eIS_Sword_SUBT.SS_ONEHEND, false);
+		IS_Manager.AddItem(item);
+		item = new IS_mdl_Sword(4, "wDeath_Knight_Sword", 10, "DWork/Prefabs/Weapons/wDeath_Knight_Sword", "death_knight_sword", eIS_ItemType.IT_SWORD, 35, 2, 2, eIS_Sword_SUBT.SS_ONEHEND, false);
+		IS_Manager.AddItem(item);
+		item = new IS_mdl_Sword(5, "wViking_Axe", 10, "DWork/Prefabs/Weapons/wViking_Axe", "viking_axe", eIS_ItemType.IT_SWORD, 27, 2, 2, eIS_Sword_SUBT.SS_ONEHEND, false);
+		IS_Manager.AddItem(item);
+		IS_mdl_Bow item2 = new IS_mdl_Bow(7, "wUnior_Knight_Bow", 10, "DWork/Prefabs/Weapons/wUnior_Knight_Bow", "bow_01", eIS_ItemType.IT_BOW, 10, false);
+		IS_Manager.AddItem(item2);
+		item2 = new IS_mdl_Bow(8, "wKnight_Bow", 10, "DWork/Prefabs/Weapons/wKnight_Bow", "bow_02", eIS_ItemType.IT_BOW, 20, false);
+		IS_Manager.AddItem(item2);
+		item2 = new IS_mdl_Bow(9, "wEpic_Knight_Bow", 10, "DWork/Prefabs/Weapons/wEpic_Knight_Bow", "bow_03", eIS_ItemType.IT_BOW, 30, false);
+		IS_Manager.AddItem(item2);
+		item2 = new IS_mdl_Bow(10, "wDeath_Knight_Bow", 10, "DWork/Prefabs/Weapons/wDeath_Knight_Bow", "bow_04", eIS_ItemType.IT_BOW, 35, false);
+		IS_Manager.AddItem(item2);
+		IS_mdl_Food item3 = new IS_mdl_Food(100, "fCheese", 10, "DWork/Prefabs/Weapons/fCheese", "cheese", eIS_ItemType.IT_FOOD, 5, false);
+		IS_Manager.AddItem(item3);
+		item3 = new IS_mdl_Food(101, "fFish", 10, "DWork/Prefabs/Weapons/fFish", "fish", eIS_ItemType.IT_FOOD, 10, false);
+		IS_Manager.AddItem(item3);
+		item3 = new IS_mdl_Food(102, "fMeat", 10, "DWork/Prefabs/Weapons/fMeat", "meat", eIS_ItemType.IT_FOOD, 25, false);
+		IS_Manager.AddItem(item3);
+		item3 = new IS_mdl_Food(103, "fChicken", 10, "DWork/Prefabs/Weapons/fChicken", "chicken", eIS_ItemType.IT_FOOD, 30, false);
+		IS_Manager.AddItem(item3);
+		item3 = new IS_mdl_Food(104, "fPig", 10, "DWork/Prefabs/Weapons/fPig", "pork", eIS_ItemType.IT_FOOD, 50, false);
+		IS_Manager.AddItem(item3);
+		IS_mdl_Arrow item4 = new IS_mdl_Arrow(200, "wUnior_Knight_Quiver", 10, "DWork/Prefabs/Weapons/wUnior_Knight_Quiver", "quiver_01", eIS_ItemType.IT_ARROW, 2, true, 5);
+		IS_Manager.AddItem(item4);
+		item4 = new IS_mdl_Arrow(201, "wKnight_Quiver", 10, "DWork/Prefabs/Weapons/wKnight_Quiver", "quiver_02", eIS_ItemType.IT_ARROW, 4, true, 5);
+		IS_Manager.AddItem(item4);
+		item4 = new IS_mdl_Arrow(202, "wEpic_Knight_Quiver", 10, "DWork/Prefabs/Weapons/wEpic_Knight_Quiver", "quiver_03", eIS_ItemType.IT_ARROW, 6, true, 5);
+		IS_Manager.AddItem(item4);
+		item4 = new IS_mdl_Arrow(203, "wDeath_Knight_Quiver", 10, "DWork/Prefabs/Weapons/wDeath_Knight_Quiver", "quiver_04", eIS_ItemType.IT_ARROW, 8, true, 5);
+		IS_Manager.AddItem(item4);
+		IS_mdl_Armor item5 = new IS_mdl_Armor(2000, "skin_archer", 10, string.Empty, "archer_head", eIS_ItemType.IT_ARRMOR, 1, eIS_Arrmor_SUBT.AS_HEAD, 0, false);
+		IS_Manager.AddItem(item5);
+		IS_mdl_Armor item6 = new IS_mdl_Armor(2001, "skin_archer", 10, string.Empty, "archer_body", eIS_ItemType.IT_ARRMOR, 3, eIS_Arrmor_SUBT.AS_BODY, 0, false);
+		IS_Manager.AddItem(item6);
+		IS_mdl_Armor item7 = new IS_mdl_Armor(2002, "skin_archer", 10, string.Empty, "archer_legs", eIS_ItemType.IT_ARRMOR, 2, eIS_Arrmor_SUBT.AS_LEGS, 0, false);
+		IS_Manager.AddItem(item7);
+		item5 = new IS_mdl_Armor(2003, "skin_unior_knight", 10, string.Empty, "unior_knight_head", eIS_ItemType.IT_ARRMOR, 3, eIS_Arrmor_SUBT.AS_HEAD, 1, false);
+		IS_Manager.AddItem(item5);
+		item6 = new IS_mdl_Armor(2004, "skin_unior_knight", 10, string.Empty, "unior_knight_body", eIS_ItemType.IT_ARRMOR, 5, eIS_Arrmor_SUBT.AS_BODY, 1, false);
+		IS_Manager.AddItem(item6);
+		item7 = new IS_mdl_Armor(2005, "skin_unior_knight", 10, string.Empty, "unior_knight_legs", eIS_ItemType.IT_ARRMOR, 2, eIS_Arrmor_SUBT.AS_LEGS, 1, false);
+		IS_Manager.AddItem(item7);
+		item5 = new IS_mdl_Armor(2006, "skin_viking", 10, string.Empty, "viking_head", eIS_ItemType.IT_ARRMOR, 6, eIS_Arrmor_SUBT.AS_HEAD, 2, false);
+		IS_Manager.AddItem(item5);
+		item6 = new IS_mdl_Armor(2007, "skin_viking", 10, string.Empty, "viking_body", eIS_ItemType.IT_ARRMOR, 5, eIS_Arrmor_SUBT.AS_BODY, 2, false);
+		IS_Manager.AddItem(item6);
+		item7 = new IS_mdl_Armor(2008, "skin_viking", 10, string.Empty, "viking_legs", eIS_ItemType.IT_ARRMOR, 2, eIS_Arrmor_SUBT.AS_LEGS, 2, false);
+		IS_Manager.AddItem(item7);
+		item5 = new IS_mdl_Armor(2009, "skin_knight", 10, string.Empty, "knight_head", eIS_ItemType.IT_ARRMOR, 5, eIS_Arrmor_SUBT.AS_HEAD, 3, false);
+		IS_Manager.AddItem(item5);
+		item6 = new IS_mdl_Armor(2010, "skin_knight", 10, string.Empty, "knight_body", eIS_ItemType.IT_ARRMOR, 8, eIS_Arrmor_SUBT.AS_BODY, 3, false);
+		IS_Manager.AddItem(item6);
+		item7 = new IS_mdl_Armor(2011, "skin_knight", 10, string.Empty, "knight_legs", eIS_ItemType.IT_ARRMOR, 3, eIS_Arrmor_SUBT.AS_LEGS, 3, false);
+		IS_Manager.AddItem(item7);
+		item5 = new IS_mdl_Armor(2012, "skin_epic_knight", 10, string.Empty, "epic_knight_head", eIS_ItemType.IT_ARRMOR, 6, eIS_Arrmor_SUBT.AS_HEAD, 4, false);
+		IS_Manager.AddItem(item5);
+		item6 = new IS_mdl_Armor(2013, "skin_epic_knight", 10, string.Empty, "epic_knight_body", eIS_ItemType.IT_ARRMOR, 10, eIS_Arrmor_SUBT.AS_BODY, 4, false);
+		IS_Manager.AddItem(item6);
+		item7 = new IS_mdl_Armor(2014, "skin_epic_knight", 10, string.Empty, "epic_knight_legs", eIS_ItemType.IT_ARRMOR, 4, eIS_Arrmor_SUBT.AS_LEGS, 4, false);
+		IS_Manager.AddItem(item7);
+		item5 = new IS_mdl_Armor(2015, "skin_death_knight", 10, string.Empty, "death_knight_head", eIS_ItemType.IT_ARRMOR, 8, eIS_Arrmor_SUBT.AS_HEAD, 5, false);
+		IS_Manager.AddItem(item5);
+		item6 = new IS_mdl_Armor(2016, "skin_death_knight", 10, string.Empty, "death_knight_body", eIS_ItemType.IT_ARRMOR, 10, eIS_Arrmor_SUBT.AS_BODY, 5, false);
+		IS_Manager.AddItem(item6);
+		item7 = new IS_mdl_Armor(2017, "skin_death_knight", 10, string.Empty, "death_knight_legs", eIS_ItemType.IT_ARRMOR, 5, eIS_Arrmor_SUBT.AS_LEGS, 5, false);
+		IS_Manager.AddItem(item7);
+	}
+}

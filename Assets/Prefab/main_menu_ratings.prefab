@@ -1,0 +1,657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845244}
+  - component: {fileID: 1791220415625339106}
+  m_Layer: 0
+  m_Name: "main_menu_ratings"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e95962b80e324e3c894ad27dffc61842, type: 2}
+  sprites:
+  - name: "clip_list_clipping-area"
+    outer:
+      x: 0
+      y: 720
+      width: 573
+      height: 304
+    inner:
+      x: 0
+      y: 720
+      width: 573
+      height: 304
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_background"
+    outer:
+      x: 0
+      y: 464
+      width: 517
+      height: 43
+    inner:
+      x: 0
+      y: 464
+      width: 517
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_3_icon"
+    outer:
+      x: 628
+      y: 729
+      width: 31
+      height: 31
+    inner:
+      x: 628
+      y: 729
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_2_icon"
+    outer:
+      x: 680
+      y: 723
+      width: 31
+      height: 31
+    inner:
+      x: 680
+      y: 723
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_1_icon"
+    outer:
+      x: 833
+      y: 993
+      width: 31
+      height: 31
+    inner:
+      x: 833
+      y: 993
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_3_icon"
+    outer:
+      x: 865
+      y: 993
+      width: 31
+      height: 31
+    inner:
+      x: 865
+      y: 993
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_2_icon"
+    outer:
+      x: 897
+      y: 993
+      width: 31
+      height: 31
+    inner:
+      x: 897
+      y: 993
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_1_icon"
+    outer:
+      x: 929
+      y: 993
+      width: 31
+      height: 31
+    inner:
+      x: 929
+      y: 993
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_3_3_icon"
+    outer:
+      x: 961
+      y: 993
+      width: 31
+      height: 31
+    inner:
+      x: 961
+      y: 993
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_3_2_icon"
+    outer:
+      x: 741
+      y: 894
+      width: 31
+      height: 31
+    inner:
+      x: 741
+      y: 894
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_3_1_icon"
+    outer:
+      x: 741
+      y: 862
+      width: 31
+      height: 31
+    inner:
+      x: 741
+      y: 862
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_level_icon"
+    outer:
+      x: 574
+      y: 725
+      width: 18
+      height: 19
+    inner:
+      x: 574
+      y: 725
+      width: 18
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_place_3"
+    outer:
+      x: 787
+      y: 981
+      width: 45
+      height: 43
+    inner:
+      x: 787
+      y: 981
+      width: 45
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_place_2"
+    outer:
+      x: 741
+      y: 981
+      width: 45
+      height: 43
+    inner:
+      x: 741
+      y: 981
+      width: 45
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_place_1"
+    outer:
+      x: 680
+      y: 755
+      width: 45
+      height: 43
+    inner:
+      x: 680
+      y: 755
+      width: 45
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "place_other_bsckground"
+    outer:
+      x: 680
+      y: 799
+      width: 46
+      height: 43
+    inner:
+      x: 680
+      y: 799
+      width: 46
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_selection_border"
+    outer:
+      x: 0
+      y: 508
+      width: 561
+      height: 41
+    inner:
+      x: 0
+      y: 508
+      width: 561
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slide_list_background"
+    outer:
+      x: 0
+      y: 152
+      width: 34
+      height: 311
+    inner:
+      x: 0
+      y: 152
+      width: 34
+      height: 311
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_list_background"
+    outer:
+      x: 732
+      y: 757
+      width: 8
+      height: 267
+    inner:
+      x: 732
+      y: 757
+      width: 8
+      height: 267
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_list_thumb"
+    outer:
+      x: 741
+      y: 926
+      width: 32
+      height: 54
+    inner:
+      x: 741
+      y: 926
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "base_background1"
+    outer:
+      x: 0
+      y: 550
+      width: 610
+      height: 70
+    inner:
+      x: 0
+      y: 550
+      width: 610
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_03_pressed"
+    outer:
+      x: 574
+      y: 833
+      width: 53
+      height: 45
+    inner:
+      x: 574
+      y: 833
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_03_idle"
+    outer:
+      x: 680
+      y: 981
+      width: 51
+      height: 43
+    inner:
+      x: 680
+      y: 981
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_03_hover"
+    outer:
+      x: 628
+      y: 761
+      width: 51
+      height: 43
+    inner:
+      x: 628
+      y: 761
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_02_pressed"
+    outer:
+      x: 574
+      y: 879
+      width: 53
+      height: 45
+    inner:
+      x: 574
+      y: 879
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_02_idle"
+    outer:
+      x: 628
+      y: 805
+      width: 51
+      height: 43
+    inner:
+      x: 628
+      y: 805
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_02_hover"
+    outer:
+      x: 628
+      y: 849
+      width: 51
+      height: 43
+    inner:
+      x: 628
+      y: 849
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_01_pressed"
+    outer:
+      x: 574
+      y: 925
+      width: 53
+      height: 45
+    inner:
+      x: 574
+      y: 925
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_01_idle"
+    outer:
+      x: 628
+      y: 893
+      width: 51
+      height: 43
+    inner:
+      x: 628
+      y: 893
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_icon_01_hover"
+    outer:
+      x: 628
+      y: 937
+      width: 51
+      height: 43
+    inner:
+      x: 628
+      y: 937
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "base_background2"
+    outer:
+      x: 0
+      y: 621
+      width: 610
+      height: 98
+    inner:
+      x: 0
+      y: 621
+      width: 610
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_background"
+    outer:
+      x: 574
+      y: 971
+      width: 53
+      height: 53
+    inner:
+      x: 574
+      y: 971
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 680
+      y: 843
+      width: 45
+      height: 45
+    inner:
+      x: 680
+      y: 843
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 680
+      y: 889
+      width: 45
+      height: 45
+    inner:
+      x: 680
+      y: 889
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 680
+      y: 935
+      width: 45
+      height: 45
+    inner:
+      x: 680
+      y: 935
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sarcade_p"
+    outer:
+      x: 574
+      y: 745
+      width: 51
+      height: 43
+    inner:
+      x: 574
+      y: 745
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sarcade_n"
+    outer:
+      x: 574
+      y: 789
+      width: 51
+      height: 43
+    inner:
+      x: 574
+      y: 789
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sarcade_h"
+    outer:
+      x: 628
+      y: 981
+      width: 51
+      height: 43
+    inner:
+      x: 628
+      y: 981
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

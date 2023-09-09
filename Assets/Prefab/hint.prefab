@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845234}
+  - component: {fileID: 1791220415625339096}
+  m_Layer: 0
+  m_Name: "hint"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5bd7b3883b5b4945a53d085d1d93e4a2, type: 2}
+  sprites:
+  - name: "title"
+    outer:
+      x: 0
+      y: 105
+      width: 232
+      height: 45
+    inner:
+      x: 0
+      y: 105
+      width: 232
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_pressed"
+    outer:
+      x: 0
+      y: 4
+      width: 52
+      height: 52
+    inner:
+      x: 0
+      y: 4
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_idle"
+    outer:
+      x: 54
+      y: 4
+      width: 52
+      height: 52
+    inner:
+      x: 54
+      y: 4
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_hover"
+    outer:
+      x: 108
+      y: 4
+      width: 52
+      height: 52
+    inner:
+      x: 108
+      y: 4
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background"
+    outer:
+      x: 0
+      y: 214
+      width: 466
+      height: 298
+    inner:
+      x: 0
+      y: 214
+      width: 466
+      height: 298
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background2"
+    outer:
+      x: 468
+      y: 214
+      width: 466
+      height: 298
+    inner:
+      x: 468
+      y: 214
+      width: 466
+      height: 298
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_NO_pressed"
+    outer:
+      x: 162
+      y: 4
+      width: 52
+      height: 52
+    inner:
+      x: 162
+      y: 4
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_NO_idle"
+    outer:
+      x: 256
+      y: 160
+      width: 52
+      height: 52
+    inner:
+      x: 256
+      y: 160
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_NO_over"
+    outer:
+      x: 310
+      y: 160
+      width: 52
+      height: 52
+    inner:
+      x: 310
+      y: 160
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "savetext"
+    outer:
+      x: 0
+      y: 58
+      width: 232
+      height: 45
+    inner:
+      x: 0
+      y: 58
+      width: 232
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background_up"
+    outer:
+      x: 0
+      y: 152
+      width: 254
+      height: 60
+    inner:
+      x: 0
+      y: 152
+      width: 254
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.01666667
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

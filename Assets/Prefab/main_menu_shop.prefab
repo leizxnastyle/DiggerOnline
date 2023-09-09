@@ -1,0 +1,3569 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845247}
+  - component: {fileID: 1791220415625339109}
+  m_Layer: 0
+  m_Name: "main_menu_shop"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 93d4caae9e2144729776e040755250f2, type: 2}
+  sprites:
+  - name: "clip_items_clipping-area"
+    outer:
+      x: 0
+      y: 711
+      width: 404
+      height: 313
+    inner:
+      x: 0
+      y: 711
+      width: 404
+      height: 313
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_pressed"
+    outer:
+      x: 74
+      y: 40
+      width: 74
+      height: 74
+    inner:
+      x: 74
+      y: 40
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_idle"
+    outer:
+      x: 175
+      y: 189
+      width: 74
+      height: 74
+    inner:
+      x: 175
+      y: 189
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_select_hover"
+    outer:
+      x: 250
+      y: 189
+      width: 74
+      height: 74
+    inner:
+      x: 250
+      y: 189
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_shop_items_item_image"
+    outer:
+      x: 175
+      y: 61
+      width: 57
+      height: 56
+    inner:
+      x: 175
+      y: 61
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slide_shop_background"
+    outer:
+      x: 350
+      y: 304
+      width: 34
+      height: 311
+    inner:
+      x: 350
+      y: 304
+      width: 34
+      height: 311
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_shop_background"
+    outer:
+      x: 350
+      y: 36
+      width: 8
+      height: 267
+    inner:
+      x: 350
+      y: 36
+      width: 8
+      height: 267
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_shop_thumb"
+    outer:
+      x: 978
+      y: 891
+      width: 32
+      height: 54
+    inner:
+      x: 978
+      y: 891
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "clip_icons_clipping-area"
+    outer:
+      x: 405
+      y: 842
+      width: 367
+      height: 47
+    inner:
+      x: 405
+      y: 842
+      width: 367
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_icon_pressed"
+    outer:
+      x: 385
+      y: 144
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 144
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_icon_idle"
+    outer:
+      x: 727
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_icon_hover"
+    outer:
+      x: 675
+      y: 14
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 14
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_tools_icon_pressed"
+    outer:
+      x: 385
+      y: 52
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 52
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_tools_icon_idle"
+    outer:
+      x: 675
+      y: 58
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 58
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_tools_icon_hover"
+    outer:
+      x: 675
+      y: 102
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 102
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_weapons_icon_pressed"
+    outer:
+      x: 519
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 519
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_weapons_icon_idle"
+    outer:
+      x: 675
+      y: 146
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 146
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_weapons_icon_hover"
+    outer:
+      x: 675
+      y: 190
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 190
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_icon_pressed"
+    outer:
+      x: 681
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 681
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_icon_idle"
+    outer:
+      x: 675
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_icon_hover"
+    outer:
+      x: 675
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bonuses_icon_pressed"
+    outer:
+      x: 843
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 843
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bonuses_icon_idle"
+    outer:
+      x: 935
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 935
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bonuses_icon_hover"
+    outer:
+      x: 883
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 883
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_plants_icon_pressed"
+    outer:
+      x: 465
+      y: 498
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 498
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_plants_icon_idle"
+    outer:
+      x: 831
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 831
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_plants_icon_hover"
+    outer:
+      x: 779
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_skins_icon_pressed"
+    outer:
+      x: 465
+      y: 360
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 360
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_skins_icon_idle"
+    outer:
+      x: 727
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_skins_icon_hover"
+    outer:
+      x: 675
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_maps_icon_pressed"
+    outer:
+      x: 465
+      y: 268
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 268
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_maps_icon_idle"
+    outer:
+      x: 623
+      y: 14
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 14
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_maps_icon_hover"
+    outer:
+      x: 623
+      y: 58
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 58
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_pets_icon_pressed"
+    outer:
+      x: 465
+      y: 176
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 176
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_pets_icon_idle"
+    outer:
+      x: 623
+      y: 102
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 102
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_pets_icon_hover"
+    outer:
+      x: 623
+      y: 146
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 146
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icons_background"
+    outer:
+      x: 350
+      y: 616
+      width: 437
+      height: 94
+    inner:
+      x: 350
+      y: 616
+      width: 437
+      height: 94
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_items_pressed"
+    outer:
+      x: 439
+      y: 519
+      width: 25
+      height: 38
+    inner:
+      x: 439
+      y: 519
+      width: 25
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_items_idle"
+    outer:
+      x: 439
+      y: 427
+      width: 25
+      height: 38
+    inner:
+      x: 439
+      y: 427
+      width: 25
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_items_hover"
+    outer:
+      x: 439
+      y: 473
+      width: 25
+      height: 38
+    inner:
+      x: 439
+      y: 473
+      width: 25
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_items_pressed"
+    outer:
+      x: 359
+      y: 58
+      width: 24
+      height: 40
+    inner:
+      x: 359
+      y: 58
+      width: 24
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_items_idle"
+    outer:
+      x: 359
+      y: 99
+      width: 24
+      height: 40
+    inner:
+      x: 359
+      y: 99
+      width: 24
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_items_hover"
+    outer:
+      x: 325
+      y: 223
+      width: 24
+      height: 40
+    inner:
+      x: 325
+      y: 223
+      width: 24
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_shop_background"
+    outer:
+      x: 0
+      y: 304
+      width: 174
+      height: 406
+    inner:
+      x: 0
+      y: 304
+      width: 174
+      height: 406
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_shop_item_preview_shadow"
+    outer:
+      x: 681
+      y: 515
+      width: 85
+      height: 28
+    inner:
+      x: 681
+      y: 515
+      width: 85
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_shop_item_preview"
+    outer:
+      x: 0
+      y: 12
+      width: 73
+      height: 102
+    inner:
+      x: 0
+      y: 12
+      width: 73
+      height: 102
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_item_pressed"
+    outer:
+      x: 149
+      y: 74
+      width: 25
+      height: 40
+    inner:
+      x: 149
+      y: 74
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_item_idle"
+    outer:
+      x: 359
+      y: 263
+      width: 25
+      height: 40
+    inner:
+      x: 359
+      y: 263
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_item_hover"
+    outer:
+      x: 359
+      y: 222
+      width: 25
+      height: 40
+    inner:
+      x: 359
+      y: 222
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_item_pressed"
+    outer:
+      x: 359
+      y: 181
+      width: 25
+      height: 40
+    inner:
+      x: 359
+      y: 181
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_item_idle"
+    outer:
+      x: 359
+      y: 140
+      width: 25
+      height: 40
+    inner:
+      x: 359
+      y: 140
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_item_hover"
+    outer:
+      x: 304
+      y: 148
+      width: 25
+      height: 40
+    inner:
+      x: 304
+      y: 148
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_shop_line"
+    outer:
+      x: 613
+      y: 768
+      width: 173
+      height: 73
+    inner:
+      x: 613
+      y: 768
+      width: 173
+      height: 73
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_info_pressed"
+    outer:
+      x: 978
+      y: 802
+      width: 30
+      height: 30
+    inner:
+      x: 978
+      y: 802
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_info_idle"
+    outer:
+      x: 304
+      y: 119
+      width: 26
+      height: 28
+    inner:
+      x: 304
+      y: 119
+      width: 26
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_info_hover"
+    outer:
+      x: 788
+      y: 616
+      width: 30
+      height: 30
+    inner:
+      x: 788
+      y: 616
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_upgrade_pressed"
+    outer:
+      x: 819
+      y: 616
+      width: 30
+      height: 30
+    inner:
+      x: 819
+      y: 616
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_upgrade_idle"
+    outer:
+      x: 804
+      y: 711
+      width: 28
+      height: 27
+    inner:
+      x: 804
+      y: 711
+      width: 28
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_upgrade_hover"
+    outer:
+      x: 868
+      y: 616
+      width: 30
+      height: 30
+    inner:
+      x: 868
+      y: 616
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_back_pressed"
+    outer:
+      x: 899
+      y: 616
+      width: 30
+      height: 30
+    inner:
+      x: 899
+      y: 616
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_back_idle"
+    outer:
+      x: 833
+      y: 712
+      width: 26
+      height: 26
+    inner:
+      x: 833
+      y: 712
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_back_hover"
+    outer:
+      x: 987
+      y: 467
+      width: 30
+      height: 30
+    inner:
+      x: 987
+      y: 467
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_forever_background"
+    outer:
+      x: 613
+      y: 728
+      width: 170
+      height: 39
+    inner:
+      x: 613
+      y: 728
+      width: 170
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_forever_pressed"
+    outer:
+      x: 233
+      y: 54
+      width: 79
+      height: 31
+    inner:
+      x: 233
+      y: 54
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_forever_idle"
+    outer:
+      x: 233
+      y: 86
+      width: 79
+      height: 31
+    inner:
+      x: 233
+      y: 86
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_forever_hover"
+    outer:
+      x: 74
+      y: 8
+      width: 79
+      height: 31
+    inner:
+      x: 74
+      y: 8
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_week_background"
+    outer:
+      x: 405
+      y: 723
+      width: 170
+      height: 39
+    inner:
+      x: 405
+      y: 723
+      width: 170
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_week_pressed"
+    outer:
+      x: 233
+      y: 22
+      width: 79
+      height: 31
+    inner:
+      x: 233
+      y: 22
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_week_idle"
+    outer:
+      x: 868
+      y: 679
+      width: 79
+      height: 31
+    inner:
+      x: 868
+      y: 679
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_week_hover"
+    outer:
+      x: 868
+      y: 647
+      width: 79
+      height: 31
+    inner:
+      x: 868
+      y: 647
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_day_background"
+    outer:
+      x: 175
+      y: 264
+      width: 170
+      height: 39
+    inner:
+      x: 175
+      y: 264
+      width: 170
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_day_pressed"
+    outer:
+      x: 385
+      y: 558
+      width: 79
+      height: 31
+    inner:
+      x: 385
+      y: 558
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_day_idle"
+    outer:
+      x: 788
+      y: 647
+      width: 79
+      height: 31
+    inner:
+      x: 788
+      y: 647
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_day_hover"
+    outer:
+      x: 788
+      y: 679
+      width: 79
+      height: 31
+    inner:
+      x: 788
+      y: 679
+      width: 79
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_one_background"
+    outer:
+      x: 405
+      y: 763
+      width: 207
+      height: 78
+    inner:
+      x: 405
+      y: 763
+      width: 207
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_one_pressed"
+    outer:
+      x: 0
+      y: 241
+      width: 174
+      height: 62
+    inner:
+      x: 0
+      y: 241
+      width: 174
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_one_idle"
+    outer:
+      x: 804
+      y: 802
+      width: 173
+      height: 71
+    inner:
+      x: 804
+      y: 802
+      width: 173
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_buy_one_hover"
+    outer:
+      x: 0
+      y: 115
+      width: 173
+      height: 62
+    inner:
+      x: 0
+      y: 115
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_one_price_title"
+    outer:
+      x: 613
+      y: 715
+      width: 33
+      height: 12
+    inner:
+      x: 613
+      y: 715
+      width: 33
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_one_price_icon_gold"
+    outer:
+      x: 914
+      y: 714
+      width: 24
+      height: 24
+    inner:
+      x: 914
+      y: 714
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_item_image"
+    outer:
+      x: 246
+      y: 132
+      width: 57
+      height: 56
+    inner:
+      x: 246
+      y: 132
+      width: 57
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_equip_idle"
+    outer:
+      x: 804
+      y: 874
+      width: 173
+      height: 71
+    inner:
+      x: 804
+      y: 874
+      width: 173
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "equip_background"
+    outer:
+      x: 804
+      y: 946
+      width: 207
+      height: 78
+    inner:
+      x: 804
+      y: 946
+      width: 207
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_equip_hover"
+    outer:
+      x: 0
+      y: 178
+      width: 173
+      height: 62
+    inner:
+      x: 0
+      y: 178
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_equip_pressed"
+    outer:
+      x: 804
+      y: 739
+      width: 174
+      height: 62
+    inner:
+      x: 804
+      y: 739
+      width: 174
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_cell_icon_pressed"
+    outer:
+      x: 951
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 951
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_glass_icon_hover"
+    outer:
+      x: 623
+      y: 190
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 190
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_glass_icon_idle"
+    outer:
+      x: 623
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_bonuses_icon_pressed"
+    outer:
+      x: 385
+      y: 6
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 6
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_tools_icon_pressed"
+    outer:
+      x: 385
+      y: 98
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 98
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_tools_icon_idle"
+    outer:
+      x: 623
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_rotate_right_hover"
+    outer:
+      x: 313
+      y: 13
+      width: 25
+      height: 40
+    inner:
+      x: 313
+      y: 13
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_wood_icon_hover"
+    outer:
+      x: 779
+      y: 14
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 14
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_cell_icon_hover"
+    outer:
+      x: 779
+      y: 58
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 58
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_colored_icon_pressed"
+    outer:
+      x: 465
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_bonuses_icon_idle"
+    outer:
+      x: 779
+      y: 102
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 102
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_stone_icon_idle"
+    outer:
+      x: 779
+      y: 146
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 146
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_decorations_icon_pressed"
+    outer:
+      x: 385
+      y: 190
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 190
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_nature_icon_idle"
+    outer:
+      x: 779
+      y: 190
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 190
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_rotate_left_hover"
+    outer:
+      x: 773
+      y: 849
+      width: 25
+      height: 40
+    inner:
+      x: 773
+      y: 849
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_rotate_right_pressed"
+    outer:
+      x: 576
+      y: 722
+      width: 25
+      height: 40
+    inner:
+      x: 576
+      y: 722
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_rotate_right_idle"
+    outer:
+      x: 978
+      y: 833
+      width: 25
+      height: 40
+    inner:
+      x: 978
+      y: 833
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_colored_icon_hover"
+    outer:
+      x: 935
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 935
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_wood_icon_pressed"
+    outer:
+      x: 573
+      y: 498
+      width: 53
+      height: 45
+    inner:
+      x: 573
+      y: 498
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_cell_icon_idle"
+    outer:
+      x: 883
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 883
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_rotate_left_pressed"
+    outer:
+      x: 979
+      y: 761
+      width: 25
+      height: 40
+    inner:
+      x: 979
+      y: 761
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_stone_icon_hover"
+    outer:
+      x: 831
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 831
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_wood_icon_idle"
+    outer:
+      x: 779
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_decorations_icon_idle"
+    outer:
+      x: 727
+      y: 14
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 14
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_bonuses_icon_hover"
+    outer:
+      x: 727
+      y: 58
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 58
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_glass_icon_pressed"
+    outer:
+      x: 465
+      y: 314
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 314
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_tools_icon_hover"
+    outer:
+      x: 727
+      y: 102
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 102
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_nature_icon_hover"
+    outer:
+      x: 727
+      y: 146
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 146
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_stone_icon_pressed"
+    outer:
+      x: 789
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 789
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_nature_icon_pressed"
+    outer:
+      x: 735
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 735
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_objects_decorations_icon_hover"
+    outer:
+      x: 727
+      y: 190
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 190
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_rotate_left_idle"
+    outer:
+      x: 979
+      y: 720
+      width: 25
+      height: 40
+    inner:
+      x: 979
+      y: 720
+      width: 25
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_colored_icon_idle"
+    outer:
+      x: 727
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bonuses_idle"
+    outer:
+      x: 935
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 935
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bonuses_hover"
+    outer:
+      x: 883
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 883
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_glass_pressed"
+    outer:
+      x: 465
+      y: 84
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 84
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_bonuses_pressed"
+    outer:
+      x: 627
+      y: 498
+      width: 53
+      height: 45
+    inner:
+      x: 627
+      y: 498
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_pets_idle"
+    outer:
+      x: 831
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 831
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_weapons_idle"
+    outer:
+      x: 519
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_colored_idle"
+    outer:
+      x: 519
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_skins_idle"
+    outer:
+      x: 519
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_stone_idle"
+    outer:
+      x: 519
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_colored_hover"
+    outer:
+      x: 935
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 935
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_decorations_hover"
+    outer:
+      x: 883
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 883
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_maps_hover"
+    outer:
+      x: 831
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 831
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_maps_idle"
+    outer:
+      x: 779
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_cell_idle"
+    outer:
+      x: 727
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_skins_pressed"
+    outer:
+      x: 465
+      y: 130
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 130
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_colored_pressed"
+    outer:
+      x: 465
+      y: 38
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 38
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_cell_pressed"
+    outer:
+      x: 519
+      y: 498
+      width: 53
+      height: 45
+    inner:
+      x: 519
+      y: 498
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_hover"
+    outer:
+      x: 675
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_nature_idle"
+    outer:
+      x: 623
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_glass_hover"
+    outer:
+      x: 571
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_glass_idle"
+    outer:
+      x: 519
+      y: 454
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 454
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_wood_hover"
+    outer:
+      x: 923
+      y: 500
+      width: 51
+      height: 43
+    inner:
+      x: 923
+      y: 500
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_pressed"
+    outer:
+      x: 385
+      y: 374
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 374
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_wood_pressed"
+    outer:
+      x: 385
+      y: 282
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 282
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_plants_pressed"
+    outer:
+      x: 948
+      y: 665
+      width: 53
+      height: 45
+    inner:
+      x: 948
+      y: 665
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_wood_idle"
+    outer:
+      x: 819
+      y: 500
+      width: 51
+      height: 43
+    inner:
+      x: 819
+      y: 500
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_pets_hover"
+    outer:
+      x: 767
+      y: 500
+      width: 51
+      height: 43
+    inner:
+      x: 767
+      y: 500
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_stone_hover"
+    outer:
+      x: 871
+      y: 500
+      width: 51
+      height: 43
+    inner:
+      x: 871
+      y: 500
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_cell_hover"
+    outer:
+      x: 623
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_decorations_idle"
+    outer:
+      x: 935
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 935
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_weapons_hover"
+    outer:
+      x: 883
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 883
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_decorations_pressed"
+    outer:
+      x: 573
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 573
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_idle"
+    outer:
+      x: 831
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 831
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_weapons_pressed"
+    outer:
+      x: 948
+      y: 619
+      width: 53
+      height: 45
+    inner:
+      x: 948
+      y: 619
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_plants_hover"
+    outer:
+      x: 779
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_plants_idle"
+    outer:
+      x: 727
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_tools_pressed"
+    outer:
+      x: 385
+      y: 236
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 236
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_nature_hover"
+    outer:
+      x: 675
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_nature_pressed"
+    outer:
+      x: 385
+      y: 328
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 328
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_tools_hover"
+    outer:
+      x: 623
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_stone_pressed"
+    outer:
+      x: 385
+      y: 420
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 420
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_pets_pressed"
+    outer:
+      x: 385
+      y: 466
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 466
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_maps_pressed"
+    outer:
+      x: 385
+      y: 512
+      width: 53
+      height: 45
+    inner:
+      x: 385
+      y: 512
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_skins_hover"
+    outer:
+      x: 571
+      y: 14
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 14
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_tools_idle"
+    outer:
+      x: 571
+      y: 58
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 58
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bookmark_background"
+    outer:
+      x: 405
+      y: 890
+      width: 398
+      height: 134
+    inner:
+      x: 405
+      y: 890
+      width: 398
+      height: 134
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_bookmark_fake"
+    outer:
+      x: 385
+      y: 590
+      width: 398
+      height: 25
+    inner:
+      x: 385
+      y: 590
+      width: 398
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_week_icon_gems"
+    outer:
+      x: 884
+      y: 591
+      width: 24
+      height: 24
+    inner:
+      x: 884
+      y: 591
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page2_background"
+    outer:
+      x: 175
+      y: 304
+      width: 174
+      height: 406
+    inner:
+      x: 175
+      y: 304
+      width: 174
+      height: 406
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_week_icon_gold"
+    outer:
+      x: 859
+      y: 591
+      width: 24
+      height: 24
+    inner:
+      x: 859
+      y: 591
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_forever_icon_gems"
+    outer:
+      x: 834
+      y: 591
+      width: 24
+      height: 24
+    inner:
+      x: 834
+      y: 591
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_day_icon_gold"
+    outer:
+      x: 809
+      y: 591
+      width: 24
+      height: 24
+    inner:
+      x: 809
+      y: 591
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_one_icon_gold"
+    outer:
+      x: 784
+      y: 591
+      width: 24
+      height: 24
+    inner:
+      x: 784
+      y: 591
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_one_icon_gems"
+    outer:
+      x: 325
+      y: 198
+      width: 24
+      height: 24
+    inner:
+      x: 325
+      y: 198
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_day_icon_gems"
+    outer:
+      x: 149
+      y: 49
+      width: 24
+      height: 24
+    inner:
+      x: 149
+      y: 49
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "buy_forever_icon_gold"
+    outer:
+      x: 939
+      y: 714
+      width: 24
+      height: 24
+    inner:
+      x: 939
+      y: 714
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_tile_pressed"
+    outer:
+      x: 175
+      y: 15
+      width: 53
+      height: 45
+    inner:
+      x: 175
+      y: 15
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_tile_idle"
+    outer:
+      x: 571
+      y: 102
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 102
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_blocks_tile_hover"
+    outer:
+      x: 571
+      y: 146
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 146
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_look_hover"
+    outer:
+      x: 975
+      y: 513
+      width: 30
+      height: 30
+    inner:
+      x: 975
+      y: 513
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_look_pressed"
+    outer:
+      x: 987
+      y: 423
+      width: 30
+      height: 30
+    inner:
+      x: 987
+      y: 423
+      width: 30
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_item_look_idle"
+    outer:
+      x: 887
+      y: 712
+      width: 26
+      height: 26
+    inner:
+      x: 887
+      y: 712
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "guns_icon_pressed"
+    outer:
+      x: 571
+      y: 190
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 190
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "guns_icon_over"
+    outer:
+      x: 571
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "guns_icon_neutral"
+    outer:
+      x: 571
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_stats_stat4_icon"
+    outer:
+      x: 313
+      y: 86
+      width: 30
+      height: 31
+    inner:
+      x: 313
+      y: 86
+      width: 30
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_stats_stat3_icon"
+    outer:
+      x: 313
+      y: 54
+      width: 30
+      height: 31
+    inner:
+      x: 313
+      y: 54
+      width: 30
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_stats_stat2_icon"
+    outer:
+      x: 465
+      y: 6
+      width: 30
+      height: 31
+    inner:
+      x: 465
+      y: 6
+      width: 30
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_stats_stat1_icon"
+    outer:
+      x: 350
+      y: 4
+      width: 30
+      height: 31
+    inner:
+      x: 350
+      y: 4
+      width: 30
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "locked_lock"
+    outer:
+      x: 1002
+      y: 689
+      width: 20
+      height: 21
+    inner:
+      x: 1002
+      y: 689
+      width: 20
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "locked_level"
+    outer:
+      x: 359
+      y: 36
+      width: 22
+      height: 21
+    inner:
+      x: 359
+      y: 36
+      width: 22
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "locked_lock_mask"
+    outer:
+      x: 175
+      y: 118
+      width: 70
+      height: 70
+    inner:
+      x: 175
+      y: 118
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "PACK_SHOP_ICON_pressed"
+    outer:
+      x: 571
+      y: 322
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 322
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "PACK_SHOP_ICON_neutral"
+    outer:
+      x: 571
+      y: 366
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 366
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "PACK_SHOP_ICON_over"
+    outer:
+      x: 935
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 935
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_hungry_games_icon_pressed"
+    outer:
+      x: 465
+      y: 222
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 222
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_hungry_games_icon_hover"
+    outer:
+      x: 883
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 883
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_hungry_games_icon_idle"
+    outer:
+      x: 831
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 831
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_mining_pressed"
+    outer:
+      x: 465
+      y: 406
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 406
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "gun_active"
+    outer:
+      x: 465
+      y: 452
+      width: 53
+      height: 45
+    inner:
+      x: 465
+      y: 452
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_mining_hover"
+    outer:
+      x: 779
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_gun_pressed"
+    outer:
+      x: 897
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 897
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_gun_hover"
+    outer:
+      x: 727
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 727
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_gun_idle"
+    outer:
+      x: 675
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 675
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "mining_active"
+    outer:
+      x: 627
+      y: 544
+      width: 53
+      height: 45
+    inner:
+      x: 627
+      y: 544
+      width: 53
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_mining_idle"
+    outer:
+      x: 623
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 623
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "modern_decor_icon_neutral"
+    outer:
+      x: 571
+      y: 410
+      width: 51
+      height: 43
+    inner:
+      x: 571
+      y: 410
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "modern_decor_icon_over"
+    outer:
+      x: 519
+      y: 14
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 14
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "modern_decor_icon_pressed"
+    outer:
+      x: 519
+      y: 58
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 58
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_skin_icon"
+    outer:
+      x: 519
+      y: 102
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 102
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_skin_icon_h"
+    outer:
+      x: 519
+      y: 146
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 146
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_skin_icon_p"
+    outer:
+      x: 519
+      y: 190
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 190
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Coins"
+    outer:
+      x: 784
+      y: 745
+      width: 18
+      height: 22
+    inner:
+      x: 784
+      y: 745
+      width: 18
+      height: 22
+    rotated: 0
+    paddingLeft: 0.1666667
+    paddingRight: 0.1666667
+    paddingTop: 0.04545455
+    paddingBottom: 0.04545455
+  - name: "Crystals"
+    outer:
+      x: 154
+      y: 17
+      width: 20
+      height: 22
+    inner:
+      x: 154
+      y: 17
+      width: 20
+      height: 22
+    rotated: 0
+    paddingLeft: 0.1
+    paddingRight: 0.1
+    paddingTop: 0.04545455
+    paddingBottom: 0.04545455
+  - name: "Sales25"
+    outer:
+      x: 831
+      y: 170
+      width: 68
+      height: 31
+    inner:
+      x: 831
+      y: 170
+      width: 68
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "CoinsIcon"
+    outer:
+      x: 860
+      y: 712
+      width: 26
+      height: 26
+    inner:
+      x: 860
+      y: 712
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "CrystalsIcon"
+    outer:
+      x: 987
+      y: 381
+      width: 26
+      height: 28
+    inner:
+      x: 987
+      y: 381
+      width: 26
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "NewIcon"
+    outer:
+      x: 900
+      y: 202
+      width: 68
+      height: 31
+    inner:
+      x: 900
+      y: 202
+      width: 68
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Sale50"
+    outer:
+      x: 831
+      y: 202
+      width: 68
+      height: 31
+    inner:
+      x: 831
+      y: 202
+      width: 68
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Sale25"
+    outer:
+      x: 900
+      y: 170
+      width: 68
+      height: 31
+    inner:
+      x: 900
+      y: 170
+      width: 68
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_special_decorations_hover"
+    outer:
+      x: 519
+      y: 234
+      width: 51
+      height: 43
+    inner:
+      x: 519
+      y: 234
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_special_decorations_idle"
+    outer:
+      x: 779
+      y: 278
+      width: 51
+      height: 43
+    inner:
+      x: 779
+      y: 278
+      width: 51
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

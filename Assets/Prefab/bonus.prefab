@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845228}
+  - component: {fileID: 1791220415625339090}
+  m_Layer: 0
+  m_Name: "bonus"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e780923b733240e6bd71bca7b182a8ca, type: 2}
+  sprites:
+  - name: "stages_stage1"
+    outer:
+      x: 397
+      y: 615
+      width: 49
+      height: 26
+    inner:
+      x: 397
+      y: 615
+      width: 49
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage2"
+    outer:
+      x: 297
+      y: 608
+      width: 49
+      height: 33
+    inner:
+      x: 297
+      y: 608
+      width: 49
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage3"
+    outer:
+      x: 197
+      y: 601
+      width: 49
+      height: 40
+    inner:
+      x: 197
+      y: 601
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage4"
+    outer:
+      x: 106
+      y: 462
+      width: 49
+      height: 47
+    inner:
+      x: 106
+      y: 462
+      width: 49
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage4_q"
+    outer:
+      x: 467
+      y: 948
+      width: 27
+      height: 34
+    inner:
+      x: 467
+      y: 948
+      width: 27
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage5"
+    outer:
+      x: 0
+      y: 460
+      width: 52
+      height: 49
+    inner:
+      x: 0
+      y: 460
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "gold"
+    outer:
+      x: 264
+      y: 524
+      width: 65
+      height: 70
+    inner:
+      x: 264
+      y: 524
+      width: 65
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "gems"
+    outer:
+      x: 198
+      y: 522
+      width: 65
+      height: 72
+    inner:
+      x: 198
+      y: 522
+      width: 65
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title"
+    outer:
+      x: 197
+      y: 642
+      width: 306
+      height: 83
+    inner:
+      x: 197
+      y: 642
+      width: 306
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_pressed"
+    outer:
+      x: 330
+      y: 542
+      width: 52
+      height: 52
+    inner:
+      x: 330
+      y: 542
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_idle"
+    outer:
+      x: 383
+      y: 542
+      width: 52
+      height: 52
+    inner:
+      x: 383
+      y: 542
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_hover"
+    outer:
+      x: 436
+      y: 542
+      width: 52
+      height: 52
+    inner:
+      x: 436
+      y: 542
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage5_off_1"
+    outer:
+      x: 53
+      y: 460
+      width: 52
+      height: 49
+    inner:
+      x: 53
+      y: 460
+      width: 52
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage2_on"
+    outer:
+      x: 436
+      y: 524
+      width: 49
+      height: 17
+    inner:
+      x: 436
+      y: 524
+      width: 49
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage1_on"
+    outer:
+      x: 383
+      y: 524
+      width: 49
+      height: 17
+    inner:
+      x: 383
+      y: 524
+      width: 49
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage2_off_1"
+    outer:
+      x: 347
+      y: 608
+      width: 49
+      height: 33
+    inner:
+      x: 347
+      y: 608
+      width: 49
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage4_on"
+    outer:
+      x: 447
+      y: 597
+      width: 49
+      height: 17
+    inner:
+      x: 447
+      y: 597
+      width: 49
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage3_off_1"
+    outer:
+      x: 247
+      y: 601
+      width: 49
+      height: 40
+    inner:
+      x: 247
+      y: 601
+      width: 49
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage5_on"
+    outer:
+      x: 397
+      y: 597
+      width: 49
+      height: 17
+    inner:
+      x: 397
+      y: 597
+      width: 49
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage5_off_2"
+    outer:
+      x: 467
+      y: 983
+      width: 41
+      height: 41
+    inner:
+      x: 467
+      y: 983
+      width: 41
+      height: 41
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage2_off_2"
+    outer:
+      x: 467
+      y: 886
+      width: 21
+      height: 23
+    inner:
+      x: 467
+      y: 886
+      width: 21
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage1_off_1"
+    outer:
+      x: 447
+      y: 615
+      width: 49
+      height: 26
+    inner:
+      x: 447
+      y: 615
+      width: 49
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage4_off_2"
+    outer:
+      x: 467
+      y: 910
+      width: 21
+      height: 37
+    inner:
+      x: 467
+      y: 910
+      width: 21
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage3_off_2"
+    outer:
+      x: 489
+      y: 917
+      width: 21
+      height: 30
+    inner:
+      x: 489
+      y: 917
+      width: 21
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage3_on"
+    outer:
+      x: 330
+      y: 524
+      width: 49
+      height: 17
+    inner:
+      x: 330
+      y: 524
+      width: 49
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage4_off_1"
+    outer:
+      x: 156
+      y: 462
+      width: 49
+      height: 47
+    inner:
+      x: 156
+      y: 462
+      width: 49
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stages_stage1_off_2"
+    outer:
+      x: 489
+      y: 893
+      width: 21
+      height: 16
+    inner:
+      x: 489
+      y: 893
+      width: 21
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background"
+    outer:
+      x: 0
+      y: 726
+      width: 466
+      height: 298
+    inner:
+      x: 0
+      y: 726
+      width: 466
+      height: 298
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Exp"
+    outer:
+      x: 0
+      y: 510
+      width: 197
+      height: 84
+    inner:
+      x: 0
+      y: 510
+      width: 197
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon"
+    outer:
+      x: 0
+      y: 595
+      width: 196
+      height: 130
+    inner:
+      x: 0
+      y: 595
+      width: 196
+      height: 130
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845243}
+  - component: {fileID: 1791220415625339105}
+  m_Layer: 0
+  m_Name: "main_menu_profile"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 76ec54ec2ca740529073aec53626080f, type: 2}
+  sprites:
+  - name: "stat_3_3_icon"
+    outer:
+      x: 378
+      y: 539
+      width: 125
+      height: 39
+    inner:
+      x: 378
+      y: 539
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_3_2_icon"
+    outer:
+      x: 252
+      y: 539
+      width: 125
+      height: 39
+    inner:
+      x: 252
+      y: 539
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_3_1_icon"
+    outer:
+      x: 126
+      y: 539
+      width: 125
+      height: 39
+    inner:
+      x: 126
+      y: 539
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_4_icon"
+    outer:
+      x: 0
+      y: 539
+      width: 125
+      height: 39
+    inner:
+      x: 0
+      y: 539
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_3_icon"
+    outer:
+      x: 313
+      y: 633
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 633
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_2_icon"
+    outer:
+      x: 313
+      y: 673
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 673
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_2_1_icon"
+    outer:
+      x: 313
+      y: 713
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 713
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_4_icon"
+    outer:
+      x: 313
+      y: 753
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 753
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_3_icon"
+    outer:
+      x: 313
+      y: 793
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 793
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_2_icon"
+    outer:
+      x: 313
+      y: 833
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 833
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_1_1_icon"
+    outer:
+      x: 313
+      y: 873
+      width: 125
+      height: 39
+    inner:
+      x: 313
+      y: 873
+      width: 125
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "experience_bar_background"
+    outer:
+      x: 0
+      y: 579
+      width: 254
+      height: 32
+    inner:
+      x: 0
+      y: 579
+      width: 254
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "experience_bar_cur"
+    outer:
+      x: 255
+      y: 601
+      width: 194
+      height: 10
+    inner:
+      x: 255
+      y: 601
+      width: 194
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "experience_next_level"
+    outer:
+      x: 452
+      y: 926
+      width: 26
+      height: 22
+    inner:
+      x: 452
+      y: 926
+      width: 26
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "experience_cur_level"
+    outer:
+      x: 425
+      y: 926
+      width: 26
+      height: 22
+    inner:
+      x: 425
+      y: 926
+      width: 26
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page_01_icon_level"
+    outer:
+      x: 479
+      y: 925
+      width: 22
+      height: 23
+    inner:
+      x: 479
+      y: 925
+      width: 22
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page_02_backgound"
+    outer:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    inner:
+      x: 0
+      y: 612
+      width: 312
+      height: 412
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Unban"
+    outer:
+      x: 313
+      y: 913
+      width: 111
+      height: 111
+    inner:
+      x: 313
+      y: 913
+      width: 111
+      height: 111
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "unbanned_icon_75"
+    outer:
+      x: 425
+      y: 949
+      width: 75
+      height: 75
+    inner:
+      x: 425
+      y: 949
+      width: 75
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Sign1"
+    outer:
+      x: 439
+      y: 648
+      width: 64
+      height: 64
+    inner:
+      x: 439
+      y: 648
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Sign2"
+    outer:
+      x: 0
+      y: 474
+      width: 64
+      height: 64
+    inner:
+      x: 0
+      y: 474
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Sign3"
+    outer:
+      x: 65
+      y: 474
+      width: 64
+      height: 64
+    inner:
+      x: 65
+      y: 474
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

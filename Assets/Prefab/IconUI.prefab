@@ -1,0 +1,993 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845267}
+  - component: {fileID: 1791220415625339129}
+  m_Layer: 0
+  m_Name: "IconUI"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b5779dfc5806496c967410f8b6c476a5, type: 2}
+  sprites:
+  - name: "icon_menu_rating"
+    outer:
+      x: 325
+      y: 25
+      width: 67
+      height: 70
+    inner:
+      x: 325
+      y: 25
+      width: 67
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_menu_settings"
+    outer:
+      x: 249
+      y: 96
+      width: 75
+      height: 75
+    inner:
+      x: 249
+      y: 96
+      width: 75
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_menu_medal"
+    outer:
+      x: 151
+      y: 40
+      width: 77
+      height: 81
+    inner:
+      x: 151
+      y: 40
+      width: 77
+      height: 81
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_menu_ach"
+    outer:
+      x: 394
+      y: 65
+      width: 79
+      height: 64
+    inner:
+      x: 394
+      y: 65
+      width: 79
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_menu_chest"
+    outer:
+      x: 0
+      y: 3
+      width: 75
+      height: 70
+    inner:
+      x: 0
+      y: 3
+      width: 75
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_menu_topmap"
+    outer:
+      x: 581
+      y: 374
+      width: 69
+      height: 68
+    inner:
+      x: 581
+      y: 374
+      width: 69
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_2"
+    outer:
+      x: 649
+      y: 94
+      width: 67
+      height: 69
+    inner:
+      x: 649
+      y: 94
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_3"
+    outer:
+      x: 474
+      y: 5
+      width: 64
+      height: 53
+    inner:
+      x: 474
+      y: 5
+      width: 64
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_star"
+    outer:
+      x: 581
+      y: 303
+      width: 67
+      height: 70
+    inner:
+      x: 581
+      y: 303
+      width: 67
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_4"
+    outer:
+      x: 908
+      y: 327
+      width: 64
+      height: 46
+    inner:
+      x: 908
+      y: 327
+      width: 64
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_5"
+    outer:
+      x: 935
+      y: 519
+      width: 80
+      height: 65
+    inner:
+      x: 935
+      y: 519
+      width: 80
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_star_call_7"
+    outer:
+      x: 860
+      y: 660
+      width: 74
+      height: 74
+    inner:
+      x: 860
+      y: 660
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_ach"
+    outer:
+      x: 936
+      y: 446
+      width: 71
+      height: 67
+    inner:
+      x: 936
+      y: 446
+      width: 71
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_0"
+    outer:
+      x: 649
+      y: 304
+      width: 67
+      height: 69
+    inner:
+      x: 649
+      y: 304
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_6"
+    outer:
+      x: 935
+      y: 585
+      width: 72
+      height: 74
+    inner:
+      x: 935
+      y: 585
+      width: 72
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_new"
+    outer:
+      x: 394
+      y: 5
+      width: 78
+      height: 59
+    inner:
+      x: 394
+      y: 5
+      width: 78
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_8"
+    outer:
+      x: 925
+      y: 380
+      width: 61
+      height: 62
+    inner:
+      x: 925
+      y: 380
+      width: 61
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_5"
+    outer:
+      x: 649
+      y: 234
+      width: 67
+      height: 69
+    inner:
+      x: 649
+      y: 234
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_gem"
+    outer:
+      x: 539
+      y: 15
+      width: 39
+      height: 43
+    inner:
+      x: 539
+      y: 15
+      width: 39
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_gold"
+    outer:
+      x: 788
+      y: 737
+      width: 35
+      height: 38
+    inner:
+      x: 788
+      y: 737
+      width: 35
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_4"
+    outer:
+      x: 792
+      y: 379
+      width: 71
+      height: 63
+    inner:
+      x: 792
+      y: 379
+      width: 71
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_7"
+    outer:
+      x: 717
+      y: 301
+      width: 64
+      height: 72
+    inner:
+      x: 717
+      y: 301
+      width: 64
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_5"
+    outer:
+      x: 364
+      y: 245
+      width: 25
+      height: 53
+    inner:
+      x: 364
+      y: 245
+      width: 25
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_1"
+    outer:
+      x: 649
+      y: 164
+      width: 67
+      height: 69
+    inner:
+      x: 649
+      y: 164
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_1"
+    outer:
+      x: 782
+      y: 301
+      width: 61
+      height: 72
+    inner:
+      x: 782
+      y: 301
+      width: 61
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_7"
+    outer:
+      x: 864
+      y: 378
+      width: 60
+      height: 64
+    inner:
+      x: 864
+      y: 378
+      width: 60
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_star_call_30"
+    outer:
+      x: 860
+      y: 585
+      width: 74
+      height: 74
+    inner:
+      x: 860
+      y: 585
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_8"
+    outer:
+      x: 76
+      y: 2
+      width: 71
+      height: 71
+    inner:
+      x: 76
+      y: 2
+      width: 71
+      height: 71
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_3"
+    outer:
+      x: 723
+      y: 376
+      width: 68
+      height: 66
+    inner:
+      x: 723
+      y: 376
+      width: 68
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_3"
+    outer:
+      x: 649
+      y: 24
+      width: 67
+      height: 69
+    inner:
+      x: 649
+      y: 24
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_bookmarks_2"
+    outer:
+      x: 717
+      y: 226
+      width: 61
+      height: 74
+    inner:
+      x: 717
+      y: 226
+      width: 61
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_lead"
+    outer:
+      x: 651
+      y: 376
+      width: 71
+      height: 66
+    inner:
+      x: 651
+      y: 376
+      width: 71
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_4"
+    outer:
+      x: 581
+      y: 87
+      width: 67
+      height: 69
+    inner:
+      x: 581
+      y: 87
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_6"
+    outer:
+      x: 581
+      y: 230
+      width: 65
+      height: 72
+    inner:
+      x: 581
+      y: 230
+      width: 65
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_star_call"
+    outer:
+      x: 935
+      y: 660
+      width: 74
+      height: 74
+    inner:
+      x: 935
+      y: 660
+      width: 74
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_7"
+    outer:
+      x: 844
+      y: 320
+      width: 63
+      height: 53
+    inner:
+      x: 844
+      y: 320
+      width: 63
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_blockset_6"
+    outer:
+      x: 581
+      y: 17
+      width: 67
+      height: 69
+    inner:
+      x: 581
+      y: 17
+      width: 67
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_1"
+    outer:
+      x: 325
+      y: 99
+      width: 66
+      height: 72
+    inner:
+      x: 325
+      y: 99
+      width: 66
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_form_2"
+    outer:
+      x: 581
+      y: 157
+      width: 65
+      height: 72
+    inner:
+      x: 581
+      y: 157
+      width: 65
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "chest1"
+    outer:
+      x: 249
+      y: 299
+      width: 131
+      height: 145
+    inner:
+      x: 249
+      y: 299
+      width: 131
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "chest5"
+    outer:
+      x: 788
+      y: 776
+      width: 218
+      height: 248
+    inner:
+      x: 788
+      y: 776
+      width: 218
+      height: 248
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "chest3"
+    outer:
+      x: 637
+      y: 542
+      width: 222
+      height: 192
+    inner:
+      x: 637
+      y: 542
+      width: 222
+      height: 192
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "chest4"
+    outer:
+      x: 394
+      y: 281
+      width: 186
+      height: 232
+    inner:
+      x: 394
+      y: 281
+      width: 186
+      height: 232
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "chest2"
+    outer:
+      x: 394
+      y: 130
+      width: 167
+      height: 150
+    inner:
+      x: 394
+      y: 130
+      width: 167
+      height: 150
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_star"
+    outer:
+      x: 474
+      y: 59
+      width: 70
+      height: 70
+    inner:
+      x: 474
+      y: 59
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_rip"
+    outer:
+      x: 581
+      y: 443
+      width: 70
+      height: 70
+    inner:
+      x: 581
+      y: 443
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_medals"
+    outer:
+      x: 652
+      y: 443
+      width: 70
+      height: 70
+    inner:
+      x: 652
+      y: 443
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_kills"
+    outer:
+      x: 723
+      y: 443
+      width: 70
+      height: 70
+    inner:
+      x: 723
+      y: 443
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_flag"
+    outer:
+      x: 794
+      y: 443
+      width: 70
+      height: 70
+    inner:
+      x: 794
+      y: 443
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_set_cube"
+    outer:
+      x: 865
+      y: 443
+      width: 70
+      height: 70
+    inner:
+      x: 865
+      y: 443
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_dest_cube"
+    outer:
+      x: 860
+      y: 514
+      width: 70
+      height: 70
+    inner:
+      x: 860
+      y: 514
+      width: 70
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stat_bg"
+    outer:
+      x: 0
+      y: 74
+      width: 150
+      height: 47
+    inner:
+      x: 0
+      y: 74
+      width: 150
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_random"
+    outer:
+      x: 0
+      y: 445
+      width: 393
+      height: 289
+    inner:
+      x: 0
+      y: 445
+      width: 393
+      height: 289
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_building"
+    outer:
+      x: 394
+      y: 735
+      width: 393
+      height: 289
+    inner:
+      x: 394
+      y: 735
+      width: 393
+      height: 289
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "video"
+    outer:
+      x: 394
+      y: 514
+      width: 242
+      height: 220
+    inner:
+      x: 394
+      y: 514
+      width: 242
+      height: 220
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "happy"
+    outer:
+      x: 249
+      y: 172
+      width: 114
+      height: 126
+    inner:
+      x: 249
+      y: 172
+      width: 114
+      height: 126
+    rotated: 0
+    paddingLeft: 0.05263158
+    paddingRight: 0.05263158
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "container_05"
+    outer:
+      x: 0
+      y: 122
+      width: 248
+      height: 322
+    inner:
+      x: 0
+      y: 122
+      width: 248
+      height: 322
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "icon_menu_news"
+    outer:
+      x: 249
+      y: 21
+      width: 75
+      height: 74
+    inner:
+      x: 249
+      y: 21
+      width: 75
+      height: 74
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "game_types_build_and_show"
+    outer:
+      x: 0
+      y: 735
+      width: 393
+      height: 289
+    inner:
+      x: 0
+      y: 735
+      width: 393
+      height: 289
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845252}
+  - component: {fileID: 1791220415625339114}
+  m_Layer: 0
+  m_Name: "player_levels"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5187119ee7094f2791c13b2a73438655, type: 2}
+  sprites:
+  - name: "level_1"
+    outer:
+      x: 112
+      y: 154
+      width: 36
+      height: 32
+    inner:
+      x: 112
+      y: 154
+      width: 36
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_2"
+    outer:
+      x: 0
+      y: 80
+      width: 38
+      height: 33
+    inner:
+      x: 0
+      y: 80
+      width: 38
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_3"
+    outer:
+      x: 205
+      y: 222
+      width: 38
+      height: 34
+    inner:
+      x: 205
+      y: 222
+      width: 38
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_4"
+    outer:
+      x: 80
+      y: 188
+      width: 40
+      height: 30
+    inner:
+      x: 80
+      y: 188
+      width: 40
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_5"
+    outer:
+      x: 0
+      y: 149
+      width: 37
+      height: 34
+    inner:
+      x: 0
+      y: 149
+      width: 37
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_6"
+    outer:
+      x: 82
+      y: 222
+      width: 40
+      height: 34
+    inner:
+      x: 82
+      y: 222
+      width: 40
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_7"
+    outer:
+      x: 41
+      y: 220
+      width: 40
+      height: 36
+    inner:
+      x: 41
+      y: 220
+      width: 40
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_8"
+    outer:
+      x: 39
+      y: 82
+      width: 32
+      height: 34
+    inner:
+      x: 39
+      y: 82
+      width: 32
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_9"
+    outer:
+      x: 0
+      y: 13
+      width: 38
+      height: 32
+    inner:
+      x: 0
+      y: 13
+      width: 38
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_10"
+    outer:
+      x: 0
+      y: 184
+      width: 38
+      height: 34
+    inner:
+      x: 0
+      y: 184
+      width: 38
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_11"
+    outer:
+      x: 0
+      y: 219
+      width: 40
+      height: 37
+    inner:
+      x: 0
+      y: 219
+      width: 40
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_12"
+    outer:
+      x: 0
+      y: 46
+      width: 38
+      height: 33
+    inner:
+      x: 0
+      y: 46
+      width: 38
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_13"
+    outer:
+      x: 75
+      y: 153
+      width: 36
+      height: 33
+    inner:
+      x: 75
+      y: 153
+      width: 36
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_14"
+    outer:
+      x: 39
+      y: 187
+      width: 40
+      height: 31
+    inner:
+      x: 39
+      y: 187
+      width: 40
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_15"
+    outer:
+      x: 163
+      y: 224
+      width: 41
+      height: 32
+    inner:
+      x: 163
+      y: 224
+      width: 41
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_16"
+    outer:
+      x: 0
+      y: 114
+      width: 37
+      height: 34
+    inner:
+      x: 0
+      y: 114
+      width: 37
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_17"
+    outer:
+      x: 39
+      y: 50
+      width: 34
+      height: 31
+    inner:
+      x: 39
+      y: 50
+      width: 34
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_18"
+    outer:
+      x: 121
+      y: 187
+      width: 38
+      height: 31
+    inner:
+      x: 121
+      y: 187
+      width: 38
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_19"
+    outer:
+      x: 200
+      y: 187
+      width: 35
+      height: 31
+    inner:
+      x: 200
+      y: 187
+      width: 35
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_20"
+    outer:
+      x: 220
+      y: 158
+      width: 35
+      height: 28
+    inner:
+      x: 220
+      y: 158
+      width: 35
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_21"
+    outer:
+      x: 39
+      y: 117
+      width: 34
+      height: 34
+    inner:
+      x: 39
+      y: 117
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_22"
+    outer:
+      x: 123
+      y: 222
+      width: 39
+      height: 34
+    inner:
+      x: 123
+      y: 222
+      width: 39
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_23"
+    outer:
+      x: 140
+      y: 123
+      width: 32
+      height: 29
+    inner:
+      x: 140
+      y: 123
+      width: 32
+      height: 29
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_24"
+    outer:
+      x: 39
+      y: 18
+      width: 33
+      height: 31
+    inner:
+      x: 39
+      y: 18
+      width: 33
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_25"
+    outer:
+      x: 107
+      y: 122
+      width: 32
+      height: 30
+    inner:
+      x: 107
+      y: 122
+      width: 32
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_26"
+    outer:
+      x: 160
+      y: 188
+      width: 39
+      height: 30
+    inner:
+      x: 160
+      y: 188
+      width: 39
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_27"
+    outer:
+      x: 75
+      y: 121
+      width: 31
+      height: 31
+    inner:
+      x: 75
+      y: 121
+      width: 31
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_28"
+    outer:
+      x: 186
+      y: 156
+      width: 33
+      height: 30
+    inner:
+      x: 186
+      y: 156
+      width: 33
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_29"
+    outer:
+      x: 149
+      y: 154
+      width: 36
+      height: 32
+    inner:
+      x: 149
+      y: 154
+      width: 36
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "level_30"
+    outer:
+      x: 39
+      y: 152
+      width: 35
+      height: 34
+    inner:
+      x: 39
+      y: 152
+      width: 35
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

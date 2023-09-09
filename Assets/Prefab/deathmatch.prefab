@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845231
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845231}
+  - component: {fileID: 1791220415625339093}
+  m_Layer: 0
+  m_Name: "deathmatch"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 158dabe95e514cc8b9872ff0f06254c7, type: 2}
+  sprites:
+  - name: "background1"
+    outer:
+      x: 0
+      y: 49
+      width: 470
+      height: 463
+    inner:
+      x: 0
+      y: 49
+      width: 470
+      height: 463
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_level"
+    outer:
+      x: 471
+      y: 9
+      width: 26
+      height: 24
+    inner:
+      x: 471
+      y: 9
+      width: 26
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "title_page"
+    outer:
+      x: 0
+      y: 2
+      width: 470
+      height: 46
+    inner:
+      x: 0
+      y: 2
+      width: 470
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_chat_background"
+    outer:
+      x: 471
+      y: 34
+      width: 46
+      height: 46
+    inner:
+      x: 471
+      y: 34
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ckb_chat_checkmark"
+    outer:
+      x: 471
+      y: 81
+      width: 46
+      height: 46
+    inner:
+      x: 471
+      y: 81
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_observe_background"
+    outer:
+      x: 737
+      y: 449
+      width: 200
+      height: 63
+    inner:
+      x: 737
+      y: 449
+      width: 200
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_observe_pressed"
+    outer:
+      x: 703
+      y: 315
+      width: 174
+      height: 43
+    inner:
+      x: 703
+      y: 315
+      width: 174
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_observe_idle"
+    outer:
+      x: 703
+      y: 271
+      width: 174
+      height: 43
+    inner:
+      x: 703
+      y: 271
+      width: 174
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_observe_hover"
+    outer:
+      x: 703
+      y: 227
+      width: 174
+      height: 43
+    inner:
+      x: 703
+      y: 227
+      width: 174
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_play_background"
+    outer:
+      x: 529
+      y: 422
+      width: 207
+      height: 90
+    inner:
+      x: 529
+      y: 422
+      width: 207
+      height: 90
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_pressed"
+    outer:
+      x: 529
+      y: 359
+      width: 174
+      height: 62
+    inner:
+      x: 529
+      y: 359
+      width: 174
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_idle"
+    outer:
+      x: 704
+      y: 359
+      width: 173
+      height: 62
+    inner:
+      x: 704
+      y: 359
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_play_hover"
+    outer:
+      x: 529
+      y: 296
+      width: 173
+      height: 62
+    inner:
+      x: 529
+      y: 296
+      width: 173
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_background"
+    outer:
+      x: 471
+      y: 128
+      width: 53
+      height: 53
+    inner:
+      x: 471
+      y: 128
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 938
+      y: 467
+      width: 45
+      height: 45
+    inner:
+      x: 938
+      y: 467
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 878
+      y: 376
+      width: 45
+      height: 45
+    inner:
+      x: 878
+      y: 376
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 924
+      y: 376
+      width: 45
+      height: 45
+    inner:
+      x: 924
+      y: 376
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slide_players_background"
+    outer:
+      x: 471
+      y: 182
+      width: 57
+      height: 330
+    inner:
+      x: 471
+      y: 182
+      width: 57
+      height: 330
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_players_background"
+    outer:
+      x: 529
+      y: 22
+      width: 7
+      height: 273
+    inner:
+      x: 529
+      y: 22
+      width: 7
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sld_ver_players_thumb"
+    outer:
+      x: 970
+      y: 367
+      width: 32
+      height: 54
+    inner:
+      x: 970
+      y: 367
+      width: 32
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

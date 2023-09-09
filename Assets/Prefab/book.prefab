@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845229}
+  - component: {fileID: 1791220415625339091}
+  m_Layer: 0
+  m_Name: "book"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e6a5d48fe21d4832ae70bf746e10050e, type: 2}
+  sprites:
+  - name: "background"
+    outer:
+      x: 0
+      y: 22
+      width: 760
+      height: 490
+    inner:
+      x: 0
+      y: 22
+      width: 760
+      height: 490
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page_num_right"
+    outer:
+      x: 902
+      y: 430
+      width: 39
+      height: 31
+    inner:
+      x: 902
+      y: 430
+      width: 39
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "page_num_left"
+    outer:
+      x: 902
+      y: 398
+      width: 39
+      height: 31
+    inner:
+      x: 902
+      y: 398
+      width: 39
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 969
+      y: 417
+      width: 48
+      height: 47
+    inner:
+      x: 969
+      y: 417
+      width: 48
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 857
+      y: 418
+      width: 44
+      height: 43
+    inner:
+      x: 857
+      y: 418
+      width: 44
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 969
+      y: 465
+      width: 48
+      height: 47
+    inner:
+      x: 969
+      y: 465
+      width: 48
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_pressed"
+    outer:
+      x: 813
+      y: 462
+      width: 51
+      height: 50
+    inner:
+      x: 813
+      y: 462
+      width: 51
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_idle"
+    outer:
+      x: 809
+      y: 415
+      width: 47
+      height: 46
+    inner:
+      x: 809
+      y: 415
+      width: 47
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_next_hover"
+    outer:
+      x: 761
+      y: 462
+      width: 51
+      height: 50
+    inner:
+      x: 761
+      y: 462
+      width: 51
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_pressed"
+    outer:
+      x: 917
+      y: 462
+      width: 51
+      height: 50
+    inner:
+      x: 917
+      y: 462
+      width: 51
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_idle"
+    outer:
+      x: 761
+      y: 415
+      width: 47
+      height: 46
+    inner:
+      x: 761
+      y: 415
+      width: 47
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_prev_hover"
+    outer:
+      x: 865
+      y: 462
+      width: 51
+      height: 50
+    inner:
+      x: 865
+      y: 462
+      width: 51
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

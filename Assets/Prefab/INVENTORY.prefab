@@ -1,0 +1,497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845222}
+  - component: {fileID: 1791220415625339084}
+  m_Layer: 0
+  m_Name: "INVENTORY"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b4368d80afdb444aac133eef8d1fe2a1, type: 2}
+  sprites:
+  - name: "inventory"
+    outer:
+      x: 0
+      y: 97
+      width: 608
+      height: 402
+    inner:
+      x: 0
+      y: 97
+      width: 608
+      height: 402
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_damage"
+    outer:
+      x: 442
+      y: 9
+      width: 20
+      height: 20
+    inner:
+      x: 442
+      y: 9
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_armor"
+    outer:
+      x: 463
+      y: 9
+      width: 20
+      height: 20
+    inner:
+      x: 463
+      y: 9
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_health"
+    outer:
+      x: 484
+      y: 9
+      width: 20
+      height: 20
+    inner:
+      x: 484
+      y: 9
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_skin"
+    outer:
+      x: 1423
+      y: 583
+      width: 131
+      height: 226
+    inner:
+      x: 1423
+      y: 583
+      width: 131
+      height: 226
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_left_arrow_idle"
+    outer:
+      x: 576
+      y: 64
+      width: 17
+      height: 32
+    inner:
+      x: 576
+      y: 64
+      width: 17
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_left_arrow_hover"
+    outer:
+      x: 576
+      y: 31
+      width: 17
+      height: 32
+    inner:
+      x: 576
+      y: 31
+      width: 17
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_left_arrow_pressed"
+    outer:
+      x: 686
+      y: 467
+      width: 17
+      height: 32
+    inner:
+      x: 686
+      y: 467
+      width: 17
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_right_arrow_pressed"
+    outer:
+      x: 686
+      y: 434
+      width: 17
+      height: 32
+    inner:
+      x: 686
+      y: 434
+      width: 17
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_right_arrow_idle"
+    outer:
+      x: 686
+      y: 401
+      width: 17
+      height: 32
+    inner:
+      x: 686
+      y: 401
+      width: 17
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_right_arrow_hover"
+    outer:
+      x: 686
+      y: 368
+      width: 17
+      height: 32
+    inner:
+      x: 686
+      y: 368
+      width: 17
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_power_ups_icon"
+    outer:
+      x: 0
+      y: 20
+      width: 220
+      height: 76
+    inner:
+      x: 0
+      y: 20
+      width: 220
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_weapons_icon"
+    outer:
+      x: 221
+      y: 20
+      width: 220
+      height: 76
+    inner:
+      x: 221
+      y: 20
+      width: 220
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "armor_iShadow"
+    outer:
+      x: 609
+      y: 287
+      width: 76
+      height: 212
+    inner:
+      x: 609
+      y: 287
+      width: 76
+      height: 212
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "armor_Head"
+    outer:
+      x: 442
+      y: 30
+      width: 66
+      height: 66
+    inner:
+      x: 442
+      y: 30
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "armor_Body"
+    outer:
+      x: 509
+      y: 30
+      width: 66
+      height: 66
+    inner:
+      x: 509
+      y: 30
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "armor_Legs"
+    outer:
+      x: 609
+      y: 220
+      width: 66
+      height: 66
+    inner:
+      x: 609
+      y: 220
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "places_paces_shedow"
+    outer:
+      x: 721
+      y: 167
+      width: 348
+      height: 356
+    inner:
+      x: 721
+      y: 167
+      width: 348
+      height: 356
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "places_place_one"
+    outer:
+      x: 609
+      y: 153
+      width: 66
+      height: 66
+    inner:
+      x: 609
+      y: 153
+      width: 66
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "places_places_all"
+    outer:
+      x: 1070
+      y: 177
+      width: 338
+      height: 346
+    inner:
+      x: 1070
+      y: 177
+      width: 338
+      height: 346
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_title"
+    outer:
+      x: 721
+      y: 121
+      width: 348
+      height: 45
+    inner:
+      x: 721
+      y: 121
+      width: 348
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_frame"
+    outer:
+      x: 0
+      y: 500
+      width: 720
+      height: 524
+    inner:
+      x: 0
+      y: 500
+      width: 720
+      height: 524
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_decor"
+    outer:
+      x: 721
+      y: 524
+      width: 701
+      height: 500
+    inner:
+      x: 721
+      y: 524
+      width: 701
+      height: 500
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "inventory_button_close"
+    outer:
+      x: 609
+      y: 99
+      width: 53
+      height: 53
+    inner:
+      x: 609
+      y: 99
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 663
+      y: 107
+      width: 45
+      height: 45
+    inner:
+      x: 663
+      y: 107
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 609
+      y: 53
+      width: 45
+      height: 45
+    inner:
+      x: 609
+      y: 53
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 609
+      y: 7
+      width: 45
+      height: 45
+    inner:
+      x: 609
+      y: 7
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "tooltype"
+    outer:
+      x: 1423
+      y: 810
+      width: 200
+      height: 214
+    inner:
+      x: 1518
+      y: 901
+      width: 10
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

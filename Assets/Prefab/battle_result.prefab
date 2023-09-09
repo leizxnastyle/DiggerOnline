@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845227}
+  - component: {fileID: 1791220415625339089}
+  m_Layer: 0
+  m_Name: "battle_result"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 98cb156e21fe42a6afa9da7476d86078, type: 2}
+  sprites:
+  - name: "lose_screen"
+    outer:
+      x: 0
+      y: 93
+      width: 470
+      height: 406
+    inner:
+      x: 0
+      y: 93
+      width: 470
+      height: 406
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "win_screen"
+    outer:
+      x: 471
+      y: 93
+      width: 470
+      height: 406
+    inner:
+      x: 471
+      y: 93
+      width: 470
+      height: 406
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "win_title"
+    outer:
+      x: 752
+      y: 979
+      width: 242
+      height: 45
+    inner:
+      x: 752
+      y: 979
+      width: 242
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_ok_background"
+    outer:
+      x: 581
+      y: 949
+      width: 170
+      height: 75
+    inner:
+      x: 581
+      y: 949
+      width: 170
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_pressed"
+    outer:
+      x: 581
+      y: 741
+      width: 52
+      height: 52
+    inner:
+      x: 581
+      y: 741
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_hover"
+    outer:
+      x: 581
+      y: 635
+      width: 52
+      height: 52
+    inner:
+      x: 581
+      y: 635
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "button_close_background"
+    outer:
+      x: 581
+      y: 794
+      width: 53
+      height: 53
+    inner:
+      x: 581
+      y: 794
+      width: 53
+      height: 53
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_pressed"
+    outer:
+      x: 635
+      y: 802
+      width: 45
+      height: 45
+    inner:
+      x: 635
+      y: 802
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_hover"
+    outer:
+      x: 581
+      y: 543
+      width: 45
+      height: 45
+    inner:
+      x: 581
+      y: 543
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_score_icon"
+    outer:
+      x: 947
+      y: 952
+      width: 26
+      height: 26
+    inner:
+      x: 947
+      y: 952
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_coins_icon"
+    outer:
+      x: 995
+      y: 998
+      width: 26
+      height: 26
+    inner:
+      x: 995
+      y: 998
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_bar_background"
+    outer:
+      x: 581
+      y: 883
+      width: 254
+      height: 32
+    inner:
+      x: 581
+      y: 883
+      width: 254
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_bar_cur"
+    outer:
+      x: 752
+      y: 968
+      width: 194
+      height: 10
+    inner:
+      x: 752
+      y: 968
+      width: 194
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_next_level"
+    outer:
+      x: 890
+      y: 926
+      width: 26
+      height: 22
+    inner:
+      x: 890
+      y: 926
+      width: 26
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_cur_level"
+    outer:
+      x: 917
+      y: 926
+      width: 26
+      height: 22
+    inner:
+      x: 917
+      y: 926
+      width: 26
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_ok_idle"
+    outer:
+      x: 581
+      y: 688
+      width: 52
+      height: 52
+    inner:
+      x: 581
+      y: 688
+      width: 52
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_close_idle"
+    outer:
+      x: 581
+      y: 589
+      width: 45
+      height: 45
+    inner:
+      x: 581
+      y: 589
+      width: 45
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "exp_premium_enabled_icon"
+    outer:
+      x: 775
+      y: 848
+      width: 96
+      height: 34
+    inner:
+      x: 775
+      y: 848
+      width: 96
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_exp_premium_disabled"
+    outer:
+      x: 678
+      y: 848
+      width: 96
+      height: 34
+    inner:
+      x: 678
+      y: 848
+      width: 96
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "exp_enabled_icon"
+    outer:
+      x: 974
+      y: 952
+      width: 26
+      height: 26
+    inner:
+      x: 974
+      y: 952
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_exp_disabled"
+    outer:
+      x: 836
+      y: 922
+      width: 26
+      height: 26
+    inner:
+      x: 836
+      y: 922
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_exp_enabled"
+    outer:
+      x: 863
+      y: 922
+      width: 26
+      height: 26
+    inner:
+      x: 863
+      y: 922
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "stats_exp_premium_enabled"
+    outer:
+      x: 581
+      y: 848
+      width: 96
+      height: 34
+    inner:
+      x: 581
+      y: 848
+      width: 96
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "background"
+    outer:
+      x: 0
+      y: 500
+      width: 580
+      height: 524
+    inner:
+      x: 0
+      y: 500
+      width: 580
+      height: 524
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "exp_premium_text_icon"
+    outer:
+      x: 752
+      y: 951
+      width: 62
+      height: 16
+    inner:
+      x: 752
+      y: 951
+      width: 62
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.5
+    paddingBottom: 0.625
+  - name: "stats_bar_background_font"
+    outer:
+      x: 581
+      y: 916
+      width: 254
+      height: 32
+    inner:
+      x: 581
+      y: 916
+      width: 254
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

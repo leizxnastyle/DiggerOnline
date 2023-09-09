@@ -1,0 +1,2705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220413779845235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220413729513522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220413779845235}
+  - component: {fileID: 1791220415625339097}
+  m_Layer: 0
+  m_Name: "hud"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220415625339097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220413729513522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233722f3a1eeea5216f7d01f15618f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5e48f41a6afd4ef8ac7a5fd785911f89, type: 2}
+  sprites:
+  - name: "actions_put"
+    outer:
+      x: 905
+      y: 449
+      width: 92
+      height: 21
+    inner:
+      x: 905
+      y: 449
+      width: 92
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "actions_write"
+    outer:
+      x: 659
+      y: 427
+      width: 79
+      height: 21
+    inner:
+      x: 659
+      y: 427
+      width: 79
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "actions_activate"
+    outer:
+      x: 691
+      y: 449
+      width: 108
+      height: 21
+    inner:
+      x: 691
+      y: 449
+      width: 108
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "actions_open"
+    outer:
+      x: 557
+      y: 449
+      width: 133
+      height: 21
+    inner:
+      x: 557
+      y: 449
+      width: 133
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "actions_sit"
+    outer:
+      x: 800
+      y: 449
+      width: 104
+      height: 21
+    inner:
+      x: 800
+      y: 449
+      width: 104
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "actions_take"
+    outer:
+      x: 775
+      y: 348
+      width: 59
+      height: 21
+    inner:
+      x: 775
+      y: 348
+      width: 59
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "crosshair_crosshair"
+    outer:
+      x: 418
+      y: 89
+      width: 14
+      height: 14
+    inner:
+      x: 418
+      y: 89
+      width: 14
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "day_night_off"
+    outer:
+      x: 327
+      y: 78
+      width: 68
+      height: 68
+    inner:
+      x: 327
+      y: 78
+      width: 68
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "day_night_on"
+    outer:
+      x: 256
+      y: 5
+      width: 68
+      height: 68
+    inner:
+      x: 256
+      y: 5
+      width: 68
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "day_night_num"
+    outer:
+      x: 994
+      y: 313
+      width: 26
+      height: 26
+    inner:
+      x: 994
+      y: 313
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "watch_mode_tip"
+    outer:
+      x: 693
+      y: 476
+      width: 298
+      height: 14
+    inner:
+      x: 693
+      y: 476
+      width: 298
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_shield"
+    outer:
+      x: 396
+      y: 104
+      width: 40
+      height: 42
+    inner:
+      x: 396
+      y: 104
+      width: 40
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_health"
+    outer:
+      x: 604
+      y: 132
+      width: 41
+      height: 42
+    inner:
+      x: 604
+      y: 132
+      width: 41
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_crosshair"
+    outer:
+      x: 685
+      y: 1
+      width: 20
+      height: 20
+    inner:
+      x: 685
+      y: 1
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_flag_blue"
+    outer:
+      x: 604
+      y: 410
+      width: 54
+      height: 38
+    inner:
+      x: 604
+      y: 410
+      width: 54
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_flag_red"
+    outer:
+      x: 502
+      y: 1
+      width: 54
+      height: 38
+    inner:
+      x: 502
+      y: 1
+      width: 54
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_background"
+    outer:
+      x: 604
+      y: 91
+      width: 40
+      height: 40
+    inner:
+      x: 604
+      y: 91
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "slot_prototype_selected"
+    outer:
+      x: 604
+      y: 50
+      width: 40
+      height: 40
+    inner:
+      x: 604
+      y: 50
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_0"
+    outer:
+      x: 327
+      y: 3
+      width: 9
+      height: 11
+    inner:
+      x: 327
+      y: 3
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_1"
+    outer:
+      x: 430
+      y: 296
+      width: 6
+      height: 11
+    inner:
+      x: 430
+      y: 296
+      width: 6
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_2"
+    outer:
+      x: 428
+      y: 239
+      width: 8
+      height: 11
+    inner:
+      x: 428
+      y: 239
+      width: 8
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_3"
+    outer:
+      x: 337
+      y: 3
+      width: 9
+      height: 11
+    inner:
+      x: 337
+      y: 3
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_4"
+    outer:
+      x: 347
+      y: 3
+      width: 9
+      height: 11
+    inner:
+      x: 347
+      y: 3
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_5"
+    outer:
+      x: 428
+      y: 251
+      width: 8
+      height: 11
+    inner:
+      x: 428
+      y: 251
+      width: 8
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_6"
+    outer:
+      x: 367
+      y: 3
+      width: 9
+      height: 11
+    inner:
+      x: 367
+      y: 3
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_7"
+    outer:
+      x: 428
+      y: 263
+      width: 8
+      height: 11
+    inner:
+      x: 428
+      y: 263
+      width: 8
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_8"
+    outer:
+      x: 377
+      y: 3
+      width: 9
+      height: 11
+    inner:
+      x: 377
+      y: 3
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "numbers_9"
+    outer:
+      x: 357
+      y: 3
+      width: 9
+      height: 11
+    inner:
+      x: 357
+      y: 3
+      width: 9
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_bullet"
+    outer:
+      x: 685
+      y: 154
+      width: 23
+      height: 32
+    inner:
+      x: 685
+      y: 154
+      width: 23
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_rifle_bullet"
+    outer:
+      x: 685
+      y: 257
+      width: 25
+      height: 50
+    inner:
+      x: 685
+      y: 257
+      width: 25
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_shootgun_bullet"
+    outer:
+      x: 711
+      y: 150
+      width: 28
+      height: 42
+    inner:
+      x: 711
+      y: 150
+      width: 28
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_rocket"
+    outer:
+      x: 646
+      y: 233
+      width: 32
+      height: 47
+    inner:
+      x: 646
+      y: 233
+      width: 32
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_grenade"
+    outer:
+      x: 711
+      y: 43
+      width: 26
+      height: 34
+    inner:
+      x: 711
+      y: 43
+      width: 26
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "respawn_tip"
+    outer:
+      x: 437
+      y: 491
+      width: 527
+      height: 21
+    inner:
+      x: 437
+      y: 491
+      width: 527
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_bullet_4"
+    outer:
+      x: 646
+      y: 281
+      width: 32
+      height: 47
+    inner:
+      x: 646
+      y: 281
+      width: 32
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_bullet_5"
+    outer:
+      x: 993
+      y: 414
+      width: 26
+      height: 34
+    inner:
+      x: 993
+      y: 414
+      width: 26
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_bullet_1"
+    outer:
+      x: 406
+      y: 275
+      width: 23
+      height: 32
+    inner:
+      x: 406
+      y: 275
+      width: 23
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_bullet_2"
+    outer:
+      x: 406
+      y: 308
+      width: 25
+      height: 50
+    inner:
+      x: 406
+      y: 308
+      width: 25
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "bullets_bullet_3"
+    outer:
+      x: 711
+      y: 193
+      width: 28
+      height: 42
+    inner:
+      x: 711
+      y: 193
+      width: 28
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "gold_cup_icon"
+    outer:
+      x: 711
+      y: 109
+      width: 28
+      height: 40
+    inner:
+      x: 711
+      y: 109
+      width: 28
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "speech_bubble_bubble_cap"
+    outer:
+      x: 437
+      y: 471
+      width: 255
+      height: 19
+    inner:
+      x: 437
+      y: 471
+      width: 255
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "speech_bubble_bubble"
+    outer:
+      x: 0
+      y: 5
+      width: 255
+      height: 507
+    inner:
+      x: 0
+      y: 5
+      width: 255
+      height: 507
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "put_button"
+    outer:
+      x: 685
+      y: 22
+      width: 21
+      height: 21
+    inner:
+      x: 685
+      y: 22
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "wheel_button"
+    outer:
+      x: 685
+      y: 44
+      width: 21
+      height: 21
+    inner:
+      x: 685
+      y: 44
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "draw_button"
+    outer:
+      x: 685
+      y: 66
+      width: 21
+      height: 21
+    inner:
+      x: 685
+      y: 66
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "write_button"
+    outer:
+      x: 685
+      y: 88
+      width: 21
+      height: 21
+    inner:
+      x: 685
+      y: 88
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "activate_button"
+    outer:
+      x: 685
+      y: 110
+      width: 21
+      height: 21
+    inner:
+      x: 685
+      y: 110
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "open_button"
+    outer:
+      x: 685
+      y: 132
+      width: 21
+      height: 21
+    inner:
+      x: 685
+      y: 132
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "sit_button"
+    outer:
+      x: 998
+      y: 449
+      width: 21
+      height: 21
+    inner:
+      x: 998
+      y: 449
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "take_button"
+    outer:
+      x: 396
+      y: 82
+      width: 21
+      height: 21
+    inner:
+      x: 396
+      y: 82
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "fly_tip2"
+    outer:
+      x: 726
+      y: 394
+      width: 90
+      height: 15
+    inner:
+      x: 726
+      y: 394
+      width: 90
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "fly_tip1"
+    outer:
+      x: 726
+      y: 378
+      width: 87
+      height: 15
+    inner:
+      x: 726
+      y: 378
+      width: 87
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "crosshair_1"
+    outer:
+      x: 360
+      y: 277
+      width: 6
+      height: 8
+    inner:
+      x: 360
+      y: 277
+      width: 6
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "crosshair_3"
+    outer:
+      x: 353
+      y: 277
+      width: 6
+      height: 8
+    inner:
+      x: 353
+      y: 277
+      width: 6
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "crosshair_2"
+    outer:
+      x: 335
+      y: 279
+      width: 8
+      height: 6
+    inner:
+      x: 335
+      y: 279
+      width: 8
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "crosshair_4"
+    outer:
+      x: 344
+      y: 279
+      width: 8
+      height: 6
+    inner:
+      x: 344
+      y: 279
+      width: 8
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "flags_blue"
+    outer:
+      x: 502
+      y: 193
+      width: 47
+      height: 57
+    inner:
+      x: 502
+      y: 193
+      width: 47
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "flags_red"
+    outer:
+      x: 502
+      y: 135
+      width: 47
+      height: 57
+    inner:
+      x: 502
+      y: 135
+      width: 47
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_flag_survivors"
+    outer:
+      x: 256
+      y: 275
+      width: 78
+      height: 83
+    inner:
+      x: 256
+      y: 275
+      width: 78
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_flag_zombies"
+    outer:
+      x: 327
+      y: 15
+      width: 67
+      height: 62
+    inner:
+      x: 327
+      y: 15
+      width: 67
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_zombie_virus"
+    outer:
+      x: 256
+      y: 359
+      width: 180
+      height: 76
+    inner:
+      x: 256
+      y: 359
+      width: 180
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "battle_flag_zombie_virus"
+    outer:
+      x: 256
+      y: 436
+      width: 180
+      height: 76
+    inner:
+      x: 256
+      y: 436
+      width: 180
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "boobles"
+    outer:
+      x: 711
+      y: 16
+      width: 26
+      height: 26
+    inner:
+      x: 711
+      y: 16
+      width: 26
+      height: 26
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_arrow_right"
+    outer:
+      x: 604
+      y: 175
+      width: 41
+      height: 46
+    inner:
+      x: 604
+      y: 175
+      width: 41
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_arrow_left"
+    outer:
+      x: 604
+      y: 222
+      width: 41
+      height: 46
+    inner:
+      x: 604
+      y: 222
+      width: 41
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_arrow_right_pressed"
+    outer:
+      x: 557
+      y: 74
+      width: 42
+      height: 46
+    inner:
+      x: 557
+      y: 74
+      width: 42
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_arrow_right_idle"
+    outer:
+      x: 604
+      y: 316
+      width: 41
+      height: 46
+    inner:
+      x: 604
+      y: 316
+      width: 41
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_arrow_right_hover"
+    outer:
+      x: 604
+      y: 363
+      width: 41
+      height: 46
+    inner:
+      x: 604
+      y: 363
+      width: 41
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_arrow_left_pressed"
+    outer:
+      x: 557
+      y: 27
+      width: 42
+      height: 46
+    inner:
+      x: 557
+      y: 27
+      width: 42
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_arrow_left_idle"
+    outer:
+      x: 395
+      y: 31
+      width: 41
+      height: 46
+    inner:
+      x: 395
+      y: 31
+      width: 41
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ibtn_arrow_left_hover"
+    outer:
+      x: 604
+      y: 269
+      width: 41
+      height: 46
+    inner:
+      x: 604
+      y: 269
+      width: 41
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "weapon_aug_gray"
+    outer:
+      x: 835
+      y: 341
+      width: 43
+      height: 28
+    inner:
+      x: 835
+      y: 341
+      width: 43
+      height: 28
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.6785714
+    paddingBottom: 0.6071429
+  - name: "weapon_sg550"
+    outer:
+      x: 879
+      y: 257
+      width: 44
+      height: 24
+    inner:
+      x: 879
+      y: 257
+      width: 44
+      height: 24
+    rotated: 0
+    paddingLeft: 0.2727273
+    paddingRight: 0.1818182
+    paddingTop: 0.875
+    paddingBottom: 0.7916667
+  - name: "weapon_luger"
+    outer:
+      x: 727
+      y: 308
+      width: 41
+      height: 31
+    inner:
+      x: 727
+      y: 308
+      width: 41
+      height: 31
+    rotated: 0
+    paddingLeft: 0.2926829
+    paddingRight: 0.2682927
+    paddingTop: 0.483871
+    paddingBottom: 0.5806451
+  - name: "weapon_sniper_gray"
+    outer:
+      x: 923
+      y: 343
+      width: 45
+      height: 26
+    inner:
+      x: 923
+      y: 343
+      width: 45
+      height: 26
+    rotated: 0
+    paddingLeft: 0.2444444
+    paddingRight: 0.1777778
+    paddingTop: 0.8076923
+    paddingBottom: 0.6538461
+  - name: "weapon_aug"
+    outer:
+      x: 879
+      y: 341
+      width: 43
+      height: 28
+    inner:
+      x: 879
+      y: 341
+      width: 43
+      height: 28
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.6785714
+    paddingBottom: 0.6071429
+  - name: "weapon_sg550_gray"
+    outer:
+      x: 924
+      y: 257
+      width: 44
+      height: 24
+    inner:
+      x: 924
+      y: 257
+      width: 44
+      height: 24
+    rotated: 0
+    paddingLeft: 0.2727273
+    paddingRight: 0.1818182
+    paddingTop: 0.875
+    paddingBottom: 0.7916667
+  - name: "weapon_ppsh"
+    outer:
+      x: 747
+      y: 232
+      width: 45
+      height: 23
+    inner:
+      x: 747
+      y: 232
+      width: 45
+      height: 23
+    rotated: 0
+    paddingLeft: 0.2444444
+    paddingRight: 0.1777778
+    paddingTop: 1.043478
+    paddingBottom: 0.7391304
+  - name: "weapon_mp40_gray"
+    outer:
+      x: 905
+      y: 413
+      width: 43
+      height: 35
+    inner:
+      x: 905
+      y: 413
+      width: 43
+      height: 35
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.4571429
+    paddingBottom: 0.3714286
+  - name: "weapon_grenade_launcher2_gray"
+    outer:
+      x: 947
+      y: 378
+      width: 43
+      height: 31
+    inner:
+      x: 947
+      y: 378
+      width: 43
+      height: 31
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.5806451
+    paddingBottom: 0.483871
+  - name: "weapon_svd_gray"
+    outer:
+      x: 685
+      y: 340
+      width: 44
+      height: 29
+    inner:
+      x: 685
+      y: 340
+      width: 44
+      height: 29
+    rotated: 0
+    paddingLeft: 0.25
+    paddingRight: 0.2045455
+    paddingTop: 0.6206896
+    paddingBottom: 0.5862069
+  - name: "weapon_thompson_gray"
+    outer:
+      x: 791
+      y: 256
+      width: 43
+      height: 25
+    inner:
+      x: 791
+      y: 256
+      width: 43
+      height: 25
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.8
+    paddingBottom: 0.76
+  - name: "weapon_mp40"
+    outer:
+      x: 949
+      y: 413
+      width: 43
+      height: 35
+    inner:
+      x: 949
+      y: 413
+      width: 43
+      height: 35
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.4571429
+    paddingBottom: 0.3714286
+  - name: "weapon_winchester_gray"
+    outer:
+      x: 937
+      y: 282
+      width: 43
+      height: 25
+    inner:
+      x: 937
+      y: 282
+      width: 43
+      height: 25
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.8
+    paddingBottom: 0.76
+  - name: "weapon_revolver_gray"
+    outer:
+      x: 398
+      y: 151
+      width: 38
+      height: 27
+    inner:
+      x: 398
+      y: 151
+      width: 38
+      height: 27
+    rotated: 0
+    paddingLeft: 0.3947369
+    paddingRight: 0.2894737
+    paddingTop: 0.6666667
+    paddingBottom: 0.7037037
+  - name: "weapon_m16_gray"
+    outer:
+      x: 792
+      y: 282
+      width: 44
+      height: 25
+    inner:
+      x: 792
+      y: 282
+      width: 44
+      height: 25
+    rotated: 0
+    paddingLeft: 0.2727273
+    paddingRight: 0.1818182
+    paddingTop: 0.84
+    paddingBottom: 0.72
+  - name: "weapon_sawn_off"
+    outer:
+      x: 883
+      y: 232
+      width: 42
+      height: 23
+    inner:
+      x: 883
+      y: 232
+      width: 42
+      height: 23
+    rotated: 0
+    paddingLeft: 0.2857143
+    paddingRight: 0.2380952
+    paddingTop: 0.7826087
+    paddingBottom: 1
+  - name: "weapon_grenade_launcher2"
+    outer:
+      x: 903
+      y: 378
+      width: 43
+      height: 31
+    inner:
+      x: 903
+      y: 378
+      width: 43
+      height: 31
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.5806451
+    paddingBottom: 0.483871
+  - name: "weapon_thompson"
+    outer:
+      x: 835
+      y: 256
+      width: 43
+      height: 25
+    inner:
+      x: 835
+      y: 256
+      width: 43
+      height: 25
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.8
+    paddingBottom: 0.76
+  - name: "weapon_shovel"
+    outer:
+      x: 926
+      y: 232
+      width: 41
+      height: 23
+    inner:
+      x: 926
+      y: 232
+      width: 41
+      height: 23
+    rotated: 0
+    paddingLeft: 0.2926829
+    paddingRight: 0.2682927
+    paddingTop: 0.9565217
+    paddingBottom: 0.8260869
+  - name: "weapon_mp5"
+    outer:
+      x: 646
+      y: 42
+      width: 33
+      height: 38
+    inner:
+      x: 646
+      y: 42
+      width: 33
+      height: 38
+    rotated: 0
+    paddingLeft: 0.5151515
+    paddingRight: 0.4242424
+    paddingTop: 0.368421
+    paddingBottom: 0.3157895
+  - name: "weapon_grenade_launcher_gray"
+    outer:
+      x: 861
+      y: 411
+      width: 43
+      height: 37
+    inner:
+      x: 861
+      y: 411
+      width: 43
+      height: 37
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.3783784
+    paddingBottom: 0.3513514
+  - name: "weapon_shield"
+    outer:
+      x: 646
+      y: 151
+      width: 36
+      height: 40
+    inner:
+      x: 646
+      y: 151
+      width: 36
+      height: 40
+    rotated: 0
+    paddingLeft: 0.4166667
+    paddingRight: 0.3611111
+    paddingTop: 0.325
+    paddingBottom: 0.275
+  - name: "weapon_grenade_gray"
+    outer:
+      x: 685
+      y: 222
+      width: 25
+      height: 34
+    inner:
+      x: 685
+      y: 222
+      width: 25
+      height: 34
+    rotated: 0
+    paddingLeft: 0.76
+    paddingRight: 0.8
+    paddingTop: 0.4705882
+    paddingBottom: 0.4117647
+  - name: "weapon_sniper"
+    outer:
+      x: 969
+      y: 343
+      width: 45
+      height: 26
+    inner:
+      x: 969
+      y: 343
+      width: 45
+      height: 26
+    rotated: 0
+    paddingLeft: 0.2444444
+    paddingRight: 0.1777778
+    paddingTop: 0.8076923
+    paddingBottom: 0.6538461
+  - name: "weapon_grenade"
+    outer:
+      x: 685
+      y: 187
+      width: 25
+      height: 34
+    inner:
+      x: 685
+      y: 187
+      width: 25
+      height: 34
+    rotated: 0
+    paddingLeft: 0.76
+    paddingRight: 0.8
+    paddingTop: 0.4705882
+    paddingBottom: 0.4117647
+  - name: "weapon_sg552"
+    outer:
+      x: 860
+      y: 377
+      width: 42
+      height: 32
+    inner:
+      x: 860
+      y: 377
+      width: 42
+      height: 32
+    rotated: 0
+    paddingLeft: 0.3095238
+    paddingRight: 0.2142857
+    paddingTop: 0.53125
+    paddingBottom: 0.46875
+  - name: "weapon_shovel_gray"
+    outer:
+      x: 968
+      y: 232
+      width: 41
+      height: 23
+    inner:
+      x: 968
+      y: 232
+      width: 41
+      height: 23
+    rotated: 0
+    paddingLeft: 0.2926829
+    paddingRight: 0.2682927
+    paddingTop: 0.9565217
+    paddingBottom: 0.8260869
+  - name: "weapon_winchester"
+    outer:
+      x: 747
+      y: 256
+      width: 43
+      height: 25
+    inner:
+      x: 747
+      y: 256
+      width: 43
+      height: 25
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.8
+    paddingBottom: 0.76
+  - name: "weapon_m1014"
+    outer:
+      x: 859
+      y: 314
+      width: 44
+      height: 25
+    inner:
+      x: 859
+      y: 314
+      width: 44
+      height: 25
+    rotated: 0
+    paddingLeft: 0.25
+    paddingRight: 0.2045455
+    paddingTop: 0.76
+    paddingBottom: 0.8
+  - name: "weapon_health"
+    outer:
+      x: 604
+      y: 10
+      width: 39
+      height: 39
+    inner:
+      x: 604
+      y: 10
+      width: 39
+      height: 39
+    rotated: 0
+    paddingLeft: 0.3333333
+    paddingRight: 0.3076923
+    paddingTop: 0.3333333
+    paddingBottom: 0.3076923
+  - name: "weapon_m1014_gray"
+    outer:
+      x: 557
+      y: 1
+      width: 44
+      height: 25
+    inner:
+      x: 557
+      y: 1
+      width: 44
+      height: 25
+    rotated: 0
+    paddingLeft: 0.25
+    paddingRight: 0.2045455
+    paddingTop: 0.76
+    paddingBottom: 0.8
+  - name: "weapon_knife"
+    outer:
+      x: 814
+      y: 313
+      width: 44
+      height: 26
+    inner:
+      x: 814
+      y: 313
+      width: 44
+      height: 26
+    rotated: 0
+    paddingLeft: 0.2045455
+    paddingRight: 0.25
+    paddingTop: 0.7307692
+    paddingBottom: 0.7307692
+  - name: "weapon_svd"
+    outer:
+      x: 730
+      y: 340
+      width: 44
+      height: 29
+    inner:
+      x: 730
+      y: 340
+      width: 44
+      height: 29
+    rotated: 0
+    paddingLeft: 0.25
+    paddingRight: 0.2045455
+    paddingTop: 0.6206896
+    paddingBottom: 0.5862069
+  - name: "weapon_colt"
+    outer:
+      x: 646
+      y: 81
+      width: 37
+      height: 34
+    inner:
+      x: 646
+      y: 81
+      width: 37
+      height: 34
+    rotated: 0
+    paddingLeft: 0.4324324
+    paddingRight: 0.2972973
+    paddingTop: 0.4117647
+    paddingBottom: 0.4705882
+  - name: "weapon_ppsh_gray"
+    outer:
+      x: 969
+      y: 258
+      width: 45
+      height: 23
+    inner:
+      x: 969
+      y: 258
+      width: 45
+      height: 23
+    rotated: 0
+    paddingLeft: 0.2444444
+    paddingRight: 0.1777778
+    paddingTop: 1.043478
+    paddingBottom: 0.7391304
+  - name: "weapon_health_gray"
+    outer:
+      x: 646
+      y: 370
+      width: 39
+      height: 39
+    inner:
+      x: 646
+      y: 370
+      width: 39
+      height: 39
+    rotated: 0
+    paddingLeft: 0.3333333
+    paddingRight: 0.3076923
+    paddingTop: 0.3333333
+    paddingBottom: 0.3076923
+  - name: "weapon_knife_gray"
+    outer:
+      x: 769
+      y: 313
+      width: 44
+      height: 26
+    inner:
+      x: 769
+      y: 313
+      width: 44
+      height: 26
+    rotated: 0
+    paddingLeft: 0.2045455
+    paddingRight: 0.25
+    paddingTop: 0.7307692
+    paddingBottom: 0.7307692
+  - name: "weapon_luger_gray"
+    outer:
+      x: 685
+      y: 308
+      width: 41
+      height: 31
+    inner:
+      x: 685
+      y: 308
+      width: 41
+      height: 31
+    rotated: 0
+    paddingLeft: 0.2926829
+    paddingRight: 0.2682927
+    paddingTop: 0.483871
+    paddingBottom: 0.5806451
+  - name: "weapon_glock"
+    outer:
+      x: 711
+      y: 78
+      width: 32
+      height: 30
+    inner:
+      x: 711
+      y: 78
+      width: 32
+      height: 30
+    rotated: 0
+    paddingLeft: 0.53125
+    paddingRight: 0.46875
+    paddingTop: 0.5666667
+    paddingBottom: 0.5666667
+  - name: "weapon_grenade_launcher"
+    outer:
+      x: 817
+      y: 411
+      width: 43
+      height: 37
+    inner:
+      x: 817
+      y: 411
+      width: 43
+      height: 37
+    rotated: 0
+    paddingLeft: 0.2790698
+    paddingRight: 0.2093023
+    paddingTop: 0.3783784
+    paddingBottom: 0.3513514
+  - name: "weapon_rifle_gray"
+    outer:
+      x: 793
+      y: 233
+      width: 44
+      height: 22
+    inner:
+      x: 793
+      y: 233
+      width: 44
+      height: 22
+    rotated: 0
+    paddingLeft: 0.2727273
+    paddingRight: 0.1818182
+    paddingTop: 1.090909
+    paddingBottom: 0.8181818
+  - name: "weapon_sawn_off_gray"
+    outer:
+      x: 981
+      y: 284
+      width: 42
+      height: 23
+    inner:
+      x: 981
+      y: 284
+      width: 42
+      height: 23
+    rotated: 0
+    paddingLeft: 0.2857143
+    paddingRight: 0.2380952
+    paddingTop: 0.7826087
+    paddingBottom: 1
+  - name: "weapon_mp5_gray"
+    outer:
+      x: 646
+      y: 3
+      width: 33
+      height: 38
+    inner:
+      x: 646
+      y: 3
+      width: 33
+      height: 38
+    rotated: 0
+    paddingLeft: 0.5151515
+    paddingRight: 0.4242424
+    paddingTop: 0.368421
+    paddingBottom: 0.3157895
+  - name: "weapon_ak47_gray"
+    outer:
+      x: 904
+      y: 314
+      width: 44
+      height: 25
+    inner:
+      x: 904
+      y: 314
+      width: 44
+      height: 25
+    rotated: 0
+    paddingLeft: 0.25
+    paddingRight: 0.2045455
+    paddingTop: 0.88
+    paddingBottom: 0.68
+  - name: "weapon_colt_gray"
+    outer:
+      x: 646
+      y: 116
+      width: 37
+      height: 34
+    inner:
+      x: 646
+      y: 116
+      width: 37
+      height: 34
+    rotated: 0
+    paddingLeft: 0.4324324
+    paddingRight: 0.2972973
+    paddingTop: 0.4117647
+    paddingBottom: 0.4705882
+  - name: "weapon_shield_gray"
+    outer:
+      x: 646
+      y: 192
+      width: 36
+      height: 40
+    inner:
+      x: 646
+      y: 192
+      width: 36
+      height: 40
+    rotated: 0
+    paddingLeft: 0.4166667
+    paddingRight: 0.3611111
+    paddingTop: 0.325
+    paddingBottom: 0.275
+  - name: "weapon_rifle"
+    outer:
+      x: 838
+      y: 233
+      width: 44
+      height: 22
+    inner:
+      x: 838
+      y: 233
+      width: 44
+      height: 22
+    rotated: 0
+    paddingLeft: 0.2727273
+    paddingRight: 0.1818182
+    paddingTop: 1.090909
+    paddingBottom: 0.8181818
+  - name: "weapon_sg552_gray"
+    outer:
+      x: 817
+      y: 377
+      width: 42
+      height: 32
+    inner:
+      x: 817
+      y: 377
+      width: 42
+      height: 32
+    rotated: 0
+    paddingLeft: 0.3095238
+    paddingRight: 0.2142857
+    paddingTop: 0.53125
+    paddingBottom: 0.46875
+  - name: "weapon_glock_gray"
+    outer:
+      x: 991
+      y: 379
+      width: 32
+      height: 30
+    inner:
+      x: 991
+      y: 379
+      width: 32
+      height: 30
+    rotated: 0
+    paddingLeft: 0.53125
+    paddingRight: 0.46875
+    paddingTop: 0.5666667
+    paddingBottom: 0.5666667
+  - name: "weapon_ak47"
+    outer:
+      x: 949
+      y: 314
+      width: 44
+      height: 25
+    inner:
+      x: 949
+      y: 314
+      width: 44
+      height: 25
+    rotated: 0
+    paddingLeft: 0.25
+    paddingRight: 0.2045455
+    paddingTop: 0.88
+    paddingBottom: 0.68
+  - name: "weapon_m16"
+    outer:
+      x: 747
+      y: 282
+      width: 44
+      height: 25
+    inner:
+      x: 747
+      y: 282
+      width: 44
+      height: 25
+    rotated: 0
+    paddingLeft: 0.2727273
+    paddingRight: 0.1818182
+    paddingTop: 0.84
+    paddingBottom: 0.72
+  - name: "weapon_revolver"
+    outer:
+      x: 747
+      y: 204
+      width: 38
+      height: 27
+    inner:
+      x: 747
+      y: 204
+      width: 38
+      height: 27
+    rotated: 0
+    paddingLeft: 0.3947369
+    paddingRight: 0.2894737
+    paddingTop: 0.6666667
+    paddingBottom: 0.7037037
+  - name: "custom_blocks_icon_01"
+    outer:
+      x: 557
+      y: 167
+      width: 46
+      height: 46
+    inner:
+      x: 557
+      y: 167
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_01_selected"
+    outer:
+      x: 373
+      y: 220
+      width: 54
+      height: 54
+    inner:
+      x: 373
+      y: 220
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_04_selected"
+    outer:
+      x: 437
+      y: 221
+      width: 54
+      height: 54
+    inner:
+      x: 437
+      y: 221
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_02"
+    outer:
+      x: 557
+      y: 214
+      width: 46
+      height: 46
+    inner:
+      x: 557
+      y: 214
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_06_selected"
+    outer:
+      x: 437
+      y: 166
+      width: 54
+      height: 54
+    inner:
+      x: 437
+      y: 166
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_06"
+    outer:
+      x: 557
+      y: 308
+      width: 46
+      height: 46
+    inner:
+      x: 557
+      y: 308
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_04"
+    outer:
+      x: 557
+      y: 355
+      width: 46
+      height: 46
+    inner:
+      x: 557
+      y: 355
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_05"
+    outer:
+      x: 557
+      y: 402
+      width: 46
+      height: 46
+    inner:
+      x: 557
+      y: 402
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_03"
+    outer:
+      x: 502
+      y: 40
+      width: 46
+      height: 46
+    inner:
+      x: 502
+      y: 40
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_02_selected"
+    outer:
+      x: 502
+      y: 416
+      width: 54
+      height: 54
+    inner:
+      x: 502
+      y: 416
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_03_selected"
+    outer:
+      x: 502
+      y: 306
+      width: 54
+      height: 54
+    inner:
+      x: 502
+      y: 306
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_05_selected"
+    outer:
+      x: 502
+      y: 251
+      width: 54
+      height: 54
+    inner:
+      x: 502
+      y: 251
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "actions_wheel"
+    outer:
+      x: 739
+      y: 427
+      width: 77
+      height: 21
+    inner:
+      x: 739
+      y: 427
+      width: 77
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "wheel_btn"
+    outer:
+      x: 747
+      y: 182
+      width: 21
+      height: 21
+    inner:
+      x: 747
+      y: 182
+      width: 21
+      height: 21
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_07"
+    outer:
+      x: 557
+      y: 121
+      width: 46
+      height: 45
+    inner:
+      x: 557
+      y: 121
+      width: 46
+      height: 45
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_07_selected"
+    outer:
+      x: 502
+      y: 361
+      width: 54
+      height: 54
+    inner:
+      x: 502
+      y: 361
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ha_bar_bg"
+    outer:
+      x: 834
+      y: 225
+      width: 119
+      height: 6
+    inner:
+      x: 834
+      y: 225
+      width: 119
+      height: 6
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "ha_bar"
+    outer:
+      x: 693
+      y: 471
+      width: 117
+      height: 4
+    inner:
+      x: 693
+      y: 471
+      width: 117
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "zb_block_count"
+    outer:
+      x: 502
+      y: 87
+      width: 46
+      height: 47
+    inner:
+      x: 502
+      y: 87
+      width: 46
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "viking_axe"
+    outer:
+      x: 395
+      y: 4
+      width: 41
+      height: 26
+    inner:
+      x: 395
+      y: 4
+      width: 41
+      height: 26
+    rotated: 0
+    paddingLeft: 0.2926829
+    paddingRight: 0.2682927
+    paddingTop: 0.8846154
+    paddingBottom: 0.5769231
+  - name: "unior_knight_sword"
+    outer:
+      x: 786
+      y: 211
+      width: 47
+      height: 20
+    inner:
+      x: 786
+      y: 211
+      width: 47
+      height: 20
+    rotated: 0
+    paddingLeft: 0.1702128
+    paddingRight: 0.1914894
+    paddingTop: 1.15
+    paddingBottom: 1.05
+  - name: "knight_sword"
+    outer:
+      x: 887
+      y: 285
+      width: 49
+      height: 22
+    inner:
+      x: 887
+      y: 285
+      width: 49
+      height: 22
+    rotated: 0
+    paddingLeft: 0.1632653
+    paddingRight: 0.1428571
+    paddingTop: 1.045455
+    paddingBottom: 0.8636364
+  - name: "epic_knight_sword"
+    outer:
+      x: 837
+      y: 285
+      width: 49
+      height: 22
+    inner:
+      x: 837
+      y: 285
+      width: 49
+      height: 22
+    rotated: 0
+    paddingLeft: 0.1632653
+    paddingRight: 0.1428571
+    paddingTop: 1.045455
+    paddingBottom: 0.8636364
+  - name: "death_knight_sword"
+    outer:
+      x: 965
+      y: 491
+      width: 52
+      height: 21
+    inner:
+      x: 965
+      y: 491
+      width: 52
+      height: 21
+    rotated: 0
+    paddingLeft: 0.1346154
+    paddingRight: 0.09615385
+    paddingTop: 1.095238
+    paddingBottom: 0.952381
+  - name: "bow_00"
+    outer:
+      x: 711
+      y: 272
+      width: 35
+      height: 35
+    inner:
+      x: 711
+      y: 272
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0.3428572
+    paddingRight: 0.4857143
+    paddingTop: 0.3714286
+    paddingBottom: 0.4571429
+  - name: "bow_03"
+    outer:
+      x: 686
+      y: 370
+      width: 39
+      height: 39
+    inner:
+      x: 686
+      y: 370
+      width: 39
+      height: 39
+    rotated: 0
+    paddingLeft: 0.2820513
+    paddingRight: 0.3589744
+    paddingTop: 0.2820513
+    paddingBottom: 0.3589744
+  - name: "bow_04"
+    outer:
+      x: 398
+      y: 179
+      width: 38
+      height: 40
+    inner:
+      x: 398
+      y: 179
+      width: 38
+      height: 40
+    rotated: 0
+    paddingLeft: 0.3157895
+    paddingRight: 0.368421
+    paddingTop: 0.3
+    paddingBottom: 0.3
+  - name: "bow_02"
+    outer:
+      x: 646
+      y: 329
+      width: 38
+      height: 40
+    inner:
+      x: 646
+      y: 329
+      width: 38
+      height: 40
+    rotated: 0
+    paddingLeft: 0.3421053
+    paddingRight: 0.3421053
+    paddingTop: 0.3
+    paddingBottom: 0.3
+  - name: "bow_01"
+    outer:
+      x: 711
+      y: 236
+      width: 35
+      height: 35
+    inner:
+      x: 711
+      y: 236
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0.3714286
+    paddingRight: 0.4571429
+    paddingTop: 0.3714286
+    paddingBottom: 0.4571429
+  - name: "hs_sound_play_off"
+    outer:
+      x: 437
+      y: 1
+      width: 54
+      height: 54
+    inner:
+      x: 437
+      y: 1
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "hs_sound_play_on"
+    outer:
+      x: 437
+      y: 56
+      width: 54
+      height: 54
+    inner:
+      x: 437
+      y: 56
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "hs_hide_bar_hide"
+    outer:
+      x: 659
+      y: 410
+      width: 70
+      height: 16
+    inner:
+      x: 659
+      y: 410
+      width: 70
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "hs_hide_bar_show"
+    outer:
+      x: 739
+      y: 410
+      width: 70
+      height: 16
+    inner:
+      x: 739
+      y: 410
+      width: 70
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "hs_hide_bar_bg"
+    outer:
+      x: 256
+      y: 220
+      width: 116
+      height: 54
+    inner:
+      x: 256
+      y: 220
+      width: 116
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_08_selected"
+    outer:
+      x: 437
+      y: 111
+      width: 54
+      height: 54
+    inner:
+      x: 437
+      y: 111
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "custom_blocks_icon_08"
+    outer:
+      x: 557
+      y: 261
+      width: 46
+      height: 46
+    inner:
+      x: 557
+      y: 261
+      width: 46
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "FlyOff"
+    outer:
+      x: 256
+      y: 74
+      width: 70
+      height: 72
+    inner:
+      x: 256
+      y: 74
+      width: 70
+      height: 72
+    rotated: 0
+    paddingLeft: 0.07142857
+    paddingRight: 0.07142857
+    paddingTop: 0.05555556
+    paddingBottom: 0.05555556
+  - name: "FlyOn"
+    outer:
+      x: 327
+      y: 147
+      width: 70
+      height: 72
+    inner:
+      x: 327
+      y: 147
+      width: 70
+      height: 72
+    rotated: 0
+    paddingLeft: 0.07142857
+    paddingRight: 0.07142857
+    paddingTop: 0.05555556
+    paddingBottom: 0.05555556
+  - name: "SpeedOff"
+    outer:
+      x: 256
+      y: 147
+      width: 70
+      height: 72
+    inner:
+      x: 256
+      y: 147
+      width: 70
+      height: 72
+    rotated: 0
+    paddingLeft: 0.07142857
+    paddingRight: 0.07142857
+    paddingTop: 0.05555556
+    paddingBottom: 0.05555556
+  - name: "SpeedOn"
+    outer:
+      x: 335
+      y: 286
+      width: 70
+      height: 72
+    inner:
+      x: 335
+      y: 286
+      width: 70
+      height: 72
+    rotated: 0
+    paddingLeft: 0.07142857
+    paddingRight: 0.07142857
+    paddingTop: 0.05555556
+    paddingBottom: 0.05555556
+  - name: "bullet_5"
+    outer:
+      x: 437
+      y: 406
+      width: 64
+      height: 64
+    inner:
+      x: 437
+      y: 406
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Bullet"
+    outer:
+      x: 437
+      y: 341
+      width: 64
+      height: 64
+    inner:
+      x: 437
+      y: 341
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Grenade"
+    outer:
+      x: 437
+      y: 276
+      width: 64
+      height: 64
+    inner:
+      x: 437
+      y: 276
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
